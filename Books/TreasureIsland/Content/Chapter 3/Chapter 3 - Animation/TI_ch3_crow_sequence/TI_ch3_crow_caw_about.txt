@@ -1,0 +1,1 @@
+The crow's cawing is built without hearing the audio. Since crows seem to do a double caw ("caw-caaaw") it's set up for a double sound. If the actual audio ends up being a single "caw," you can remove frames 4-7.

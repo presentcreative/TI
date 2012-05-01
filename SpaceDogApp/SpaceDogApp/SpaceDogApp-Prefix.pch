@@ -1,0 +1,54 @@
+//
+// Prefix header for all source files of the 'SpaceDogApp' target in the 'SpaceDogApp' project
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_3_0
+#warning "This project uses features only available in iPhone SDK 3.0 and later."
+#endif
+
+#ifdef __OBJC__
+   #import <UIKit/UIKit.h>
+   #import <Foundation/Foundation.h>
+#endif
+
+#define DEGREES_TO_RADIANS(X) (X*M_PI/180.0)
+#define RADIANS_TO_DEGREES(X) (X*180.0/M_PI)
+
+#define CHIP_Y(Y) (748.0f - Y)
+
+#ifdef DEBUG
+#   define DLog(fmt, ...) NSLog((@"%s [Line %d] " fmt), __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__);
+#else
+#   define DLog(...)
+#endif
+
+// ALog always displays output regardless of the DEBUG setting
+#define ALog(fmt, ...) NSLog((@"%s [Line %d] " fmt), __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__);
+
+#define ARC4RANDOM_MAX  0x100000000
+
+// handy typedef used to describe horizontal translations
+typedef enum
+{
+   kPanningLeft,
+   kPanningRight
+} PanDirection;
+
+// simple struct to contain 3D acceleration data
+typedef struct
+{
+   double x;
+   double y;
+   double z;
+} AccelerationData;
+
+// TODO: Remove for testing and production
+#define AL_CLEAR_CACHE 1
+
+#ifdef DEBUG
+#define Release(x) [x release]
+#else
+#define Release(x) [x release], x = nil
+#endif

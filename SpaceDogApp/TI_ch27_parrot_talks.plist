@@ -1,0 +1,717 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>frames</key>
+	<dict>
+		<key>TI_ch27_parrot_talks0001.png</key>
+		<dict>
+			<key>aliases</key>
+			<array/>
+			<key>spriteColorRect</key>
+			<string>{{0, 0}, {148, 233}}</string>
+			<key>spriteOffset</key>
+			<string>{0, 0}</string>
+			<key>spriteSize</key>
+			<string>{158, 233}</string>
+			<key>spriteSourceSize</key>
+			<string>{158, 233}</string>
+			<key>spriteTrimmed</key>
+			<false/>
+			<key>textureRect</key>
+			<string>{{162, 237}, {158, 233}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		<key>TI_ch27_parrot_talks0002.png</key>
+		<dict>
+			<key>aliases</key>
+			<array/>
+			<key>spriteColorRect</key>
+			<string>{{0, 0}, {148, 233}}</string>
+			<key>spriteOffset</key>
+			<string>{0, 0}</string>
+			<key>spriteSize</key>
+			<string>{158, 233}</string>
+			<key>spriteSourceSize</key>
+			<string>{158, 233}</string>
+			<key>spriteTrimmed</key>
+			<false/>
+			<key>textureRect</key>
+			<string>{{2, 1647}, {158, 233}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		<key>TI_ch27_parrot_talks0003.png</key>
+		<dict>
+			<key>aliases</key>
+			<array/>
+			<key>spriteColorRect</key>
+			<string>{{0, 0}, {148, 233}}</string>
+			<key>spriteOffset</key>
+			<string>{0, 0}</string>
+			<key>spriteSize</key>
+			<string>{158, 233}</string>
+			<key>spriteSourceSize</key>
+			<string>{158, 233}</string>
+			<key>spriteTrimmed</key>
+			<false/>
+			<key>textureRect</key>
+			<string>{{802, 707}, {158, 233}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		<key>TI_ch27_parrot_talks0004.png</key>
+		<dict>
+			<key>aliases</key>
+			<array/>
+			<key>spriteColorRect</key>
+			<string>{{0, 0}, {148, 233}}</string>
+			<key>spriteOffset</key>
+			<string>{0, 0}</string>
+			<key>spriteSize</key>
+			<string>{158, 233}</string>
+			<key>spriteSourceSize</key>
+			<string>{158, 233}</string>
+			<key>spriteTrimmed</key>
+			<false/>
+			<key>textureRect</key>
+			<string>{{322, 707}, {158, 233}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		<key>TI_ch27_parrot_talks0005.png</key>
+		<dict>
+			<key>aliases</key>
+			<array/>
+			<key>spriteColorRect</key>
+			<string>{{0, 0}, {148, 233}}</string>
+			<key>spriteOffset</key>
+			<string>{0, 0}</string>
+			<key>spriteSize</key>
+			<string>{158, 233}</string>
+			<key>spriteSourceSize</key>
+			<string>{158, 233}</string>
+			<key>spriteTrimmed</key>
+			<false/>
+			<key>textureRect</key>
+			<string>{{162, 2}, {158, 233}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		<key>TI_ch27_parrot_talks0006.png</key>
+		<dict>
+			<key>aliases</key>
+			<array/>
+			<key>spriteColorRect</key>
+			<string>{{0, 0}, {148, 233}}</string>
+			<key>spriteOffset</key>
+			<string>{0, 0}</string>
+			<key>spriteSize</key>
+			<string>{158, 233}</string>
+			<key>spriteSourceSize</key>
+			<string>{158, 233}</string>
+			<key>spriteTrimmed</key>
+			<false/>
+			<key>textureRect</key>
+			<string>{{642, 942}, {158, 233}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		<key>TI_ch27_parrot_talks0007.png</key>
+		<dict>
+			<key>aliases</key>
+			<array/>
+			<key>spriteColorRect</key>
+			<string>{{0, 0}, {148, 233}}</string>
+			<key>spriteOffset</key>
+			<string>{0, 0}</string>
+			<key>spriteSize</key>
+			<string>{158, 233}</string>
+			<key>spriteSourceSize</key>
+			<string>{158, 233}</string>
+			<key>spriteTrimmed</key>
+			<false/>
+			<key>textureRect</key>
+			<string>{{2, 707}, {158, 233}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		<key>TI_ch27_parrot_talks0008.png</key>
+		<dict>
+			<key>aliases</key>
+			<array/>
+			<key>spriteColorRect</key>
+			<string>{{0, 0}, {148, 233}}</string>
+			<key>spriteOffset</key>
+			<string>{0, 0}</string>
+			<key>spriteSize</key>
+			<string>{158, 233}</string>
+			<key>spriteSourceSize</key>
+			<string>{158, 233}</string>
+			<key>spriteTrimmed</key>
+			<false/>
+			<key>textureRect</key>
+			<string>{{482, 2}, {158, 233}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		<key>TI_ch27_parrot_talks0009.png</key>
+		<dict>
+			<key>aliases</key>
+			<array/>
+			<key>spriteColorRect</key>
+			<string>{{0, 0}, {148, 233}}</string>
+			<key>spriteOffset</key>
+			<string>{0, 0}</string>
+			<key>spriteSize</key>
+			<string>{158, 233}</string>
+			<key>spriteSourceSize</key>
+			<string>{158, 233}</string>
+			<key>spriteTrimmed</key>
+			<false/>
+			<key>textureRect</key>
+			<string>{{322, 472}, {158, 233}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		<key>TI_ch27_parrot_talks0010.png</key>
+		<dict>
+			<key>aliases</key>
+			<array/>
+			<key>spriteColorRect</key>
+			<string>{{0, 0}, {148, 233}}</string>
+			<key>spriteOffset</key>
+			<string>{0, 0}</string>
+			<key>spriteSize</key>
+			<string>{158, 233}</string>
+			<key>spriteSourceSize</key>
+			<string>{158, 233}</string>
+			<key>spriteTrimmed</key>
+			<false/>
+			<key>textureRect</key>
+			<string>{{642, 472}, {158, 233}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		<key>TI_ch27_parrot_talks0011.png</key>
+		<dict>
+			<key>aliases</key>
+			<array/>
+			<key>spriteColorRect</key>
+			<string>{{0, 0}, {148, 233}}</string>
+			<key>spriteOffset</key>
+			<string>{0, 0}</string>
+			<key>spriteSize</key>
+			<string>{158, 233}</string>
+			<key>spriteSourceSize</key>
+			<string>{158, 233}</string>
+			<key>spriteTrimmed</key>
+			<false/>
+			<key>textureRect</key>
+			<string>{{482, 237}, {158, 233}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		<key>TI_ch27_parrot_talks0012.png</key>
+		<dict>
+			<key>aliases</key>
+			<array/>
+			<key>spriteColorRect</key>
+			<string>{{0, 0}, {148, 233}}</string>
+			<key>spriteOffset</key>
+			<string>{0, 0}</string>
+			<key>spriteSize</key>
+			<string>{158, 233}</string>
+			<key>spriteSourceSize</key>
+			<string>{158, 233}</string>
+			<key>spriteTrimmed</key>
+			<false/>
+			<key>textureRect</key>
+			<string>{{162, 472}, {158, 233}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		<key>TI_ch27_parrot_talks0013.png</key>
+		<dict>
+			<key>aliases</key>
+			<array/>
+			<key>spriteColorRect</key>
+			<string>{{0, 0}, {148, 233}}</string>
+			<key>spriteOffset</key>
+			<string>{0, 0}</string>
+			<key>spriteSize</key>
+			<string>{158, 233}</string>
+			<key>spriteSourceSize</key>
+			<string>{158, 233}</string>
+			<key>spriteTrimmed</key>
+			<false/>
+			<key>textureRect</key>
+			<string>{{322, 237}, {158, 233}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		<key>TI_ch27_parrot_talks0014.png</key>
+		<dict>
+			<key>aliases</key>
+			<array/>
+			<key>spriteColorRect</key>
+			<string>{{0, 0}, {148, 233}}</string>
+			<key>spriteOffset</key>
+			<string>{0, 0}</string>
+			<key>spriteSize</key>
+			<string>{158, 233}</string>
+			<key>spriteSourceSize</key>
+			<string>{158, 233}</string>
+			<key>spriteTrimmed</key>
+			<false/>
+			<key>textureRect</key>
+			<string>{{2, 472}, {158, 233}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		<key>TI_ch27_parrot_talks0015.png</key>
+		<dict>
+			<key>aliases</key>
+			<array/>
+			<key>spriteColorRect</key>
+			<string>{{0, 0}, {148, 233}}</string>
+			<key>spriteOffset</key>
+			<string>{0, 0}</string>
+			<key>spriteSize</key>
+			<string>{158, 233}</string>
+			<key>spriteSourceSize</key>
+			<string>{158, 233}</string>
+			<key>spriteTrimmed</key>
+			<false/>
+			<key>textureRect</key>
+			<string>{{162, 1412}, {158, 233}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		<key>TI_ch27_parrot_talks0016.png</key>
+		<dict>
+			<key>aliases</key>
+			<array/>
+			<key>spriteColorRect</key>
+			<string>{{0, 0}, {148, 233}}</string>
+			<key>spriteOffset</key>
+			<string>{0, 0}</string>
+			<key>spriteSize</key>
+			<string>{158, 233}</string>
+			<key>spriteSourceSize</key>
+			<string>{158, 233}</string>
+			<key>spriteTrimmed</key>
+			<false/>
+			<key>textureRect</key>
+			<string>{{802, 2}, {158, 233}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		<key>TI_ch27_parrot_talks0017.png</key>
+		<dict>
+			<key>aliases</key>
+			<array/>
+			<key>spriteColorRect</key>
+			<string>{{0, 0}, {148, 233}}</string>
+			<key>spriteOffset</key>
+			<string>{0, 0}</string>
+			<key>spriteSize</key>
+			<string>{158, 233}</string>
+			<key>spriteSourceSize</key>
+			<string>{158, 233}</string>
+			<key>spriteTrimmed</key>
+			<false/>
+			<key>textureRect</key>
+			<string>{{2, 942}, {158, 233}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		<key>TI_ch27_parrot_talks0018.png</key>
+		<dict>
+			<key>aliases</key>
+			<array/>
+			<key>spriteColorRect</key>
+			<string>{{0, 0}, {148, 233}}</string>
+			<key>spriteOffset</key>
+			<string>{0, 0}</string>
+			<key>spriteSize</key>
+			<string>{158, 233}</string>
+			<key>spriteSourceSize</key>
+			<string>{158, 233}</string>
+			<key>spriteTrimmed</key>
+			<false/>
+			<key>textureRect</key>
+			<string>{{162, 707}, {158, 233}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		<key>TI_ch27_parrot_talks0019.png</key>
+		<dict>
+			<key>aliases</key>
+			<array/>
+			<key>spriteColorRect</key>
+			<string>{{0, 0}, {148, 233}}</string>
+			<key>spriteOffset</key>
+			<string>{0, 0}</string>
+			<key>spriteSize</key>
+			<string>{158, 233}</string>
+			<key>spriteSourceSize</key>
+			<string>{158, 233}</string>
+			<key>spriteTrimmed</key>
+			<false/>
+			<key>textureRect</key>
+			<string>{{162, 1177}, {158, 233}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		<key>TI_ch27_parrot_talks0020.png</key>
+		<dict>
+			<key>aliases</key>
+			<array/>
+			<key>spriteColorRect</key>
+			<string>{{0, 0}, {148, 233}}</string>
+			<key>spriteOffset</key>
+			<string>{0, 0}</string>
+			<key>spriteSize</key>
+			<string>{158, 233}</string>
+			<key>spriteSourceSize</key>
+			<string>{158, 233}</string>
+			<key>spriteTrimmed</key>
+			<false/>
+			<key>textureRect</key>
+			<string>{{642, 707}, {158, 233}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		<key>TI_ch27_parrot_talks0021.png</key>
+		<dict>
+			<key>aliases</key>
+			<array/>
+			<key>spriteColorRect</key>
+			<string>{{0, 0}, {148, 233}}</string>
+			<key>spriteOffset</key>
+			<string>{0, 0}</string>
+			<key>spriteSize</key>
+			<string>{158, 233}</string>
+			<key>spriteSourceSize</key>
+			<string>{158, 233}</string>
+			<key>spriteTrimmed</key>
+			<false/>
+			<key>textureRect</key>
+			<string>{{642, 237}, {158, 233}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		<key>TI_ch27_parrot_talks0022.png</key>
+		<dict>
+			<key>aliases</key>
+			<array/>
+			<key>spriteColorRect</key>
+			<string>{{0, 0}, {148, 233}}</string>
+			<key>spriteOffset</key>
+			<string>{0, 0}</string>
+			<key>spriteSize</key>
+			<string>{158, 233}</string>
+			<key>spriteSourceSize</key>
+			<string>{158, 233}</string>
+			<key>spriteTrimmed</key>
+			<false/>
+			<key>textureRect</key>
+			<string>{{2, 2}, {158, 233}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		<key>TI_ch27_parrot_talks0023.png</key>
+		<dict>
+			<key>aliases</key>
+			<array/>
+			<key>spriteColorRect</key>
+			<string>{{0, 0}, {148, 233}}</string>
+			<key>spriteOffset</key>
+			<string>{0, 0}</string>
+			<key>spriteSize</key>
+			<string>{158, 233}</string>
+			<key>spriteSourceSize</key>
+			<string>{158, 233}</string>
+			<key>spriteTrimmed</key>
+			<false/>
+			<key>textureRect</key>
+			<string>{{322, 2}, {158, 233}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		<key>TI_ch27_parrot_talks0024.png</key>
+		<dict>
+			<key>aliases</key>
+			<array/>
+			<key>spriteColorRect</key>
+			<string>{{0, 0}, {148, 233}}</string>
+			<key>spriteOffset</key>
+			<string>{0, 0}</string>
+			<key>spriteSize</key>
+			<string>{158, 233}</string>
+			<key>spriteSourceSize</key>
+			<string>{158, 233}</string>
+			<key>spriteTrimmed</key>
+			<false/>
+			<key>textureRect</key>
+			<string>{{802, 237}, {158, 233}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		<key>TI_ch27_parrot_talks0025.png</key>
+		<dict>
+			<key>aliases</key>
+			<array/>
+			<key>spriteColorRect</key>
+			<string>{{0, 0}, {148, 233}}</string>
+			<key>spriteOffset</key>
+			<string>{0, 0}</string>
+			<key>spriteSize</key>
+			<string>{158, 233}</string>
+			<key>spriteSourceSize</key>
+			<string>{158, 233}</string>
+			<key>spriteTrimmed</key>
+			<false/>
+			<key>textureRect</key>
+			<string>{{322, 1177}, {158, 233}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		<key>TI_ch27_parrot_talks0026.png</key>
+		<dict>
+			<key>aliases</key>
+			<array/>
+			<key>spriteColorRect</key>
+			<string>{{0, 0}, {148, 233}}</string>
+			<key>spriteOffset</key>
+			<string>{0, 0}</string>
+			<key>spriteSize</key>
+			<string>{158, 233}</string>
+			<key>spriteSourceSize</key>
+			<string>{158, 233}</string>
+			<key>spriteTrimmed</key>
+			<false/>
+			<key>textureRect</key>
+			<string>{{2, 1177}, {158, 233}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		<key>TI_ch27_parrot_talks0027.png</key>
+		<dict>
+			<key>aliases</key>
+			<array/>
+			<key>spriteColorRect</key>
+			<string>{{0, 0}, {148, 233}}</string>
+			<key>spriteOffset</key>
+			<string>{0, 0}</string>
+			<key>spriteSize</key>
+			<string>{158, 233}</string>
+			<key>spriteSourceSize</key>
+			<string>{158, 233}</string>
+			<key>spriteTrimmed</key>
+			<false/>
+			<key>textureRect</key>
+			<string>{{162, 1647}, {158, 233}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		<key>TI_ch27_parrot_talks0028.png</key>
+		<dict>
+			<key>aliases</key>
+			<array/>
+			<key>spriteColorRect</key>
+			<string>{{0, 0}, {148, 233}}</string>
+			<key>spriteOffset</key>
+			<string>{0, 0}</string>
+			<key>spriteSize</key>
+			<string>{158, 233}</string>
+			<key>spriteSourceSize</key>
+			<string>{158, 233}</string>
+			<key>spriteTrimmed</key>
+			<false/>
+			<key>textureRect</key>
+			<string>{{162, 942}, {158, 233}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		<key>TI_ch27_parrot_talks0029.png</key>
+		<dict>
+			<key>aliases</key>
+			<array/>
+			<key>spriteColorRect</key>
+			<string>{{0, 0}, {148, 233}}</string>
+			<key>spriteOffset</key>
+			<string>{0, 0}</string>
+			<key>spriteSize</key>
+			<string>{158, 233}</string>
+			<key>spriteSourceSize</key>
+			<string>{158, 233}</string>
+			<key>spriteTrimmed</key>
+			<false/>
+			<key>textureRect</key>
+			<string>{{802, 472}, {158, 233}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		<key>TI_ch27_parrot_talks0030.png</key>
+		<dict>
+			<key>aliases</key>
+			<array/>
+			<key>spriteColorRect</key>
+			<string>{{0, 0}, {148, 233}}</string>
+			<key>spriteOffset</key>
+			<string>{0, 0}</string>
+			<key>spriteSize</key>
+			<string>{158, 233}</string>
+			<key>spriteSourceSize</key>
+			<string>{158, 233}</string>
+			<key>spriteTrimmed</key>
+			<false/>
+			<key>textureRect</key>
+			<string>{{642, 2}, {158, 233}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		<key>TI_ch27_parrot_talks0031.png</key>
+		<dict>
+			<key>aliases</key>
+			<array/>
+			<key>spriteColorRect</key>
+			<string>{{0, 0}, {148, 233}}</string>
+			<key>spriteOffset</key>
+			<string>{0, 0}</string>
+			<key>spriteSize</key>
+			<string>{158, 233}</string>
+			<key>spriteSourceSize</key>
+			<string>{158, 233}</string>
+			<key>spriteTrimmed</key>
+			<false/>
+			<key>textureRect</key>
+			<string>{{2, 1412}, {158, 233}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		<key>TI_ch27_parrot_talks0032.png</key>
+		<dict>
+			<key>aliases</key>
+			<array/>
+			<key>spriteColorRect</key>
+			<string>{{0, 0}, {148, 233}}</string>
+			<key>spriteOffset</key>
+			<string>{0, 0}</string>
+			<key>spriteSize</key>
+			<string>{158, 233}</string>
+			<key>spriteSourceSize</key>
+			<string>{158, 233}</string>
+			<key>spriteTrimmed</key>
+			<false/>
+			<key>textureRect</key>
+			<string>{{482, 707}, {158, 233}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		<key>TI_ch27_parrot_talks0033.png</key>
+		<dict>
+			<key>aliases</key>
+			<array/>
+			<key>spriteColorRect</key>
+			<string>{{0, 0}, {148, 233}}</string>
+			<key>spriteOffset</key>
+			<string>{0, 0}</string>
+			<key>spriteSize</key>
+			<string>{158, 233}</string>
+			<key>spriteSourceSize</key>
+			<string>{158, 233}</string>
+			<key>spriteTrimmed</key>
+			<false/>
+			<key>textureRect</key>
+			<string>{{2, 237}, {158, 233}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		<key>TI_ch27_parrot_talks0034.png</key>
+		<dict>
+			<key>aliases</key>
+			<array/>
+			<key>spriteColorRect</key>
+			<string>{{0, 0}, {148, 233}}</string>
+			<key>spriteOffset</key>
+			<string>{0, 0}</string>
+			<key>spriteSize</key>
+			<string>{158, 233}</string>
+			<key>spriteSourceSize</key>
+			<string>{158, 233}</string>
+			<key>spriteTrimmed</key>
+			<false/>
+			<key>textureRect</key>
+			<string>{{322, 942}, {158, 233}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		<key>TI_ch27_parrot_talks0035.png</key>
+		<dict>
+			<key>aliases</key>
+			<array/>
+			<key>spriteColorRect</key>
+			<string>{{0, 0}, {148, 233}}</string>
+			<key>spriteOffset</key>
+			<string>{0, 0}</string>
+			<key>spriteSize</key>
+			<string>{158, 233}</string>
+			<key>spriteSourceSize</key>
+			<string>{158, 233}</string>
+			<key>spriteTrimmed</key>
+			<false/>
+			<key>textureRect</key>
+			<string>{{482, 942}, {158, 233}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		<key>TI_ch27_parrot_talks0036.png</key>
+		<dict>
+			<key>aliases</key>
+			<array/>
+			<key>spriteColorRect</key>
+			<string>{{0, 0}, {148, 233}}</string>
+			<key>spriteOffset</key>
+			<string>{0, 0}</string>
+			<key>spriteSize</key>
+			<string>{158, 233}</string>
+			<key>spriteSourceSize</key>
+			<string>{158, 233}</string>
+			<key>spriteTrimmed</key>
+			<false/>
+			<key>textureRect</key>
+			<string>{{802, 942}, {158, 233}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		<key>TI_ch27_parrot_talks0037.png</key>
+		<dict>
+			<key>aliases</key>
+			<array/>
+			<key>spriteColorRect</key>
+			<string>{{0, 0}, {148, 233}}</string>
+			<key>spriteOffset</key>
+			<string>{0, 0}</string>
+			<key>spriteSize</key>
+			<string>{158, 233}</string>
+			<key>spriteSourceSize</key>
+			<string>{158, 233}</string>
+			<key>spriteTrimmed</key>
+			<false/>
+			<key>textureRect</key>
+			<string>{{482, 472}, {158, 233}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>metadata</key>
+	<dict>
+		<key>size</key>
+		<string>{1024, 2048}</string>
+	</dict>
+</dict>
+</plist>

@@ -1,0 +1,159 @@
+Index: include/chipmunk/cpSpace.h
+===================================================================
+--- include/chipmunk/cpSpace.h	(revision 705)
++++ include/chipmunk/cpSpace.h	(working copy)
+@@ -19,6 +19,8 @@
+  * SOFTWARE.
+  */
+ 
++#include <pthread.h>
++
+ typedef struct cpContactBufferHeader cpContactBufferHeader;
+ 
+ struct cpSpace {
+@@ -102,6 +104,10 @@
+ 	CP_PRIVATE(cpHashSet *postStepCallbacks);
+ 	
+ 	CP_PRIVATE(cpBody _staticBody);
++	
++ 	pthread_t thread;
++ 	pthread_mutex_t mutex_start, mutex_finish;
++ 	pthread_cond_t cond_start, cond_finish;
+ };
+ 
+ // Basic allocation/destruction functions.
+Index: src/cpSpaceStep.c
+===================================================================
+--- src/cpSpaceStep.c	(revision 705)
++++ src/cpSpaceStep.c	(working copy)
+@@ -276,7 +276,54 @@
+ 	cpShapeUpdate(shape, body->p, body->rot);
+ }
+ 
++static void
++cpSpaceRunSolver(cpSpace *space, int thread, int thread_count)
++{
++	int iterations = space->iterations;
++	int iteration_count = iterations/thread_count + (thread ? 0 : iterations%thread_count);
++	
++	cpArray *arbiters = space->arbiters;
++	int arb_count = arbiters->num;
++	int arb_offset = arb_count*thread/thread_count;
++	cpArbiter **arb_arr = (cpArbiter **)arbiters->arr;
++	
++	cpArray *constraints = space->constraints;
++	int con_count = constraints->num;
++	int con_offset = con_count*thread/thread_count;
++	cpConstraint **con_arr = (cpConstraint **)constraints->arr;
++	
++	for(int i=0; i<iteration_count; i++){
++		for(int j=0; j<arb_count; j++){
++			cpArbiterApplyImpulse(arb_arr[(j + arb_offset)%arb_count]);
++		}
++		
++		for(int j=0; j<constraints->num; j++){
++			cpConstraint *constraint = con_arr[(j + con_offset)%con_count];
++			constraint->klass->applyImpulse(constraint);
++		}
++	}
++}
++
+ void
++thread_func(cpSpace *space){
++	for(;;){
++		pthread_mutex_lock(&space->mutex_start);
++//		printf("sub waiting\n");
++		pthread_cond_wait(&space->cond_start, &space->mutex_start);
++		pthread_mutex_unlock(&space->mutex_start);
++		
++//		printf("sub solving\n");
++		cpSpaceRunSolver(space, 1, 2);
++//		printf("sub solving complete\n");
++		
++		pthread_mutex_lock(&space->mutex_finish);
++//		printf("sub signalling finish\n");
++		pthread_cond_signal(&space->cond_finish);
++		pthread_mutex_unlock(&space->mutex_finish);
++	}
++}
++
++void
+ cpSpaceStep(cpSpace *space, cpFloat dt)
+ {
+ 	if(dt == 0.0f) return; // don't step if the timestep is 0!
+@@ -349,15 +396,25 @@
+ 	}
+ 	
+ 	// Run the impulse solver.
+-	for(int i=0; i<space->iterations; i++){
+-		for(int j=0; j<arbiters->num; j++){
+-			cpArbiterApplyImpulse((cpArbiter *)arbiters->arr[j]);
+-		}
+-			
+-		for(int j=0; j<constraints->num; j++){
+-			cpConstraint *constraint = (cpConstraint *)constraints->arr[j];
+-			constraint->klass->applyImpulse(constraint);
+-		}
++	int con_count = arbiters->num + constraints->num;
++	if(con_count > 10 && con_count*space->iterations > 100){
++		pthread_mutex_lock(&space->mutex_finish);
++		pthread_mutex_lock(&space->mutex_start);
++//		printf("main signalling start %d\n", space->stamp);
++		pthread_cond_signal(&space->cond_start);
++		pthread_mutex_unlock(&space->mutex_start);
++		
++//		printf("main solving\n");
++		cpSpaceRunSolver(space, 0, 2);
++//		printf("main solving complete\n");
++		
++//		printf("main waiting for sub\n");
++		pthread_cond_wait(&space->cond_finish, &space->mutex_finish);
++		pthread_mutex_unlock(&space->mutex_finish);
++		
++//		printf("**** complete\n");
++	} else {
++		cpSpaceRunSolver(space, 0, 1);
+ 	}
+ 	
+ 	// run the post solve callbacks
+Index: src/cpSpace.c
+===================================================================
+--- src/cpSpace.c	(revision 705)
++++ src/cpSpace.c	(working copy)
+@@ -114,6 +114,8 @@
+ 
+ cpCollisionHandler cpDefaultCollisionHandler = {0, 0, alwaysCollide, alwaysCollide, nothing, nothing, NULL};
+ 
++void thread_func(cpSpace *space);
++
+ cpSpace*
+ cpSpaceInit(cpSpace *space)
+ {
+@@ -159,6 +161,12 @@
+ 	cpBodyInitStatic(&space->_staticBody);
+ 	space->staticBody = &space->_staticBody;
+ 	
++	pthread_create(&space->thread, NULL, (void *(*)(void *))thread_func, space);
++	pthread_mutex_init(&space->mutex_start, NULL);
++	pthread_mutex_init(&space->mutex_finish, NULL);
++	pthread_cond_init(&space->cond_start, NULL);
++	pthread_cond_init(&space->cond_finish, NULL);
++	
+ 	return space;
+ }
+ 
+@@ -199,6 +207,14 @@
+ 		cpHashSetEach(space->collisionHandlers, freeWrap, NULL);
+ 		cpHashSetFree(space->collisionHandlers);
+ 	}
++	
++	pthread_cancel(space->thread);
++	pthread_join(space->thread, NULL);
++	
++	pthread_mutex_destroy(&space->mutex_start);
++	pthread_mutex_destroy(&space->mutex_finish);
++	pthread_cond_destroy(&space->cond_start);
++	pthread_cond_destroy(&space->cond_finish);
+ }
+ 
+ void

@@ -1,0 +1,394 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>frames</key>
+	<dict>
+		<key>TI_ch2_rum_bottle0001.png</key>
+		<dict>
+			<key>aliases</key>
+			<array/>
+			<key>spriteColorRect</key>
+			<string>{{18, 21}, {373, 220}}</string>
+			<key>spriteOffset</key>
+			<string>{0, 0}</string>
+			<key>spriteSize</key>
+			<string>{411, 262}</string>
+			<key>spriteSourceSize</key>
+			<string>{411, 262}</string>
+			<key>spriteTrimmed</key>
+			<false/>
+			<key>textureRect</key>
+			<string>{{2, 1586}, {411, 262}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		<key>TI_ch2_rum_bottle0002.png</key>
+		<dict>
+			<key>aliases</key>
+			<array/>
+			<key>spriteColorRect</key>
+			<string>{{18, 21}, {373, 220}}</string>
+			<key>spriteOffset</key>
+			<string>{0, 0}</string>
+			<key>spriteSize</key>
+			<string>{411, 262}</string>
+			<key>spriteSourceSize</key>
+			<string>{411, 262}</string>
+			<key>spriteTrimmed</key>
+			<false/>
+			<key>textureRect</key>
+			<string>{{2, 1322}, {411, 262}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		<key>TI_ch2_rum_bottle0003.png</key>
+		<dict>
+			<key>aliases</key>
+			<array/>
+			<key>spriteColorRect</key>
+			<string>{{18, 21}, {373, 220}}</string>
+			<key>spriteOffset</key>
+			<string>{0, 0}</string>
+			<key>spriteSize</key>
+			<string>{411, 262}</string>
+			<key>spriteSourceSize</key>
+			<string>{411, 262}</string>
+			<key>spriteTrimmed</key>
+			<false/>
+			<key>textureRect</key>
+			<string>{{2, 530}, {411, 262}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		<key>TI_ch2_rum_bottle0004.png</key>
+		<dict>
+			<key>aliases</key>
+			<array/>
+			<key>spriteColorRect</key>
+			<string>{{18, 21}, {373, 220}}</string>
+			<key>spriteOffset</key>
+			<string>{0, 0}</string>
+			<key>spriteSize</key>
+			<string>{411, 262}</string>
+			<key>spriteSourceSize</key>
+			<string>{411, 262}</string>
+			<key>spriteTrimmed</key>
+			<false/>
+			<key>textureRect</key>
+			<string>{{415, 1058}, {411, 262}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		<key>TI_ch2_rum_bottle0005.png</key>
+		<dict>
+			<key>aliases</key>
+			<array/>
+			<key>spriteColorRect</key>
+			<string>{{18, 21}, {373, 220}}</string>
+			<key>spriteOffset</key>
+			<string>{0, 0}</string>
+			<key>spriteSize</key>
+			<string>{411, 262}</string>
+			<key>spriteSourceSize</key>
+			<string>{411, 262}</string>
+			<key>spriteTrimmed</key>
+			<false/>
+			<key>textureRect</key>
+			<string>{{415, 266}, {411, 262}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		<key>TI_ch2_rum_bottle0006.png</key>
+		<dict>
+			<key>aliases</key>
+			<array/>
+			<key>spriteColorRect</key>
+			<string>{{18, 21}, {373, 220}}</string>
+			<key>spriteOffset</key>
+			<string>{0, 0}</string>
+			<key>spriteSize</key>
+			<string>{411, 262}</string>
+			<key>spriteSourceSize</key>
+			<string>{411, 262}</string>
+			<key>spriteTrimmed</key>
+			<false/>
+			<key>textureRect</key>
+			<string>{{2, 266}, {411, 262}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		<key>TI_ch2_rum_bottle0007.png</key>
+		<dict>
+			<key>aliases</key>
+			<array/>
+			<key>spriteColorRect</key>
+			<string>{{18, 21}, {373, 220}}</string>
+			<key>spriteOffset</key>
+			<string>{0, 0}</string>
+			<key>spriteSize</key>
+			<string>{411, 262}</string>
+			<key>spriteSourceSize</key>
+			<string>{411, 262}</string>
+			<key>spriteTrimmed</key>
+			<false/>
+			<key>textureRect</key>
+			<string>{{415, 2}, {411, 262}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		<key>TI_ch2_rum_bottle0008.png</key>
+		<dict>
+			<key>aliases</key>
+			<array/>
+			<key>spriteColorRect</key>
+			<string>{{18, 21}, {373, 220}}</string>
+			<key>spriteOffset</key>
+			<string>{0, 0}</string>
+			<key>spriteSize</key>
+			<string>{411, 262}</string>
+			<key>spriteSourceSize</key>
+			<string>{411, 262}</string>
+			<key>spriteTrimmed</key>
+			<false/>
+			<key>textureRect</key>
+			<string>{{415, 794}, {411, 262}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		<key>TI_ch2_rum_bottle0009.png</key>
+		<dict>
+			<key>aliases</key>
+			<array/>
+			<key>spriteColorRect</key>
+			<string>{{18, 21}, {373, 220}}</string>
+			<key>spriteOffset</key>
+			<string>{0, 0}</string>
+			<key>spriteSize</key>
+			<string>{411, 262}</string>
+			<key>spriteSourceSize</key>
+			<string>{411, 262}</string>
+			<key>spriteTrimmed</key>
+			<false/>
+			<key>textureRect</key>
+			<string>{{1241, 266}, {411, 262}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		<key>TI_ch2_rum_bottle0010.png</key>
+		<dict>
+			<key>aliases</key>
+			<array/>
+			<key>spriteColorRect</key>
+			<string>{{18, 21}, {373, 220}}</string>
+			<key>spriteOffset</key>
+			<string>{0, 0}</string>
+			<key>spriteSize</key>
+			<string>{411, 262}</string>
+			<key>spriteSourceSize</key>
+			<string>{411, 262}</string>
+			<key>spriteTrimmed</key>
+			<false/>
+			<key>textureRect</key>
+			<string>{{415, 530}, {411, 262}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		<key>TI_ch2_rum_bottle0011.png</key>
+		<dict>
+			<key>aliases</key>
+			<array/>
+			<key>spriteColorRect</key>
+			<string>{{18, 21}, {373, 220}}</string>
+			<key>spriteOffset</key>
+			<string>{0, 0}</string>
+			<key>spriteSize</key>
+			<string>{411, 262}</string>
+			<key>spriteSourceSize</key>
+			<string>{411, 262}</string>
+			<key>spriteTrimmed</key>
+			<false/>
+			<key>textureRect</key>
+			<string>{{2, 2}, {411, 262}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		<key>TI_ch2_rum_bottle0012.png</key>
+		<dict>
+			<key>aliases</key>
+			<array/>
+			<key>spriteColorRect</key>
+			<string>{{18, 21}, {373, 220}}</string>
+			<key>spriteOffset</key>
+			<string>{0, 0}</string>
+			<key>spriteSize</key>
+			<string>{411, 262}</string>
+			<key>spriteSourceSize</key>
+			<string>{411, 262}</string>
+			<key>spriteTrimmed</key>
+			<false/>
+			<key>textureRect</key>
+			<string>{{415, 1322}, {411, 262}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		<key>TI_ch2_rum_bottle0013.png</key>
+		<dict>
+			<key>aliases</key>
+			<array/>
+			<key>spriteColorRect</key>
+			<string>{{18, 21}, {373, 220}}</string>
+			<key>spriteOffset</key>
+			<string>{0, 0}</string>
+			<key>spriteSize</key>
+			<string>{411, 262}</string>
+			<key>spriteSourceSize</key>
+			<string>{411, 262}</string>
+			<key>spriteTrimmed</key>
+			<false/>
+			<key>textureRect</key>
+			<string>{{1241, 530}, {411, 262}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		<key>TI_ch2_rum_bottle0014.png</key>
+		<dict>
+			<key>aliases</key>
+			<array/>
+			<key>spriteColorRect</key>
+			<string>{{18, 21}, {373, 220}}</string>
+			<key>spriteOffset</key>
+			<string>{0, 0}</string>
+			<key>spriteSize</key>
+			<string>{411, 262}</string>
+			<key>spriteSourceSize</key>
+			<string>{411, 262}</string>
+			<key>spriteTrimmed</key>
+			<false/>
+			<key>textureRect</key>
+			<string>{{1241, 2}, {411, 262}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		<key>TI_ch2_rum_bottle0015.png</key>
+		<dict>
+			<key>aliases</key>
+			<array/>
+			<key>spriteColorRect</key>
+			<string>{{18, 21}, {373, 220}}</string>
+			<key>spriteOffset</key>
+			<string>{0, 0}</string>
+			<key>spriteSize</key>
+			<string>{411, 262}</string>
+			<key>spriteSourceSize</key>
+			<string>{411, 262}</string>
+			<key>spriteTrimmed</key>
+			<false/>
+			<key>textureRect</key>
+			<string>{{415, 1586}, {411, 262}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		<key>TI_ch2_rum_bottle0016.png</key>
+		<dict>
+			<key>aliases</key>
+			<array/>
+			<key>spriteColorRect</key>
+			<string>{{18, 21}, {373, 220}}</string>
+			<key>spriteOffset</key>
+			<string>{0, 0}</string>
+			<key>spriteSize</key>
+			<string>{411, 262}</string>
+			<key>spriteSourceSize</key>
+			<string>{411, 262}</string>
+			<key>spriteTrimmed</key>
+			<false/>
+			<key>textureRect</key>
+			<string>{{828, 266}, {411, 262}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		<key>TI_ch2_rum_bottle0017.png</key>
+		<dict>
+			<key>aliases</key>
+			<array/>
+			<key>spriteColorRect</key>
+			<string>{{18, 21}, {373, 220}}</string>
+			<key>spriteOffset</key>
+			<string>{0, 0}</string>
+			<key>spriteSize</key>
+			<string>{411, 262}</string>
+			<key>spriteSourceSize</key>
+			<string>{411, 262}</string>
+			<key>spriteTrimmed</key>
+			<false/>
+			<key>textureRect</key>
+			<string>{{828, 2}, {411, 262}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		<key>TI_ch2_rum_bottle0018.png</key>
+		<dict>
+			<key>aliases</key>
+			<array/>
+			<key>spriteColorRect</key>
+			<string>{{18, 21}, {373, 220}}</string>
+			<key>spriteOffset</key>
+			<string>{0, 0}</string>
+			<key>spriteSize</key>
+			<string>{411, 262}</string>
+			<key>spriteSourceSize</key>
+			<string>{411, 262}</string>
+			<key>spriteTrimmed</key>
+			<false/>
+			<key>textureRect</key>
+			<string>{{2, 1058}, {411, 262}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		<key>TI_ch2_rum_bottle0019.png</key>
+		<dict>
+			<key>aliases</key>
+			<array/>
+			<key>spriteColorRect</key>
+			<string>{{18, 21}, {373, 220}}</string>
+			<key>spriteOffset</key>
+			<string>{0, 0}</string>
+			<key>spriteSize</key>
+			<string>{411, 262}</string>
+			<key>spriteSourceSize</key>
+			<string>{411, 262}</string>
+			<key>spriteTrimmed</key>
+			<false/>
+			<key>textureRect</key>
+			<string>{{828, 530}, {411, 262}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		<key>TI_ch2_rum_bottle0020.png</key>
+		<dict>
+			<key>aliases</key>
+			<array/>
+			<key>spriteColorRect</key>
+			<string>{{18, 21}, {373, 220}}</string>
+			<key>spriteOffset</key>
+			<string>{0, 0}</string>
+			<key>spriteSize</key>
+			<string>{411, 262}</string>
+			<key>spriteSourceSize</key>
+			<string>{411, 262}</string>
+			<key>spriteTrimmed</key>
+			<false/>
+			<key>textureRect</key>
+			<string>{{2, 794}, {411, 262}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>metadata</key>
+	<dict>
+		<key>size</key>
+		<string>{2048, 2048}</string>
+	</dict>
+</dict>
+</plist>

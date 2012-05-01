@@ -1,0 +1,845 @@
+TTestApp
+v7
+r0
+t336510232.480973
+cCheck dependencies
+cCpResource build/Debug-iphoneos/TestApp.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/ResourceRules.plist
+cProcessInfoPlistFile /Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/build/Debug-iphoneos/TestApp.app/Info.plist UnitTests/TestApp-Info.plist
+cCompileC build/Debug-iphoneos/TestApp.app/BodyTest.o /Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/UnitTests/BodyTest.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Objective-Chipmunk.build/Debug-iphoneos/TestApp.build/Objects-normal/armv6/TestMain.o /Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/UnitTests/TestMain.m normal armv6 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Objective-Chipmunk.build/Debug-iphoneos/TestApp.build/Objects-normal/armv6/NSException+GHTestFailureExceptions.o /Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/UnitTests/NSException+GHTestFailureExceptions.m normal armv6 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Objective-Chipmunk.build/Debug-iphoneos/TestApp.build/Objects-normal/armv6/NSValue+GHValueFormatter.o /Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/UnitTests/NSValue+GHValueFormatter.m normal armv6 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Objective-Chipmunk.build/Debug-iphoneos/TestApp.build/Objects-normal/armv6/SimpleTestCase.o /Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/UnitTests/SimpleTestCase.m normal armv6 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Objective-Chipmunk.build/Debug-iphoneos/TestApp.build/Objects-normal/armv6/BodyTest.o /Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/UnitTests/BodyTest.m normal armv6 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Objective-Chipmunk.build/Debug-iphoneos/TestApp.build/Objects-normal/armv6/ShapeTest.o /Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/UnitTests/ShapeTest.m normal armv6 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Objective-Chipmunk.build/Debug-iphoneos/TestApp.build/Objects-normal/armv6/MemoryTest.o /Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/UnitTests/MemoryTest.m normal armv6 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Objective-Chipmunk.build/Debug-iphoneos/TestApp.build/Objects-normal/armv6/SpaceTest.o /Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/UnitTests/SpaceTest.m normal armv6 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Objective-Chipmunk.build/Debug-iphoneos/TestApp.build/Objects-normal/armv6/CallbacksTest.o /Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/UnitTests/CallbacksTest.m normal armv6 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Objective-Chipmunk.build/Debug-iphoneos/TestApp.build/Objects-normal/armv7/TestMain.o /Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/UnitTests/TestMain.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/build/Objective-Chipmunk.build/Debug-iphoneos/TestApp.build/Objects-normal/armv6/TestApp normal armv6
+cCompileC build/Objective-Chipmunk.build/Debug-iphoneos/TestApp.build/Objects-normal/armv7/NSException+GHTestFailureExceptions.o /Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/UnitTests/NSException+GHTestFailureExceptions.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Objective-Chipmunk.build/Debug-iphoneos/TestApp.build/Objects-normal/armv7/NSValue+GHValueFormatter.o /Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/UnitTests/NSValue+GHValueFormatter.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Objective-Chipmunk.build/Debug-iphoneos/TestApp.build/Objects-normal/armv7/SimpleTestCase.o /Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/UnitTests/SimpleTestCase.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Objective-Chipmunk.build/Debug-iphoneos/TestApp.build/Objects-normal/armv7/BodyTest.o /Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/UnitTests/BodyTest.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Objective-Chipmunk.build/Debug-iphoneos/TestApp.build/Objects-normal/armv7/ShapeTest.o /Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/UnitTests/ShapeTest.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Objective-Chipmunk.build/Debug-iphoneos/TestApp.build/Objects-normal/armv7/MemoryTest.o /Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/UnitTests/MemoryTest.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Objective-Chipmunk.build/Debug-iphoneos/TestApp.build/Objects-normal/armv7/SpaceTest.o /Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/UnitTests/SpaceTest.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Objective-Chipmunk.build/Debug-iphoneos/TestApp.build/Objects-normal/armv7/CallbacksTest.o /Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/UnitTests/CallbacksTest.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/build/Objective-Chipmunk.build/Debug-iphoneos/TestApp.build/Objects-normal/armv7/TestApp normal armv7
+cCreateUniversalBinary /Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/build/Debug-iphoneos/TestApp.app/TestApp normal "armv6 armv7"
+cGenerateDSYMFile /Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/build/Debug-iphoneos/TestApp.app.dSYM /Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/build/Debug-iphoneos/TestApp.app/TestApp
+cProcessProductPackaging "/Users/turner/Library/MobileDevice/Provisioning Profiles/2A28A50D-B367-456E-85C2-4165FC57D5ED.mobileprovision" /Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/build/Debug-iphoneos/TestApp.app/embedded.mobileprovision
+cTouch /Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/build/Debug-iphoneos/TestApp.app
+cProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/Entitlements.plist /Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/build/Objective-Chipmunk.build/Debug-iphoneos/TestApp.build/TestApp.xcent
+cCodeSign /Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/build/Debug-iphoneos/TestApp.app
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk
+c000000004D4363DC0000000000000110
+t1296262108
+s272
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/Entitlements.plist
+c000000004D3E515E00000000000001A7
+t1295929694
+s423
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/ResourceRules.plist
+c000000004D3E515D00000000000001E5
+t1295929693
+s485
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CGAffineTransform.h
+c000000004D3E611D000000000000138E
+t1295933725
+s5006
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CGGeometry.h
+c000000004D3E611D00000000000022F0
+t1295933725
+s8944
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004D3E65200000000000001466
+t1295934752
+s5222
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/usr/include/TargetConditionals.h
+c000000004D3E5BB700000000000031E9
+t1295932343
+s12777
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/usr/include/objc/objc.h
+c000000004D3E5B7E0000000000000B92
+t1295932286
+s2962
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/usr/include/objc/runtime.h
+c000000004D3E5B7E00000000000063AF
+t1295932286
+s25519
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/usr/include/string.h
+c000000004D3E55880000000000001A3A
+t1295930760
+s6714
+
+N/Users/turner/Library/MobileDevice/Provisioning Profiles/2A28A50D-B367-456E-85C2-4165FC57D5ED.mobileprovision
+c000000004E5E6CC90000000000001F96
+t1314811081
+s8086
+
+N/Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Chipmunk/include/chipmunk/chipmunk.h
+c000000004E2DE81C000000000000148B
+t1311631388
+s5259
+i"chipmunk_types.h"
+i"cpVect.h"
+i"cpBB.h"
+i"cpSpatialIndex.h"
+i"cpBody.h"
+i"cpShape.h"
+i"cpPolyShape.h"
+i"cpArbiter.h"
+i"constraints/cpConstraint.h"
+i"cpSpace.h"
+
+N/Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Chipmunk/include/chipmunk/chipmunk_private.h
+c000000004E2DE81C0000000000001C44
+t1311631388
+s7236
+i"chipmunk.h"
+
+N/Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Chipmunk/include/chipmunk/chipmunk_types.h
+c000000004E2DE81C0000000000001167
+t1311631388
+s4455
+i"TargetConditionals.h"
+i<CoreGraphics/CGGeometry.h>
+i<ApplicationServices/ApplicationServices.h>
+
+N/Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Chipmunk/include/chipmunk/constraints/cpConstraint.h
+c000000004E2DE81C0000000000001717
+t1311631388
+s5911
+i"cpPinJoint.h"
+i"cpSlideJoint.h"
+i"cpPivotJoint.h"
+i"cpGrooveJoint.h"
+i"cpDampedSpring.h"
+i"cpDampedRotarySpring.h"
+i"cpRotaryLimitJoint.h"
+i"cpRatchetJoint.h"
+i"cpGearJoint.h"
+i"cpSimpleMotor.h"
+
+N/Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Chipmunk/include/chipmunk/constraints/cpDampedRotarySpring.h
+c000000004E2DE81C0000000000000976
+t1311631388
+s2422
+
+N/Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Chipmunk/include/chipmunk/constraints/cpDampedSpring.h
+c000000004E2DE81C0000000000000A03
+t1311631388
+s2563
+
+N/Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Chipmunk/include/chipmunk/constraints/cpGearJoint.h
+c000000004E2DE81C00000000000007A3
+t1311631388
+s1955
+
+N/Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Chipmunk/include/chipmunk/constraints/cpGrooveJoint.h
+c000000004E2DE81C00000000000008EC
+t1311631388
+s2284
+
+N/Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Chipmunk/include/chipmunk/constraints/cpPinJoint.h
+c000000004E2DE81C0000000000000788
+t1311631388
+s1928
+
+N/Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Chipmunk/include/chipmunk/constraints/cpPivotJoint.h
+c000000004E2DE81C00000000000007DC
+t1311631388
+s2012
+
+N/Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Chipmunk/include/chipmunk/constraints/cpRatchetJoint.h
+c000000004E2DE81C00000000000007B0
+t1311631388
+s1968
+
+N/Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Chipmunk/include/chipmunk/constraints/cpRotaryLimitJoint.h
+c000000004E2DE81C000000000000079F
+t1311631388
+s1951
+
+N/Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Chipmunk/include/chipmunk/constraints/cpSimpleMotor.h
+c000000004E2DE81C00000000000006CF
+t1311631388
+s1743
+
+N/Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Chipmunk/include/chipmunk/constraints/cpSlideJoint.h
+c000000004E2DE81C000000000000081E
+t1311631388
+s2078
+
+N/Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Chipmunk/include/chipmunk/cpArbiter.h
+c000000004E2DE81C0000000000001E45
+t1311631388
+s7749
+
+N/Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Chipmunk/include/chipmunk/cpBB.h
+c000000004E2DE81C0000000000000EC6
+t1311631388
+s3782
+
+N/Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Chipmunk/include/chipmunk/cpBody.h
+c000000004E2DE81C00000000000023BA
+t1311631388
+s9146
+
+N/Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Chipmunk/include/chipmunk/cpPolyShape.h
+c000000004E2DE81C0000000000000A87
+t1311631388
+s2695
+
+N/Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Chipmunk/include/chipmunk/cpShape.h
+c000000004E2DE81C0000000000001C8B
+t1311631388
+s7307
+
+N/Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Chipmunk/include/chipmunk/cpSpace.h
+c000000004E2DE81C0000000000002F51
+t1311631388
+s12113
+
+N/Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Chipmunk/include/chipmunk/cpSpatialIndex.h
+c000000004E2DE81C00000000000027E8
+t1311631388
+s10216
+
+N/Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Chipmunk/include/chipmunk/cpVect.h
+c000000004E2DE81C000000000000170A
+t1311631388
+s5898
+
+N/Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/ChipmunkBody.h
+c000000004E0E12000000000000001B09
+t1309544960
+s6921
+
+N/Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/ChipmunkConstraint.h
+c000000004E2CA71A000000000000394A
+t1311549210
+s14666
+
+N/Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/ChipmunkExtras.h
+c000000004D03E992000000000000071E
+t1292102034
+s1822
+
+N/Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/ChipmunkMultiGrab.h
+c000000004E2DD5780000000000000433
+t1311626616
+s1075
+i"ObjectiveChipmunk.h"
+
+N/Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/ChipmunkObject.h
+c000000004D03E9920000000000000405
+t1292102034
+s1029
+
+N/Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/ChipmunkShape.h
+c000000004D03E99200000000000017E4
+t1292102034
+s6116
+
+N/Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/ChipmunkSpace.h
+c000000004E2CA71A00000000000031BB
+t1311549210
+s12731
+
+N/Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/ObjectiveChipmunk.h
+c000000004E2DD5780000000000000986
+t1311626616
+s2438
+i<TargetConditionals.h>
+i<Foundation/Foundation.h>
+i<CoreGraphics/CGAffineTransform.h>
+i"chipmunk/chipmunk_private.h"
+i"chipmunk/chipmunk.h"
+i"ChipmunkObject.h"
+i"ChipmunkBody.h"
+i"ChipmunkShape.h"
+i"ChipmunkConstraint.h"
+i"ChipmunkSpace.h"
+i"ChipmunkExtras.h"
+i"ChipmunkMultiGrab.h"
+
+N/Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/UnitTests/BodyTest.m
+c000000004D032D050000000000000897
+t1292053765
+s2199
+i"SimpleTestCase.h"
+i"ObjectiveChipmunk.h"
+
+N/Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/UnitTests/CallbacksTest.m
+c000000004E2CA71A0000000000001EF1
+t1311549210
+s7921
+i"SimpleTestCase.h"
+i"ObjectiveChipmunk.h"
+
+N/Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/UnitTests/GHTestMacros.h
+c000000004D032D050000000000009E6F
+t1292053765
+s40559
+i"NSException+GHTestFailureExceptions.h"
+i"NSValue+GHValueFormatter.h"
+
+N/Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/UnitTests/MemoryTest.m
+c000000004E2CA71A0000000000001707
+t1311549210
+s5895
+i"SimpleTestCase.h"
+i"ObjectiveChipmunk.h"
+
+N/Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/UnitTests/NSException+GHTestFailureExceptions.h
+c000000004D032D050000000000000F5B
+t1292053765
+s3931
+i<Foundation/Foundation.h>
+
+N/Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/UnitTests/NSException+GHTestFailureExceptions.m
+c000000004D032D050000000000002052
+t1292053765
+s8274
+i"NSException+GHTestFailureExceptions.h"
+i"NSValue+GHValueFormatter.h"
+
+N/Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/UnitTests/NSValue+GHValueFormatter.h
+c000000004D032D050000000000000BF7
+t1292053765
+s3063
+i<Foundation/Foundation.h>
+
+N/Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/UnitTests/NSValue+GHValueFormatter.m
+c000000004D032D050000000000001885
+t1292053765
+s6277
+i"NSValue+GHValueFormatter.h"
+
+N/Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/UnitTests/ShapeTest.m
+c000000004D032D050000000000000969
+t1292053765
+s2409
+i"SimpleTestCase.h"
+i"ObjectiveChipmunk.h"
+
+N/Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/UnitTests/SimpleTestCase.h
+c000000004D032D05000000000000009F
+t1292053765
+s159
+i<Foundation/Foundation.h>
+i"GHTestMacros.h"
+
+N/Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/UnitTests/SimpleTestCase.m
+c000000004D032D0500000000000000D3
+t1292053765
+s211
+i"SimpleTestCase.h"
+
+N/Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/UnitTests/SpaceTest.m
+c000000004E0E120000000000000020AB
+t1309544960
+s8363
+i"SimpleTestCase.h"
+i"ObjectiveChipmunk.h"
+
+N/Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/UnitTests/TestMain.m
+c000000004E5E858D0000000000000664
+t1314817421
+s1636
+i<string.h>
+i<objc/runtime.h>
+i<Foundation/Foundation.h>
+i"SimpleTestCase.h"
+i"ObjectiveChipmunk.h"
+
+N/Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/build/Debug-iphoneos/TestApp.app
+t1314817432
+s340
+
+N/Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/build/Debug-iphoneos/TestApp.app.dSYM
+t1314817432
+s102
+
+N/Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/build/Debug-iphoneos/TestApp.app/BodyTest.o
+t1314817216
+s70704
+
+N/Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/build/Debug-iphoneos/TestApp.app/Info.plist
+t1314817216
+s782
+
+N/Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/build/Debug-iphoneos/TestApp.app/PkgInfo
+t1314817216
+s8
+
+N/Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/build/Debug-iphoneos/TestApp.app/ResourceRules.plist
+t1314817216
+s485
+
+N/Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/build/Debug-iphoneos/TestApp.app/TestApp
+t1314817431
+s1135572
+
+N/Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/build/Debug-iphoneos/TestApp.app/embedded.mobileprovision
+t1314817219
+s8086
+
+N/Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/build/Debug-iphoneos/libObjectiveChipmunk.a
+c000000004E5E84AF00000000001DF1B0
+t1314817199
+s1962416
+
+N/Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/build/Objective-Chipmunk.build/Debug-iphoneos/TestApp.build/Objects-normal/armv6/BodyTest.o
+t1314817217
+s81904
+
+N/Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/build/Objective-Chipmunk.build/Debug-iphoneos/TestApp.build/Objects-normal/armv6/CallbacksTest.o
+t1314817218
+s68240
+
+N/Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/build/Objective-Chipmunk.build/Debug-iphoneos/TestApp.build/Objects-normal/armv6/MemoryTest.o
+t1314817217
+s180380
+
+N/Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/build/Objective-Chipmunk.build/Debug-iphoneos/TestApp.build/Objects-normal/armv6/NSException+GHTestFailureExceptions.o
+t1314817216
+s17240
+
+N/Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/build/Objective-Chipmunk.build/Debug-iphoneos/TestApp.build/Objects-normal/armv6/NSValue+GHValueFormatter.o
+t1314817216
+s9560
+
+N/Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/build/Objective-Chipmunk.build/Debug-iphoneos/TestApp.build/Objects-normal/armv6/ShapeTest.o
+t1314817217
+s97104
+
+N/Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/build/Objective-Chipmunk.build/Debug-iphoneos/TestApp.build/Objects-normal/armv6/SimpleTestCase.o
+t1314817216
+s4708
+
+N/Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/build/Objective-Chipmunk.build/Debug-iphoneos/TestApp.build/Objects-normal/armv6/SpaceTest.o
+t1314817217
+s127512
+
+N/Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/build/Objective-Chipmunk.build/Debug-iphoneos/TestApp.build/Objects-normal/armv6/TestApp
+t1314817431
+s603092
+
+N/Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/build/Objective-Chipmunk.build/Debug-iphoneos/TestApp.build/Objects-normal/armv6/TestApp.LinkFileList
+c000000004E5E84C00000000000000646
+t1314817216
+s1606
+
+N/Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/build/Objective-Chipmunk.build/Debug-iphoneos/TestApp.build/Objects-normal/armv6/TestMain.o
+t1314817431
+s10092
+
+N/Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/build/Objective-Chipmunk.build/Debug-iphoneos/TestApp.build/Objects-normal/armv7/BodyTest.o
+t1314817218
+s70704
+
+N/Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/build/Objective-Chipmunk.build/Debug-iphoneos/TestApp.build/Objects-normal/armv7/CallbacksTest.o
+t1314817219
+s58740
+
+N/Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/build/Objective-Chipmunk.build/Debug-iphoneos/TestApp.build/Objects-normal/armv7/MemoryTest.o
+t1314817219
+s148956
+
+N/Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/build/Objective-Chipmunk.build/Debug-iphoneos/TestApp.build/Objects-normal/armv7/NSException+GHTestFailureExceptions.o
+t1314817218
+s16992
+
+N/Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/build/Objective-Chipmunk.build/Debug-iphoneos/TestApp.build/Objects-normal/armv7/NSValue+GHValueFormatter.o
+t1314817218
+s8772
+
+N/Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/build/Objective-Chipmunk.build/Debug-iphoneos/TestApp.build/Objects-normal/armv7/ShapeTest.o
+t1314817218
+s82388
+
+N/Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/build/Objective-Chipmunk.build/Debug-iphoneos/TestApp.build/Objects-normal/armv7/SimpleTestCase.o
+t1314817218
+s4680
+
+N/Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/build/Objective-Chipmunk.build/Debug-iphoneos/TestApp.build/Objects-normal/armv7/SpaceTest.o
+t1314817219
+s108468
+
+N/Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/build/Objective-Chipmunk.build/Debug-iphoneos/TestApp.build/Objects-normal/armv7/TestApp
+t1314817431
+s525268
+
+N/Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/build/Objective-Chipmunk.build/Debug-iphoneos/TestApp.build/Objects-normal/armv7/TestApp.LinkFileList
+c000000004E5E84C00000000000000646
+t1314817216
+s1606
+
+N/Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/build/Objective-Chipmunk.build/Debug-iphoneos/TestApp.build/Objects-normal/armv7/TestMain.o
+t1314817431
+s9656
+
+N/Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/build/Objective-Chipmunk.build/Debug-iphoneos/TestApp.build/TestApp.xcent
+t1314817219
+s625
+
+NUnitTests/TestApp-Info.plist
+c000000004D032D0500000000000002B1
+t1292053765
+s689
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies336510231#336510231#0(252"[BWARN]Code Sign warning: code-signing identity 'iPhone Developer' matches multiple identities : 'iPhone Developer: Chad Stubbs (S86EM64542)', 'iPhone Developer: Ronald Turner (6QA7NCZ339)' -- 'iPhone Developer: Chad Stubbs (S86EM64542)' will be used.1(22@244"Code Sign warning: code-signing identity 'iPhone Developer' matches multiple identities : 'iPhone Developer: Chad Stubbs (S86EM64542)', 'iPhone Developer: Ronald Turner (6QA7NCZ339)' -- 'iPhone Developer: Chad Stubbs (S86EM64542)' will be used.336510231#18446744073709551615#0#0(1@0"0(0#1#0"8641573888#0"0#
+
+CCodeSign /Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/build/Debug-iphoneos/TestApp.app
+s336510232.070851
+e336510232.480928
+r1
+xCodeSign
+x/Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/build/Debug-iphoneos/TestApp.app
+lSLF07#2@41"CodeSign build/Debug-iphoneos/TestApp.app336510232#336510232#0(0"0(0#0#112"/Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/build/Debug-iphoneos/TestApp.app8634147328#822"    cd /Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv _CODESIGN_ALLOCATE_ /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    /usr/bin/codesign -f -s "iPhone Developer: Chad Stubbs (S86EM64542)" --resource-rules=/Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/build/Debug-iphoneos/TestApp.app/ResourceRules.plist --entitlements /Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/build/Objective-Chipmunk.build/Debug-iphoneos/TestApp.build/TestApp.xcent /Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/build/Debug-iphoneos/TestApp.app0#
+
+CCompileC build/Debug-iphoneos/TestApp.app/BodyTest.o /Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/UnitTests/BodyTest.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s336510016.093877
+e336510016.406656
+r1
+xCompileC
+xbuild/Debug-iphoneos/TestApp.app/BodyTest.o
+x/Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/UnitTests/BodyTest.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF07#2@108"Compile /Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/UnitTests/BodyTest.m336510016#336510016#0(0"0(0#0#100"/Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/UnitTests/BodyTest.m8644037056#2287"    cd /Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fasm-blocks -gdwarf-2 -fvisibility=hidden -miphoneos-version-min=3.0 -iquote /Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/build/Objective-Chipmunk.build/Debug-iphoneos/TestApp.build/TestApp-generated-files.hmap -I/Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/build/Objective-Chipmunk.build/Debug-iphoneos/TestApp.build/TestApp-own-target-headers.hmap -I/Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/build/Objective-Chipmunk.build/Debug-iphoneos/TestApp.build/TestApp-all-target-headers.hmap -iquote /Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/build/Objective-Chipmunk.build/Debug-iphoneos/TestApp.build/TestApp-project-headers.hmap -mfpu=neon -F/Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/build/Debug-iphoneos -I/Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/build/Debug-iphoneos/include -I../Chipmunk/include -I../Chipmunk/include/chipmunk -I../Chipmunk/include/chipmunk/constraints -I/Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/build/Objective-Chipmunk.build/Debug-iphoneos/TestApp.build/DerivedSources/armv7 -I/Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/build/Objective-Chipmunk.build/Debug-iphoneos/TestApp.build/DerivedSources -DCP_DATA_POINTER_TYPE=id -DCP_GROUP_TYPE=id -DCP_COLLISION_TYPE_TYPE=id -ffast-math -c /Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/UnitTests/BodyTest.m -o /Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/build/Debug-iphoneos/TestApp.app/BodyTest.o0#
+
+CCompileC build/Objective-Chipmunk.build/Debug-iphoneos/TestApp.build/Objects-normal/armv6/BodyTest.o /Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/UnitTests/BodyTest.m normal armv6 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s336510016.685652
+e336510017.024179
+r1
+xCompileC
+xbuild/Objective-Chipmunk.build/Debug-iphoneos/TestApp.build/Objects-normal/armv6/BodyTest.o
+x/Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/UnitTests/BodyTest.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF07#2@108"Compile /Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/UnitTests/BodyTest.m336510016#336510017#0(0"0(0#0#100"/Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/UnitTests/BodyTest.m8644344384#2324"    cd /Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/clang -x objective-c -arch armv6 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fasm-blocks -gdwarf-2 -fvisibility=hidden -miphoneos-version-min=3.0 -iquote /Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/build/Objective-Chipmunk.build/Debug-iphoneos/TestApp.build/TestApp-generated-files.hmap -I/Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/build/Objective-Chipmunk.build/Debug-iphoneos/TestApp.build/TestApp-own-target-headers.hmap -I/Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/build/Objective-Chipmunk.build/Debug-iphoneos/TestApp.build/TestApp-all-target-headers.hmap -iquote /Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/build/Objective-Chipmunk.build/Debug-iphoneos/TestApp.build/TestApp-project-headers.hmap -F/Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/build/Debug-iphoneos -I/Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/build/Debug-iphoneos/include -I../Chipmunk/include -I../Chipmunk/include/chipmunk -I../Chipmunk/include/chipmunk/constraints -I/Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/build/Objective-Chipmunk.build/Debug-iphoneos/TestApp.build/DerivedSources/armv6 -I/Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/build/Objective-Chipmunk.build/Debug-iphoneos/TestApp.build/DerivedSources -DCP_DATA_POINTER_TYPE=id -DCP_GROUP_TYPE=id -DCP_COLLISION_TYPE_TYPE=id -ffast-math -c /Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/UnitTests/BodyTest.m -o /Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/build/Objective-Chipmunk.build/Debug-iphoneos/TestApp.build/Objects-normal/armv6/BodyTest.o0#
+
+CCompileC build/Objective-Chipmunk.build/Debug-iphoneos/TestApp.build/Objects-normal/armv6/CallbacksTest.o /Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/UnitTests/CallbacksTest.m normal armv6 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s336510017.837544
+e336510018.164590
+r1
+xCompileC
+xbuild/Objective-Chipmunk.build/Debug-iphoneos/TestApp.build/Objects-normal/armv6/CallbacksTest.o
+x/Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/UnitTests/CallbacksTest.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF07#2@113"Compile /Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/UnitTests/CallbacksTest.m336510017#336510018#0(0"0(0#0#105"/Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/UnitTests/CallbacksTest.m8644980032#2334"    cd /Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/clang -x objective-c -arch armv6 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fasm-blocks -gdwarf-2 -fvisibility=hidden -miphoneos-version-min=3.0 -iquote /Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/build/Objective-Chipmunk.build/Debug-iphoneos/TestApp.build/TestApp-generated-files.hmap -I/Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/build/Objective-Chipmunk.build/Debug-iphoneos/TestApp.build/TestApp-own-target-headers.hmap -I/Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/build/Objective-Chipmunk.build/Debug-iphoneos/TestApp.build/TestApp-all-target-headers.hmap -iquote /Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/build/Objective-Chipmunk.build/Debug-iphoneos/TestApp.build/TestApp-project-headers.hmap -F/Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/build/Debug-iphoneos -I/Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/build/Debug-iphoneos/include -I../Chipmunk/include -I../Chipmunk/include/chipmunk -I../Chipmunk/include/chipmunk/constraints -I/Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/build/Objective-Chipmunk.build/Debug-iphoneos/TestApp.build/DerivedSources/armv6 -I/Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/build/Objective-Chipmunk.build/Debug-iphoneos/TestApp.build/DerivedSources -DCP_DATA_POINTER_TYPE=id -DCP_GROUP_TYPE=id -DCP_COLLISION_TYPE_TYPE=id -ffast-math -c /Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/UnitTests/CallbacksTest.m -o /Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/build/Objective-Chipmunk.build/Debug-iphoneos/TestApp.build/Objects-normal/armv6/CallbacksTest.o0#
+
+CCompileC build/Objective-Chipmunk.build/Debug-iphoneos/TestApp.build/Objects-normal/armv6/MemoryTest.o /Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/UnitTests/MemoryTest.m normal armv6 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s336510017.024284
+e336510017.837409
+r1
+xCompileC
+xbuild/Objective-Chipmunk.build/Debug-iphoneos/TestApp.build/Objects-normal/armv6/MemoryTest.o
+x/Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/UnitTests/MemoryTest.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF07#2@110"Compile /Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/UnitTests/MemoryTest.m336510017#336510017#0(0"0(0#0#102"/Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/UnitTests/MemoryTest.m8636716448#2328"    cd /Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/clang -x objective-c -arch armv6 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fasm-blocks -gdwarf-2 -fvisibility=hidden -miphoneos-version-min=3.0 -iquote /Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/build/Objective-Chipmunk.build/Debug-iphoneos/TestApp.build/TestApp-generated-files.hmap -I/Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/build/Objective-Chipmunk.build/Debug-iphoneos/TestApp.build/TestApp-own-target-headers.hmap -I/Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/build/Objective-Chipmunk.build/Debug-iphoneos/TestApp.build/TestApp-all-target-headers.hmap -iquote /Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/build/Objective-Chipmunk.build/Debug-iphoneos/TestApp.build/TestApp-project-headers.hmap -F/Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/build/Debug-iphoneos -I/Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/build/Debug-iphoneos/include -I../Chipmunk/include -I../Chipmunk/include/chipmunk -I../Chipmunk/include/chipmunk/constraints -I/Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/build/Objective-Chipmunk.build/Debug-iphoneos/TestApp.build/DerivedSources/armv6 -I/Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/build/Objective-Chipmunk.build/Debug-iphoneos/TestApp.build/DerivedSources -DCP_DATA_POINTER_TYPE=id -DCP_GROUP_TYPE=id -DCP_COLLISION_TYPE_TYPE=id -ffast-math -c /Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/UnitTests/MemoryTest.m -o /Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/build/Objective-Chipmunk.build/Debug-iphoneos/TestApp.build/Objects-normal/armv6/MemoryTest.o0#
+
+CCompileC build/Objective-Chipmunk.build/Debug-iphoneos/TestApp.build/Objects-normal/armv6/NSException+GHTestFailureExceptions.o /Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/UnitTests/NSException+GHTestFailureExceptions.m normal armv6 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s336510016.407722
+e336510016.558165
+r1
+xCompileC
+xbuild/Objective-Chipmunk.build/Debug-iphoneos/TestApp.build/Objects-normal/armv6/NSException+GHTestFailureExceptions.o
+x/Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/UnitTests/NSException+GHTestFailureExceptions.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF07#2@135"Compile /Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/UnitTests/NSException+GHTestFailureExceptions.m336510016#336510016#0(0"0(0#0#127"/Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/UnitTests/NSException+GHTestFailureExceptions.m8636389760#2378"    cd /Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/clang -x objective-c -arch armv6 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fasm-blocks -gdwarf-2 -fvisibility=hidden -miphoneos-version-min=3.0 -iquote /Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/build/Objective-Chipmunk.build/Debug-iphoneos/TestApp.build/TestApp-generated-files.hmap -I/Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/build/Objective-Chipmunk.build/Debug-iphoneos/TestApp.build/TestApp-own-target-headers.hmap -I/Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/build/Objective-Chipmunk.build/Debug-iphoneos/TestApp.build/TestApp-all-target-headers.hmap -iquote /Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/build/Objective-Chipmunk.build/Debug-iphoneos/TestApp.build/TestApp-project-headers.hmap -F/Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/build/Debug-iphoneos -I/Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/build/Debug-iphoneos/include -I../Chipmunk/include -I../Chipmunk/include/chipmunk -I../Chipmunk/include/chipmunk/constraints -I/Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/build/Objective-Chipmunk.build/Debug-iphoneos/TestApp.build/DerivedSources/armv6 -I/Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/build/Objective-Chipmunk.build/Debug-iphoneos/TestApp.build/DerivedSources -DCP_DATA_POINTER_TYPE=id -DCP_GROUP_TYPE=id -DCP_COLLISION_TYPE_TYPE=id -ffast-math -c /Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/UnitTests/NSException+GHTestFailureExceptions.m -o /Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/build/Objective-Chipmunk.build/Debug-iphoneos/TestApp.build/Objects-normal/armv6/NSException+GHTestFailureExceptions.o0#
+
+CCompileC build/Objective-Chipmunk.build/Debug-iphoneos/TestApp.build/Objects-normal/armv6/NSValue+GHValueFormatter.o /Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/UnitTests/NSValue+GHValueFormatter.m normal armv6 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s336510016.546353
+e336510016.695815
+r1
+xCompileC
+xbuild/Objective-Chipmunk.build/Debug-iphoneos/TestApp.build/Objects-normal/armv6/NSValue+GHValueFormatter.o
+x/Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/UnitTests/NSValue+GHValueFormatter.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF07#2@124"Compile /Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/UnitTests/NSValue+GHValueFormatter.m336510016#336510016#0(0"0(0#0#116"/Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/UnitTests/NSValue+GHValueFormatter.m8631711040#2356"    cd /Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/clang -x objective-c -arch armv6 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fasm-blocks -gdwarf-2 -fvisibility=hidden -miphoneos-version-min=3.0 -iquote /Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/build/Objective-Chipmunk.build/Debug-iphoneos/TestApp.build/TestApp-generated-files.hmap -I/Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/build/Objective-Chipmunk.build/Debug-iphoneos/TestApp.build/TestApp-own-target-headers.hmap -I/Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/build/Objective-Chipmunk.build/Debug-iphoneos/TestApp.build/TestApp-all-target-headers.hmap -iquote /Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/build/Objective-Chipmunk.build/Debug-iphoneos/TestApp.build/TestApp-project-headers.hmap -F/Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/build/Debug-iphoneos -I/Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/build/Debug-iphoneos/include -I../Chipmunk/include -I../Chipmunk/include/chipmunk -I../Chipmunk/include/chipmunk/constraints -I/Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/build/Objective-Chipmunk.build/Debug-iphoneos/TestApp.build/DerivedSources/armv6 -I/Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/build/Objective-Chipmunk.build/Debug-iphoneos/TestApp.build/DerivedSources -DCP_DATA_POINTER_TYPE=id -DCP_GROUP_TYPE=id -DCP_COLLISION_TYPE_TYPE=id -ffast-math -c /Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/UnitTests/NSValue+GHValueFormatter.m -o /Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/build/Objective-Chipmunk.build/Debug-iphoneos/TestApp.build/Objects-normal/armv6/NSValue+GHValueFormatter.o0#
+
+CCompileC build/Objective-Chipmunk.build/Debug-iphoneos/TestApp.build/Objects-normal/armv6/ShapeTest.o /Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/UnitTests/ShapeTest.m normal armv6 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s336510016.695924
+e336510017.074115
+r1
+xCompileC
+xbuild/Objective-Chipmunk.build/Debug-iphoneos/TestApp.build/Objects-normal/armv6/ShapeTest.o
+x/Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/UnitTests/ShapeTest.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF07#2@109"Compile /Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/UnitTests/ShapeTest.m336510016#336510017#0(0"0(0#0#101"/Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/UnitTests/ShapeTest.m8643242720#2326"    cd /Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/clang -x objective-c -arch armv6 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fasm-blocks -gdwarf-2 -fvisibility=hidden -miphoneos-version-min=3.0 -iquote /Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/build/Objective-Chipmunk.build/Debug-iphoneos/TestApp.build/TestApp-generated-files.hmap -I/Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/build/Objective-Chipmunk.build/Debug-iphoneos/TestApp.build/TestApp-own-target-headers.hmap -I/Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/build/Objective-Chipmunk.build/Debug-iphoneos/TestApp.build/TestApp-all-target-headers.hmap -iquote /Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/build/Objective-Chipmunk.build/Debug-iphoneos/TestApp.build/TestApp-project-headers.hmap -F/Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/build/Debug-iphoneos -I/Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/build/Debug-iphoneos/include -I../Chipmunk/include -I../Chipmunk/include/chipmunk -I../Chipmunk/include/chipmunk/constraints -I/Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/build/Objective-Chipmunk.build/Debug-iphoneos/TestApp.build/DerivedSources/armv6 -I/Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/build/Objective-Chipmunk.build/Debug-iphoneos/TestApp.build/DerivedSources -DCP_DATA_POINTER_TYPE=id -DCP_GROUP_TYPE=id -DCP_COLLISION_TYPE_TYPE=id -ffast-math -c /Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/UnitTests/ShapeTest.m -o /Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/build/Objective-Chipmunk.build/Debug-iphoneos/TestApp.build/Objects-normal/armv6/ShapeTest.o0#
+
+CCompileC build/Objective-Chipmunk.build/Debug-iphoneos/TestApp.build/Objects-normal/armv6/SimpleTestCase.o /Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/UnitTests/SimpleTestCase.m normal armv6 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s336510016.558251
+e336510016.685559
+r1
+xCompileC
+xbuild/Objective-Chipmunk.build/Debug-iphoneos/TestApp.build/Objects-normal/armv6/SimpleTestCase.o
+x/Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/UnitTests/SimpleTestCase.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF07#2@114"Compile /Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/UnitTests/SimpleTestCase.m336510016#336510016#0(0"0(0#0#106"/Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/UnitTests/SimpleTestCase.m8630888384#2336"    cd /Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/clang -x objective-c -arch armv6 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fasm-blocks -gdwarf-2 -fvisibility=hidden -miphoneos-version-min=3.0 -iquote /Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/build/Objective-Chipmunk.build/Debug-iphoneos/TestApp.build/TestApp-generated-files.hmap -I/Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/build/Objective-Chipmunk.build/Debug-iphoneos/TestApp.build/TestApp-own-target-headers.hmap -I/Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/build/Objective-Chipmunk.build/Debug-iphoneos/TestApp.build/TestApp-all-target-headers.hmap -iquote /Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/build/Objective-Chipmunk.build/Debug-iphoneos/TestApp.build/TestApp-project-headers.hmap -F/Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/build/Debug-iphoneos -I/Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/build/Debug-iphoneos/include -I../Chipmunk/include -I../Chipmunk/include/chipmunk -I../Chipmunk/include/chipmunk/constraints -I/Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/build/Objective-Chipmunk.build/Debug-iphoneos/TestApp.build/DerivedSources/armv6 -I/Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/build/Objective-Chipmunk.build/Debug-iphoneos/TestApp.build/DerivedSources -DCP_DATA_POINTER_TYPE=id -DCP_GROUP_TYPE=id -DCP_COLLISION_TYPE_TYPE=id -ffast-math -c /Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/UnitTests/SimpleTestCase.m -o /Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/build/Objective-Chipmunk.build/Debug-iphoneos/TestApp.build/Objects-normal/armv6/SimpleTestCase.o0#
+
+CCompileC build/Objective-Chipmunk.build/Debug-iphoneos/TestApp.build/Objects-normal/armv6/SpaceTest.o /Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/UnitTests/SpaceTest.m normal armv6 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s336510017.074217
+e336510017.887467
+r1
+xCompileC
+xbuild/Objective-Chipmunk.build/Debug-iphoneos/TestApp.build/Objects-normal/armv6/SpaceTest.o
+x/Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/UnitTests/SpaceTest.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF07#2@109"Compile /Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/UnitTests/SpaceTest.m336510017#336510017#0(0"0(0#0#101"/Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/UnitTests/SpaceTest.m8629890464#2326"    cd /Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/clang -x objective-c -arch armv6 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fasm-blocks -gdwarf-2 -fvisibility=hidden -miphoneos-version-min=3.0 -iquote /Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/build/Objective-Chipmunk.build/Debug-iphoneos/TestApp.build/TestApp-generated-files.hmap -I/Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/build/Objective-Chipmunk.build/Debug-iphoneos/TestApp.build/TestApp-own-target-headers.hmap -I/Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/build/Objective-Chipmunk.build/Debug-iphoneos/TestApp.build/TestApp-all-target-headers.hmap -iquote /Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/build/Objective-Chipmunk.build/Debug-iphoneos/TestApp.build/TestApp-project-headers.hmap -F/Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/build/Debug-iphoneos -I/Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/build/Debug-iphoneos/include -I../Chipmunk/include -I../Chipmunk/include/chipmunk -I../Chipmunk/include/chipmunk/constraints -I/Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/build/Objective-Chipmunk.build/Debug-iphoneos/TestApp.build/DerivedSources/armv6 -I/Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/build/Objective-Chipmunk.build/Debug-iphoneos/TestApp.build/DerivedSources -DCP_DATA_POINTER_TYPE=id -DCP_GROUP_TYPE=id -DCP_COLLISION_TYPE_TYPE=id -ffast-math -c /Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/UnitTests/SpaceTest.m -o /Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/build/Objective-Chipmunk.build/Debug-iphoneos/TestApp.build/Objects-normal/armv6/SpaceTest.o0#
+
+CCompileC build/Objective-Chipmunk.build/Debug-iphoneos/TestApp.build/Objects-normal/armv6/TestMain.o /Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/UnitTests/TestMain.m normal armv6 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s336510231.040110
+e336510231.246998
+r1
+xCompileC
+xbuild/Objective-Chipmunk.build/Debug-iphoneos/TestApp.build/Objects-normal/armv6/TestMain.o
+x/Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/UnitTests/TestMain.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF07#2@108"Compile /Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/UnitTests/TestMain.m336510231#336510231#0(0"0(0#0#100"/Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/UnitTests/TestMain.m8642616416#2324"    cd /Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/clang -x objective-c -arch armv6 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fasm-blocks -gdwarf-2 -fvisibility=hidden -miphoneos-version-min=3.0 -iquote /Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/build/Objective-Chipmunk.build/Debug-iphoneos/TestApp.build/TestApp-generated-files.hmap -I/Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/build/Objective-Chipmunk.build/Debug-iphoneos/TestApp.build/TestApp-own-target-headers.hmap -I/Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/build/Objective-Chipmunk.build/Debug-iphoneos/TestApp.build/TestApp-all-target-headers.hmap -iquote /Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/build/Objective-Chipmunk.build/Debug-iphoneos/TestApp.build/TestApp-project-headers.hmap -F/Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/build/Debug-iphoneos -I/Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/build/Debug-iphoneos/include -I../Chipmunk/include -I../Chipmunk/include/chipmunk -I../Chipmunk/include/chipmunk/constraints -I/Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/build/Objective-Chipmunk.build/Debug-iphoneos/TestApp.build/DerivedSources/armv6 -I/Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/build/Objective-Chipmunk.build/Debug-iphoneos/TestApp.build/DerivedSources -DCP_DATA_POINTER_TYPE=id -DCP_GROUP_TYPE=id -DCP_COLLISION_TYPE_TYPE=id -ffast-math -c /Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/UnitTests/TestMain.m -o /Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/build/Objective-Chipmunk.build/Debug-iphoneos/TestApp.build/Objects-normal/armv6/TestMain.o0#
+
+CCompileC build/Objective-Chipmunk.build/Debug-iphoneos/TestApp.build/Objects-normal/armv7/BodyTest.o /Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/UnitTests/BodyTest.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s336510018.299406
+e336510018.647364
+r1
+xCompileC
+xbuild/Objective-Chipmunk.build/Debug-iphoneos/TestApp.build/Objects-normal/armv7/BodyTest.o
+x/Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/UnitTests/BodyTest.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF07#2@108"Compile /Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/UnitTests/BodyTest.m336510018#336510018#0(0"0(0#0#100"/Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/UnitTests/BodyTest.m8645262080#2335"    cd /Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fasm-blocks -gdwarf-2 -fvisibility=hidden -miphoneos-version-min=3.0 -iquote /Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/build/Objective-Chipmunk.build/Debug-iphoneos/TestApp.build/TestApp-generated-files.hmap -I/Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/build/Objective-Chipmunk.build/Debug-iphoneos/TestApp.build/TestApp-own-target-headers.hmap -I/Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/build/Objective-Chipmunk.build/Debug-iphoneos/TestApp.build/TestApp-all-target-headers.hmap -iquote /Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/build/Objective-Chipmunk.build/Debug-iphoneos/TestApp.build/TestApp-project-headers.hmap -mfpu=neon -F/Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/build/Debug-iphoneos -I/Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/build/Debug-iphoneos/include -I../Chipmunk/include -I../Chipmunk/include/chipmunk -I../Chipmunk/include/chipmunk/constraints -I/Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/build/Objective-Chipmunk.build/Debug-iphoneos/TestApp.build/DerivedSources/armv7 -I/Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/build/Objective-Chipmunk.build/Debug-iphoneos/TestApp.build/DerivedSources -DCP_DATA_POINTER_TYPE=id -DCP_GROUP_TYPE=id -DCP_COLLISION_TYPE_TYPE=id -ffast-math -c /Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/UnitTests/BodyTest.m -o /Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/build/Objective-Chipmunk.build/Debug-iphoneos/TestApp.build/Objects-normal/armv7/BodyTest.o0#
+
+CCompileC build/Objective-Chipmunk.build/Debug-iphoneos/TestApp.build/Objects-normal/armv7/CallbacksTest.o /Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/UnitTests/CallbacksTest.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s336510019.244142
+e336510019.503356
+r1
+xCompileC
+xbuild/Objective-Chipmunk.build/Debug-iphoneos/TestApp.build/Objects-normal/armv7/CallbacksTest.o
+x/Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/UnitTests/CallbacksTest.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF07#2@113"Compile /Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/UnitTests/CallbacksTest.m336510019#336510019#0(0"0(0#0#105"/Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/UnitTests/CallbacksTest.m8636450688#2345"    cd /Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fasm-blocks -gdwarf-2 -fvisibility=hidden -miphoneos-version-min=3.0 -iquote /Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/build/Objective-Chipmunk.build/Debug-iphoneos/TestApp.build/TestApp-generated-files.hmap -I/Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/build/Objective-Chipmunk.build/Debug-iphoneos/TestApp.build/TestApp-own-target-headers.hmap -I/Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/build/Objective-Chipmunk.build/Debug-iphoneos/TestApp.build/TestApp-all-target-headers.hmap -iquote /Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/build/Objective-Chipmunk.build/Debug-iphoneos/TestApp.build/TestApp-project-headers.hmap -mfpu=neon -F/Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/build/Debug-iphoneos -I/Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/build/Debug-iphoneos/include -I../Chipmunk/include -I../Chipmunk/include/chipmunk -I../Chipmunk/include/chipmunk/constraints -I/Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/build/Objective-Chipmunk.build/Debug-iphoneos/TestApp.build/DerivedSources/armv7 -I/Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/build/Objective-Chipmunk.build/Debug-iphoneos/TestApp.build/DerivedSources -DCP_DATA_POINTER_TYPE=id -DCP_GROUP_TYPE=id -DCP_COLLISION_TYPE_TYPE=id -ffast-math -c /Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/UnitTests/CallbacksTest.m -o /Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/build/Objective-Chipmunk.build/Debug-iphoneos/TestApp.build/Objects-normal/armv7/CallbacksTest.o0#
+
+CCompileC build/Objective-Chipmunk.build/Debug-iphoneos/TestApp.build/Objects-normal/armv7/MemoryTest.o /Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/UnitTests/MemoryTest.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s336510018.647464
+e336510019.275898
+r1
+xCompileC
+xbuild/Objective-Chipmunk.build/Debug-iphoneos/TestApp.build/Objects-normal/armv7/MemoryTest.o
+x/Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/UnitTests/MemoryTest.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF07#2@110"Compile /Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/UnitTests/MemoryTest.m336510018#336510019#0(0"0(0#0#102"/Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/UnitTests/MemoryTest.m8634825312#2339"    cd /Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fasm-blocks -gdwarf-2 -fvisibility=hidden -miphoneos-version-min=3.0 -iquote /Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/build/Objective-Chipmunk.build/Debug-iphoneos/TestApp.build/TestApp-generated-files.hmap -I/Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/build/Objective-Chipmunk.build/Debug-iphoneos/TestApp.build/TestApp-own-target-headers.hmap -I/Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/build/Objective-Chipmunk.build/Debug-iphoneos/TestApp.build/TestApp-all-target-headers.hmap -iquote /Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/build/Objective-Chipmunk.build/Debug-iphoneos/TestApp.build/TestApp-project-headers.hmap -mfpu=neon -F/Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/build/Debug-iphoneos -I/Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/build/Debug-iphoneos/include -I../Chipmunk/include -I../Chipmunk/include/chipmunk -I../Chipmunk/include/chipmunk/constraints -I/Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/build/Objective-Chipmunk.build/Debug-iphoneos/TestApp.build/DerivedSources/armv7 -I/Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/build/Objective-Chipmunk.build/Debug-iphoneos/TestApp.build/DerivedSources -DCP_DATA_POINTER_TYPE=id -DCP_GROUP_TYPE=id -DCP_COLLISION_TYPE_TYPE=id -ffast-math -c /Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/UnitTests/MemoryTest.m -o /Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/build/Objective-Chipmunk.build/Debug-iphoneos/TestApp.build/Objects-normal/armv7/MemoryTest.o0#
+
+CCompileC build/Objective-Chipmunk.build/Debug-iphoneos/TestApp.build/Objects-normal/armv7/NSException+GHTestFailureExceptions.o /Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/UnitTests/NSException+GHTestFailureExceptions.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s336510018.007048
+e336510018.178892
+r1
+xCompileC
+xbuild/Objective-Chipmunk.build/Debug-iphoneos/TestApp.build/Objects-normal/armv7/NSException+GHTestFailureExceptions.o
+x/Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/UnitTests/NSException+GHTestFailureExceptions.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF07#2@135"Compile /Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/UnitTests/NSException+GHTestFailureExceptions.m336510018#336510018#0(0"0(0#0#127"/Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/UnitTests/NSException+GHTestFailureExceptions.m8641891840#2389"    cd /Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fasm-blocks -gdwarf-2 -fvisibility=hidden -miphoneos-version-min=3.0 -iquote /Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/build/Objective-Chipmunk.build/Debug-iphoneos/TestApp.build/TestApp-generated-files.hmap -I/Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/build/Objective-Chipmunk.build/Debug-iphoneos/TestApp.build/TestApp-own-target-headers.hmap -I/Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/build/Objective-Chipmunk.build/Debug-iphoneos/TestApp.build/TestApp-all-target-headers.hmap -iquote /Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/build/Objective-Chipmunk.build/Debug-iphoneos/TestApp.build/TestApp-project-headers.hmap -mfpu=neon -F/Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/build/Debug-iphoneos -I/Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/build/Debug-iphoneos/include -I../Chipmunk/include -I../Chipmunk/include/chipmunk -I../Chipmunk/include/chipmunk/constraints -I/Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/build/Objective-Chipmunk.build/Debug-iphoneos/TestApp.build/DerivedSources/armv7 -I/Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/build/Objective-Chipmunk.build/Debug-iphoneos/TestApp.build/DerivedSources -DCP_DATA_POINTER_TYPE=id -DCP_GROUP_TYPE=id -DCP_COLLISION_TYPE_TYPE=id -ffast-math -c /Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/UnitTests/NSException+GHTestFailureExceptions.m -o /Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/build/Objective-Chipmunk.build/Debug-iphoneos/TestApp.build/Objects-normal/armv7/NSException+GHTestFailureExceptions.o0#
+
+CCompileC build/Objective-Chipmunk.build/Debug-iphoneos/TestApp.build/Objects-normal/armv7/NSValue+GHValueFormatter.o /Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/UnitTests/NSValue+GHValueFormatter.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s336510018.164687
+e336510018.299310
+r1
+xCompileC
+xbuild/Objective-Chipmunk.build/Debug-iphoneos/TestApp.build/Objects-normal/armv7/NSValue+GHValueFormatter.o
+x/Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/UnitTests/NSValue+GHValueFormatter.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF07#2@124"Compile /Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/UnitTests/NSValue+GHValueFormatter.m336510018#336510018#0(0"0(0#0#116"/Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/UnitTests/NSValue+GHValueFormatter.m8636274368#2367"    cd /Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fasm-blocks -gdwarf-2 -fvisibility=hidden -miphoneos-version-min=3.0 -iquote /Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/build/Objective-Chipmunk.build/Debug-iphoneos/TestApp.build/TestApp-generated-files.hmap -I/Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/build/Objective-Chipmunk.build/Debug-iphoneos/TestApp.build/TestApp-own-target-headers.hmap -I/Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/build/Objective-Chipmunk.build/Debug-iphoneos/TestApp.build/TestApp-all-target-headers.hmap -iquote /Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/build/Objective-Chipmunk.build/Debug-iphoneos/TestApp.build/TestApp-project-headers.hmap -mfpu=neon -F/Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/build/Debug-iphoneos -I/Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/build/Debug-iphoneos/include -I../Chipmunk/include -I../Chipmunk/include/chipmunk -I../Chipmunk/include/chipmunk/constraints -I/Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/build/Objective-Chipmunk.build/Debug-iphoneos/TestApp.build/DerivedSources/armv7 -I/Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/build/Objective-Chipmunk.build/Debug-iphoneos/TestApp.build/DerivedSources -DCP_DATA_POINTER_TYPE=id -DCP_GROUP_TYPE=id -DCP_COLLISION_TYPE_TYPE=id -ffast-math -c /Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/UnitTests/NSValue+GHValueFormatter.m -o /Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/build/Objective-Chipmunk.build/Debug-iphoneos/TestApp.build/Objects-normal/armv7/NSValue+GHValueFormatter.o0#
+
+CCompileC build/Objective-Chipmunk.build/Debug-iphoneos/TestApp.build/Objects-normal/armv7/ShapeTest.o /Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/UnitTests/ShapeTest.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s336510018.383413
+e336510018.791759
+r1
+xCompileC
+xbuild/Objective-Chipmunk.build/Debug-iphoneos/TestApp.build/Objects-normal/armv7/ShapeTest.o
+x/Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/UnitTests/ShapeTest.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF07#2@109"Compile /Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/UnitTests/ShapeTest.m336510018#336510018#0(0"0(0#0#101"/Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/UnitTests/ShapeTest.m8642037920#2337"    cd /Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fasm-blocks -gdwarf-2 -fvisibility=hidden -miphoneos-version-min=3.0 -iquote /Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/build/Objective-Chipmunk.build/Debug-iphoneos/TestApp.build/TestApp-generated-files.hmap -I/Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/build/Objective-Chipmunk.build/Debug-iphoneos/TestApp.build/TestApp-own-target-headers.hmap -I/Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/build/Objective-Chipmunk.build/Debug-iphoneos/TestApp.build/TestApp-all-target-headers.hmap -iquote /Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/build/Objective-Chipmunk.build/Debug-iphoneos/TestApp.build/TestApp-project-headers.hmap -mfpu=neon -F/Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/build/Debug-iphoneos -I/Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/build/Debug-iphoneos/include -I../Chipmunk/include -I../Chipmunk/include/chipmunk -I../Chipmunk/include/chipmunk/constraints -I/Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/build/Objective-Chipmunk.build/Debug-iphoneos/TestApp.build/DerivedSources/armv7 -I/Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/build/Objective-Chipmunk.build/Debug-iphoneos/TestApp.build/DerivedSources -DCP_DATA_POINTER_TYPE=id -DCP_GROUP_TYPE=id -DCP_COLLISION_TYPE_TYPE=id -ffast-math -c /Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/UnitTests/ShapeTest.m -o /Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/build/Objective-Chipmunk.build/Debug-iphoneos/TestApp.build/Objects-normal/armv7/ShapeTest.o0#
+
+CCompileC build/Objective-Chipmunk.build/Debug-iphoneos/TestApp.build/Objects-normal/armv7/SimpleTestCase.o /Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/UnitTests/SimpleTestCase.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s336510018.179031
+e336510018.383312
+r1
+xCompileC
+xbuild/Objective-Chipmunk.build/Debug-iphoneos/TestApp.build/Objects-normal/armv7/SimpleTestCase.o
+x/Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/UnitTests/SimpleTestCase.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF07#2@114"Compile /Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/UnitTests/SimpleTestCase.m336510018#336510018#0(0"0(0#0#106"/Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/UnitTests/SimpleTestCase.m8634033056#2347"    cd /Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fasm-blocks -gdwarf-2 -fvisibility=hidden -miphoneos-version-min=3.0 -iquote /Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/build/Objective-Chipmunk.build/Debug-iphoneos/TestApp.build/TestApp-generated-files.hmap -I/Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/build/Objective-Chipmunk.build/Debug-iphoneos/TestApp.build/TestApp-own-target-headers.hmap -I/Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/build/Objective-Chipmunk.build/Debug-iphoneos/TestApp.build/TestApp-all-target-headers.hmap -iquote /Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/build/Objective-Chipmunk.build/Debug-iphoneos/TestApp.build/TestApp-project-headers.hmap -mfpu=neon -F/Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/build/Debug-iphoneos -I/Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/build/Debug-iphoneos/include -I../Chipmunk/include -I../Chipmunk/include/chipmunk -I../Chipmunk/include/chipmunk/constraints -I/Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/build/Objective-Chipmunk.build/Debug-iphoneos/TestApp.build/DerivedSources/armv7 -I/Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/build/Objective-Chipmunk.build/Debug-iphoneos/TestApp.build/DerivedSources -DCP_DATA_POINTER_TYPE=id -DCP_GROUP_TYPE=id -DCP_COLLISION_TYPE_TYPE=id -ffast-math -c /Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/UnitTests/SimpleTestCase.m -o /Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/build/Objective-Chipmunk.build/Debug-iphoneos/TestApp.build/Objects-normal/armv7/SimpleTestCase.o0#
+
+CCompileC build/Objective-Chipmunk.build/Debug-iphoneos/TestApp.build/Objects-normal/armv7/SpaceTest.o /Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/UnitTests/SpaceTest.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s336510018.791907
+e336510019.243820
+r1
+xCompileC
+xbuild/Objective-Chipmunk.build/Debug-iphoneos/TestApp.build/Objects-normal/armv7/SpaceTest.o
+x/Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/UnitTests/SpaceTest.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF07#2@109"Compile /Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/UnitTests/SpaceTest.m336510018#336510019#0(0"0(0#0#101"/Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/UnitTests/SpaceTest.m8642582560#2337"    cd /Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fasm-blocks -gdwarf-2 -fvisibility=hidden -miphoneos-version-min=3.0 -iquote /Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/build/Objective-Chipmunk.build/Debug-iphoneos/TestApp.build/TestApp-generated-files.hmap -I/Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/build/Objective-Chipmunk.build/Debug-iphoneos/TestApp.build/TestApp-own-target-headers.hmap -I/Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/build/Objective-Chipmunk.build/Debug-iphoneos/TestApp.build/TestApp-all-target-headers.hmap -iquote /Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/build/Objective-Chipmunk.build/Debug-iphoneos/TestApp.build/TestApp-project-headers.hmap -mfpu=neon -F/Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/build/Debug-iphoneos -I/Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/build/Debug-iphoneos/include -I../Chipmunk/include -I../Chipmunk/include/chipmunk -I../Chipmunk/include/chipmunk/constraints -I/Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/build/Objective-Chipmunk.build/Debug-iphoneos/TestApp.build/DerivedSources/armv7 -I/Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/build/Objective-Chipmunk.build/Debug-iphoneos/TestApp.build/DerivedSources -DCP_DATA_POINTER_TYPE=id -DCP_GROUP_TYPE=id -DCP_COLLISION_TYPE_TYPE=id -ffast-math -c /Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/UnitTests/SpaceTest.m -o /Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/build/Objective-Chipmunk.build/Debug-iphoneos/TestApp.build/Objects-normal/armv7/SpaceTest.o0#
+
+CCompileC build/Objective-Chipmunk.build/Debug-iphoneos/TestApp.build/Objects-normal/armv7/TestMain.o /Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/UnitTests/TestMain.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s336510231.043004
+e336510231.280361
+r1
+xCompileC
+xbuild/Objective-Chipmunk.build/Debug-iphoneos/TestApp.build/Objects-normal/armv7/TestMain.o
+x/Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/UnitTests/TestMain.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF07#2@108"Compile /Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/UnitTests/TestMain.m336510231#336510231#0(0"0(0#0#100"/Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/UnitTests/TestMain.m8642618240#2335"    cd /Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fasm-blocks -gdwarf-2 -fvisibility=hidden -miphoneos-version-min=3.0 -iquote /Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/build/Objective-Chipmunk.build/Debug-iphoneos/TestApp.build/TestApp-generated-files.hmap -I/Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/build/Objective-Chipmunk.build/Debug-iphoneos/TestApp.build/TestApp-own-target-headers.hmap -I/Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/build/Objective-Chipmunk.build/Debug-iphoneos/TestApp.build/TestApp-all-target-headers.hmap -iquote /Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/build/Objective-Chipmunk.build/Debug-iphoneos/TestApp.build/TestApp-project-headers.hmap -mfpu=neon -F/Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/build/Debug-iphoneos -I/Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/build/Debug-iphoneos/include -I../Chipmunk/include -I../Chipmunk/include/chipmunk -I../Chipmunk/include/chipmunk/constraints -I/Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/build/Objective-Chipmunk.build/Debug-iphoneos/TestApp.build/DerivedSources/armv7 -I/Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/build/Objective-Chipmunk.build/Debug-iphoneos/TestApp.build/DerivedSources -DCP_DATA_POINTER_TYPE=id -DCP_GROUP_TYPE=id -DCP_COLLISION_TYPE_TYPE=id -ffast-math -c /Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/UnitTests/TestMain.m -o /Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/build/Objective-Chipmunk.build/Debug-iphoneos/TestApp.build/Objects-normal/armv7/TestMain.o0#
+
+CCpResource build/Debug-iphoneos/TestApp.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/ResourceRules.plist
+s336510016.049991
+e336510016.093786
+r1
+xCpResource
+xbuild/Debug-iphoneos/TestApp.app/ResourceRules.plist
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/ResourceRules.plist
+lSLF07#2@94"Copy /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/ResourceRules.plist336510016#336510016#0(0"0(0#0#89"/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/ResourceRules.plist8645594368#576"    cd /Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/ResourceRules.plist /Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/build/Debug-iphoneos/TestApp.app0#
+
+CCreateUniversalBinary /Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/build/Debug-iphoneos/TestApp.app/TestApp normal "armv6 armv7"
+s336510231.710811
+e336510231.791579
+r1
+xCreateUniversalBinary
+x/Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/build/Debug-iphoneos/TestApp.app/TestApp
+xnormal
+xarmv6 armv7
+lSLF07#2@83"CreateUniversalBinary build/Debug-iphoneos/TestApp.app/TestApp normal "armv6 armv7"336510231#336510231#0(0"0(0#0#91"/Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/armv6 armv78642576320#704"    cd /Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/lipo -create /Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/build/Objective-Chipmunk.build/Debug-iphoneos/TestApp.build/Objects-normal/armv6/TestApp /Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/build/Objective-Chipmunk.build/Debug-iphoneos/TestApp.build/Objects-normal/armv7/TestApp -output /Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/build/Debug-iphoneos/TestApp.app/TestApp0#
+
+CGenerateDSYMFile /Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/build/Debug-iphoneos/TestApp.app.dSYM /Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/build/Debug-iphoneos/TestApp.app/TestApp
+s336510231.791674
+e336510232.067915
+r1
+xGenerateDSYMFile
+x/Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/build/Debug-iphoneos/TestApp.app.dSYM
+x/Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/build/Debug-iphoneos/TestApp.app/TestApp
+lSLF07#2@95"GenerateDSYMFile build/Debug-iphoneos/TestApp.app.dSYM build/Debug-iphoneos/TestApp.app/TestApp336510231#336510232#0(0"0(0#0#120"/Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/build/Debug-iphoneos/TestApp.app/TestApp8642142144#485"    cd /Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/build/Debug-iphoneos/TestApp.app/TestApp -o /Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/build/Debug-iphoneos/TestApp.app.dSYM0#
+
+CLd /Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/build/Objective-Chipmunk.build/Debug-iphoneos/TestApp.build/Objects-normal/armv6/TestApp normal armv6
+s336510231.247098
+e336510231.710703
+r1
+xLd
+x/Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/build/Objective-Chipmunk.build/Debug-iphoneos/TestApp.build/Objects-normal/armv6/TestApp
+xnormal
+xarmv6
+lSLF07#2@173"Link /Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/build/Objective-Chipmunk.build/Debug-iphoneos/TestApp.build/Objects-normal/armv6/TestApp336510231#336510231#0(0"0(0#0#0"8643241632#1063"    cd /Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src    setenv IPHONEOS_DEPLOYMENT_TARGET 3.0    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/clang -arch armv6 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -L/Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/build/Debug-iphoneos -F/Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/build/Debug-iphoneos -filelist /Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/build/Objective-Chipmunk.build/Debug-iphoneos/TestApp.build/Objects-normal/armv6/TestApp.LinkFileList -dead_strip -framework Foundation -miphoneos-version-min=3.0 -lObjectiveChipmunk -o /Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/build/Objective-Chipmunk.build/Debug-iphoneos/TestApp.build/Objects-normal/armv6/TestApp0#
+
+CLd /Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/build/Objective-Chipmunk.build/Debug-iphoneos/TestApp.build/Objects-normal/armv7/TestApp normal armv7
+s336510231.281074
+e336510231.618004
+r1
+xLd
+x/Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/build/Objective-Chipmunk.build/Debug-iphoneos/TestApp.build/Objects-normal/armv7/TestApp
+xnormal
+xarmv7
+lSLF07#2@173"Link /Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/build/Objective-Chipmunk.build/Debug-iphoneos/TestApp.build/Objects-normal/armv7/TestApp336510231#336510231#0(0"0(0#0#0"8631713824#1063"    cd /Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src    setenv IPHONEOS_DEPLOYMENT_TARGET 3.0    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/clang -arch armv7 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -L/Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/build/Debug-iphoneos -F/Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/build/Debug-iphoneos -filelist /Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/build/Objective-Chipmunk.build/Debug-iphoneos/TestApp.build/Objects-normal/armv7/TestApp.LinkFileList -dead_strip -framework Foundation -miphoneos-version-min=3.0 -lObjectiveChipmunk -o /Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/build/Objective-Chipmunk.build/Debug-iphoneos/TestApp.build/Objects-normal/armv7/TestApp0#
+
+CProcessInfoPlistFile /Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/build/Debug-iphoneos/TestApp.app/Info.plist UnitTests/TestApp-Info.plist
+s336510016.051330
+e336510016.069800
+r1
+xProcessInfoPlistFile
+x/Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/build/Debug-iphoneos/TestApp.app/Info.plist
+xUnitTests/TestApp-Info.plist
+lSLF07#2@36"Process UnitTests/TestApp-Info.plist336510016#336510016#0(0"0(0#0#108"/Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/UnitTests/TestApp-Info.plist8645158368#736"    cd /Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility UnitTests/TestApp-Info.plist -genpkginfo /Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/build/Debug-iphoneos/TestApp.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/build/Debug-iphoneos/TestApp.app/ResourceRules.plist -o /Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/build/Debug-iphoneos/TestApp.app/Info.plist0#
+
+CProcessProductPackaging "/Users/turner/Library/MobileDevice/Provisioning Profiles/2A28A50D-B367-456E-85C2-4165FC57D5ED.mobileprovision" /Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/build/Debug-iphoneos/TestApp.app/embedded.mobileprovision
+s336510019.503579
+e336510019.529330
+r1
+xProcessProductPackaging
+x/Users/turner/Library/MobileDevice/Provisioning Profiles/2A28A50D-B367-456E-85C2-4165FC57D5ED.mobileprovision
+x/Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/build/Debug-iphoneos/TestApp.app/embedded.mobileprovision
+lSLF07#2@193"ProcessProductPackaging "/Users/turner/Library/MobileDevice/Provisioning Profiles/2A28A50D-B367-456E-85C2-4165FC57D5ED.mobileprovision" build/Debug-iphoneos/TestApp.app/embedded.mobileprovision336510019#336510019#0(0"0(0#0#137"/Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/build/Debug-iphoneos/TestApp.app/embedded.mobileprovision8644055840#506"    cd /Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> "/Users/turner/Library/MobileDevice/Provisioning Profiles/2A28A50D-B367-456E-85C2-4165FC57D5ED.mobileprovision" -o /Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/build/Debug-iphoneos/TestApp.app/embedded.mobileprovision0#
+
+CProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/Entitlements.plist /Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/build/Objective-Chipmunk.build/Debug-iphoneos/TestApp.build/TestApp.xcent
+s336510019.529467
+e336510019.538028
+r1
+xProcessProductPackaging
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/Entitlements.plist
+x/Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/build/Objective-Chipmunk.build/Debug-iphoneos/TestApp.build/TestApp.xcent
+lSLF07#2@186"ProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/Entitlements.plist build/Objective-Chipmunk.build/Debug-iphoneos/TestApp.build/TestApp.xcent336510019#336510019#0(0"0(0#0#153"/Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/build/Objective-Chipmunk.build/Debug-iphoneos/TestApp.build/TestApp.xcent8642514944#525"    cd /Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/Entitlements.plist -entitlements -format xml -o /Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/build/Objective-Chipmunk.build/Debug-iphoneos/TestApp.build/TestApp.xcent0#
+
+CTouch /Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/build/Debug-iphoneos/TestApp.app
+s336510232.068108
+e336510232.070684
+r1
+xTouch
+x/Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/build/Debug-iphoneos/TestApp.app
+lSLF07#2@118"Touch /Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/build/Debug-iphoneos/TestApp.app336510232#336510232#0(0"0(0#0#0"8634779680#346"    cd /Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/turner/Projects/Chipmunk/Objective-Chipmunk-6.0.1/Objective-Chipmunk-src/build/Debug-iphoneos/TestApp.app0#
+

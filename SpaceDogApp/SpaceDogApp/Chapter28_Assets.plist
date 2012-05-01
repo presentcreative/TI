@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>pages</key>
+	<array>
+		<dict>
+			<key>page</key>
+			<integer>0</integer>
+			<key>elements</key>
+			<array/>
+		</dict>
+		<dict>
+			<key>page</key>
+			<integer>2</integer>
+			<key>elements</key>
+			<array>
+				<dict>
+					<key>description</key>
+					<string>Animation of Capt Flint (the parrot) saying &quot;Pieces of Eight!&quot;</string>
+					<key>id</key>
+					<string>capt_flint</string>
+					<key>customClass</key>
+					<string>ATriggeredTextureAtlasBasedSequence</string>
+					<key>resourceBase</key>
+					<string>TI_ch29_spot_capt_flint</string>
+					<key>frame</key>
+					<array>
+						<integer>589</integer>
+						<integer>388</integer>
+						<integer>294</integer>
+						<integer>235</integer>
+					</array>
+					<key>sequences</key>
+					<array>
+						<dict>
+							<key>description</key>
+							<string>Capt Flint, sitting silently.</string>
+							<key>imageIndices</key>
+							<string>{1,1}</string>
+							<key>transitionsFrom</key>
+							<array>
+								<string>1,37</string>
+							</array>
+						</dict>
+						<dict>
+							<key>description</key>
+							<string>Capt Flint saying &quot;Pieces of Eight!&quot;</string>
+							<key>imageIndices</key>
+							<string>{1,37}</string>
+							<key>duration</key>
+							<real>2.3</real>
+							<key>soundEffect</key>
+							<dict>
+								<key>description</key>
+								<string>&quot;Pieces of Eight!&quot;</string>
+								<key>id</key>
+								<string>pieces_of_eight</string>
+								<key>resource</key>
+								<string>Chap10a_DLG_Parrot_PiecesOfEight1.m4a</string>
+								<key>customClass</key>
+								<string>AAmbientSound</string>
+							</dict>
+							<key>transitionsFrom</key>
+							<array>
+								<string>0,1</string>
+							</array>
+						</dict>
+					</array>
+					<key>trigger</key>
+					<dict>
+						<key>type</key>
+						<string>TOUCH</string>
+						<key>regions</key>
+						<array>
+							<array>
+								<integer>745</integer>
+								<integer>393</integer>
+								<integer>230</integer>
+								<integer>245</integer>
+							</array>
+						</array>
+					</dict>
+				</dict>
+			</array>
+			<key>helpDescriptors</key>
+			<array>
+				<dict>
+					<key>type</key>
+					<string>TAP</string>
+					<key>frame</key>
+					<array>
+						<integer>830</integer>
+						<integer>415</integer>
+						<integer>106</integer>
+						<integer>106</integer>
+					</array>
+				</dict>
+			</array>
+		</dict>
+	</array>
+</dict>
+</plist>

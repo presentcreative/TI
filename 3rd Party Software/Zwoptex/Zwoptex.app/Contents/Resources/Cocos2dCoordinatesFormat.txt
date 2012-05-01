@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>frames</key>
+	<dict>
+		{% for sprite in sprites %}
+		<key>{{ sprite.name }}</key>
+		<dict>
+			<key>aliases</key>
+			<array/>
+			<key>spriteColorRect</key>
+			<string>{{ sprite.sourceColorRect }}</string>
+			<key>spriteOffset</key>
+			<string>{{ sprite.offset }}</string>
+			<key>spriteSize</key>
+			<string>{{ sprite.size }}</string>
+			<key>spriteSourceSize</key>
+			<string>{{ sprite.sourceSize }}</string>
+			<key>spriteTrimmed</key>
+			{% if sprite.isTrimmed %}<true/>{% else %}<false/>{% /if %}
+			<key>textureRect</key>
+			<string>{{ sprite.textureRect }}</string>
+			<key>textureRotated</key>
+			{% if sprite.isRotated %}<true/>{% else %}<false/>{% /if %}
+		</dict>
+		{% /for %}
+	</dict>
+	<key>metadata</key>
+	<dict>
+		<key>format</key>
+		<integer>3</integer>
+		<key>size</key>
+		<string>{{ metadata.size }}</string>
+	</dict>
+</dict>
+</plist>

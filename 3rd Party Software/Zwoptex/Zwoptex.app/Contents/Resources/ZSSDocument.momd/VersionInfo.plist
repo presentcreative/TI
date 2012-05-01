@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>NSManagedObjectModel_CurrentVersionName</key>
+	<string>ZSSDocument_1.03</string>
+	<key>NSManagedObjectModel_VersionHashes</key>
+	<dict>
+		<key>ZSSDocument_1.00</key>
+		<dict>
+			<key>Settings</key>
+			<data>
+			3S1bK8Jy3EZFJAZUv8c5YkP+y+AWqB53b48mU6wSeiI=
+			</data>
+			<key>Sprite</key>
+			<data>
+			f3nDDlfN58VT5hw0oVtGxehvXIYXd0zdwIxSdhckvVo=
+			</data>
+		</dict>
+		<key>ZSSDocument_1.01</key>
+		<dict>
+			<key>Preference</key>
+			<data>
+			7RlfmtUXJL9DI0lOO9YWUDPZo0Qveds0u0DygsVFlag=
+			</data>
+			<key>Sprite</key>
+			<data>
+			IgISiDY92k9WK9QMHho+jyA+D7r/23tM388ddideZYU=
+			</data>
+		</dict>
+		<key>ZSSDocument_1.02</key>
+		<dict>
+			<key>Preference</key>
+			<data>
+			7RlfmtUXJL9DI0lOO9YWUDPZo0Qveds0u0DygsVFlag=
+			</data>
+			<key>Sprite</key>
+			<data>
+			IgISiDY92k9WK9QMHho+jyA+D7r/23tM388ddideZYU=
+			</data>
+		</dict>
+		<key>ZSSDocument_1.03</key>
+		<dict>
+			<key>Preference</key>
+			<data>
+			yaS3kDGytH0FeXeKdT5I0xNYpA2xNwhJ5EVnucxiFsk=
+			</data>
+			<key>Sprite</key>
+			<data>
+			wlMUwHNuLiTjQkjgKO8o9A3Qc3r+NrqvCvmMJlhEMks=
+			</data>
+		</dict>
+	</dict>
+</dict>
+</plist>

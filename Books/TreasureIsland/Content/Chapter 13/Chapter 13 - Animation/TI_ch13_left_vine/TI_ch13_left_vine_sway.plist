@@ -1,0 +1,975 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>frames</key>
+	<dict>
+		
+		<key>TI_ch13_left_vine_sway0001.png</key>
+		<dict>
+			<key>aliases</key>
+			<array/>
+			<key>spriteColorRect</key>
+			<string>{{34, 2}, {91, 418}}</string>
+			<key>spriteOffset</key>
+			<string>{-38, 9}</string>
+			<key>spriteSize</key>
+			<string>{91, 418}</string>
+			<key>spriteSourceSize</key>
+			<string>{235, 440}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{359, 852}, {91, 418}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>TI_ch13_left_vine_sway0002.png</key>
+		<dict>
+			<key>aliases</key>
+			<array/>
+			<key>spriteColorRect</key>
+			<string>{{38, 2}, {87, 418}}</string>
+			<key>spriteOffset</key>
+			<string>{-36, 9}</string>
+			<key>spriteSize</key>
+			<string>{87, 418}</string>
+			<key>spriteSourceSize</key>
+			<string>{235, 440}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{670, 842}, {87, 418}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>TI_ch13_left_vine_sway0003.png</key>
+		<dict>
+			<key>aliases</key>
+			<array/>
+			<key>spriteColorRect</key>
+			<string>{{43, 2}, {81, 420}}</string>
+			<key>spriteOffset</key>
+			<string>{-34, 8}</string>
+			<key>spriteSize</key>
+			<string>{81, 420}</string>
+			<key>spriteSourceSize</key>
+			<string>{235, 440}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{169, 1272}, {81, 420}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>TI_ch13_left_vine_sway0004.png</key>
+		<dict>
+			<key>aliases</key>
+			<array/>
+			<key>spriteColorRect</key>
+			<string>{{49, 2}, {75, 420}}</string>
+			<key>spriteOffset</key>
+			<string>{-31, 8}</string>
+			<key>spriteSize</key>
+			<string>{75, 420}</string>
+			<key>spriteSourceSize</key>
+			<string>{235, 440}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{581, 2}, {75, 420}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>TI_ch13_left_vine_sway0005.png</key>
+		<dict>
+			<key>aliases</key>
+			<array/>
+			<key>spriteColorRect</key>
+			<string>{{55, 2}, {69, 422}}</string>
+			<key>spriteOffset</key>
+			<string>{-28, 7}</string>
+			<key>spriteSize</key>
+			<string>{69, 422}</string>
+			<key>spriteSourceSize</key>
+			<string>{235, 440}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{307, 428}, {69, 422}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>TI_ch13_left_vine_sway0006.png</key>
+		<dict>
+			<key>aliases</key>
+			<array/>
+			<key>spriteColorRect</key>
+			<string>{{64, 2}, {61, 422}}</string>
+			<key>spriteOffset</key>
+			<string>{-23, 7}</string>
+			<key>spriteSize</key>
+			<string>{61, 422}</string>
+			<key>spriteSourceSize</key>
+			<string>{235, 440}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{441, 426}, {61, 422}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>TI_ch13_left_vine_sway0007.png</key>
+		<dict>
+			<key>aliases</key>
+			<array/>
+			<key>spriteColorRect</key>
+			<string>{{73, 2}, {53, 424}}</string>
+			<key>spriteOffset</key>
+			<string>{-18, 6}</string>
+			<key>spriteSize</key>
+			<string>{53, 424}</string>
+			<key>spriteSourceSize</key>
+			<string>{235, 440}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{262, 2}, {53, 424}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>TI_ch13_left_vine_sway0008.png</key>
+		<dict>
+			<key>aliases</key>
+			<array/>
+			<key>spriteColorRect</key>
+			<string>{{83, 2}, {43, 424}}</string>
+			<key>spriteOffset</key>
+			<string>{-13, 6}</string>
+			<key>spriteSize</key>
+			<string>{43, 424}</string>
+			<key>spriteSourceSize</key>
+			<string>{235, 440}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{317, 2}, {43, 424}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>TI_ch13_left_vine_sway0009.png</key>
+		<dict>
+			<key>aliases</key>
+			<array/>
+			<key>spriteColorRect</key>
+			<string>{{94, 2}, {31, 426}}</string>
+			<key>spriteOffset</key>
+			<string>{-8, 5}</string>
+			<key>spriteSize</key>
+			<string>{31, 426}</string>
+			<key>spriteSourceSize</key>
+			<string>{235, 440}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{2, 1266}, {31, 426}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>TI_ch13_left_vine_sway0010.png</key>
+		<dict>
+			<key>aliases</key>
+			<array/>
+			<key>spriteColorRect</key>
+			<string>{{105, 2}, {21, 426}}</string>
+			<key>spriteOffset</key>
+			<string>{-2, 5}</string>
+			<key>spriteSize</key>
+			<string>{21, 426}</string>
+			<key>spriteSourceSize</key>
+			<string>{235, 440}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{91, 1266}, {21, 426}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>TI_ch13_left_vine_sway0011.png</key>
+		<dict>
+			<key>aliases</key>
+			<array/>
+			<key>spriteColorRect</key>
+			<string>{{116, 2}, {11, 426}}</string>
+			<key>spriteOffset</key>
+			<string>{4, 5}</string>
+			<key>spriteSize</key>
+			<string>{11, 426}</string>
+			<key>spriteSourceSize</key>
+			<string>{235, 440}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{192, 2}, {11, 426}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>TI_ch13_left_vine_sway0012.png</key>
+		<dict>
+			<key>aliases</key>
+			<array/>
+			<key>spriteColorRect</key>
+			<string>{{118, 2}, {19, 426}}</string>
+			<key>spriteOffset</key>
+			<string>{10, 5}</string>
+			<key>spriteSize</key>
+			<string>{19, 426}</string>
+			<key>spriteSourceSize</key>
+			<string>{235, 440}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{114, 1266}, {19, 426}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>TI_ch13_left_vine_sway0013.png</key>
+		<dict>
+			<key>aliases</key>
+			<array/>
+			<key>spriteColorRect</key>
+			<string>{{118, 2}, {31, 426}}</string>
+			<key>spriteOffset</key>
+			<string>{16, 5}</string>
+			<key>spriteSize</key>
+			<string>{31, 426}</string>
+			<key>spriteSourceSize</key>
+			<string>{235, 440}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{99, 2}, {31, 426}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>TI_ch13_left_vine_sway0014.png</key>
+		<dict>
+			<key>aliases</key>
+			<array/>
+			<key>spriteColorRect</key>
+			<string>{{119, 2}, {39, 426}}</string>
+			<key>spriteOffset</key>
+			<string>{21, 5}</string>
+			<key>spriteSize</key>
+			<string>{39, 426}</string>
+			<key>spriteSourceSize</key>
+			<string>{235, 440}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{2, 838}, {39, 426}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>TI_ch13_left_vine_sway0015.png</key>
+		<dict>
+			<key>aliases</key>
+			<array/>
+			<key>spriteColorRect</key>
+			<string>{{119, 2}, {51, 424}}</string>
+			<key>spriteOffset</key>
+			<string>{27, 6}</string>
+			<key>spriteSize</key>
+			<string>{51, 424}</string>
+			<key>spriteSourceSize</key>
+			<string>{235, 440}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{205, 428}, {51, 424}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>TI_ch13_left_vine_sway0016.png</key>
+		<dict>
+			<key>aliases</key>
+			<array/>
+			<key>spriteColorRect</key>
+			<string>{{119, 2}, {61, 422}}</string>
+			<key>spriteOffset</key>
+			<string>{32, 7}</string>
+			<key>spriteSize</key>
+			<string>{61, 422}</string>
+			<key>spriteSourceSize</key>
+			<string>{235, 440}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{378, 426}, {61, 422}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>TI_ch13_left_vine_sway0017.png</key>
+		<dict>
+			<key>aliases</key>
+			<array/>
+			<key>spriteColorRect</key>
+			<string>{{119, 2}, {69, 422}}</string>
+			<key>spriteOffset</key>
+			<string>{36, 7}</string>
+			<key>spriteSize</key>
+			<string>{69, 422}</string>
+			<key>spriteSourceSize</key>
+			<string>{235, 440}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{362, 2}, {69, 422}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>TI_ch13_left_vine_sway0018.png</key>
+		<dict>
+			<key>aliases</key>
+			<array/>
+			<key>spriteColorRect</key>
+			<string>{{119, 2}, {77, 420}}</string>
+			<key>spriteOffset</key>
+			<string>{40, 8}</string>
+			<key>spriteSize</key>
+			<string>{77, 420}</string>
+			<key>spriteSourceSize</key>
+			<string>{235, 440}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{449, 1272}, {77, 420}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>TI_ch13_left_vine_sway0019.png</key>
+		<dict>
+			<key>aliases</key>
+			<array/>
+			<key>spriteColorRect</key>
+			<string>{{119, 2}, {83, 418}}</string>
+			<key>spriteOffset</key>
+			<string>{43, 9}</string>
+			<key>spriteSize</key>
+			<string>{83, 418}</string>
+			<key>spriteSourceSize</key>
+			<string>{235, 440}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{759, 842}, {83, 418}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>TI_ch13_left_vine_sway0020.png</key>
+		<dict>
+			<key>aliases</key>
+			<array/>
+			<key>spriteColorRect</key>
+			<string>{{119, 2}, {87, 418}}</string>
+			<key>spriteOffset</key>
+			<string>{45, 9}</string>
+			<key>spriteSize</key>
+			<string>{87, 418}</string>
+			<key>spriteSourceSize</key>
+			<string>{235, 440}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{694, 422}, {87, 418}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>TI_ch13_left_vine_sway0021.png</key>
+		<dict>
+			<key>aliases</key>
+			<array/>
+			<key>spriteColorRect</key>
+			<string>{{119, 2}, {91, 418}}</string>
+			<key>spriteOffset</key>
+			<string>{47, 9}</string>
+			<key>spriteSize</key>
+			<string>{91, 418}</string>
+			<key>spriteSourceSize</key>
+			<string>{235, 440}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{528, 1264}, {91, 418}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>TI_ch13_left_vine_sway0022.png</key>
+		<dict>
+			<key>aliases</key>
+			<array/>
+			<key>spriteColorRect</key>
+			<string>{{119, 2}, {93, 416}}</string>
+			<key>spriteOffset</key>
+			<string>{48, 10}</string>
+			<key>spriteSize</key>
+			<string>{93, 416}</string>
+			<key>spriteSourceSize</key>
+			<string>{235, 440}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{599, 424}, {93, 416}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>TI_ch13_left_vine_sway0023.png</key>
+		<dict>
+			<key>aliases</key>
+			<array/>
+			<key>spriteColorRect</key>
+			<string>{{119, 2}, {95, 416}}</string>
+			<key>spriteOffset</key>
+			<string>{49, 10}</string>
+			<key>spriteSize</key>
+			<string>{95, 416}</string>
+			<key>spriteSourceSize</key>
+			<string>{235, 440}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{2, 2}, {95, 416}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>TI_ch13_left_vine_sway0024.png</key>
+		<dict>
+			<key>aliases</key>
+			<array/>
+			<key>spriteColorRect</key>
+			<string>{{119, 2}, {95, 416}}</string>
+			<key>spriteOffset</key>
+			<string>{49, 10}</string>
+			<key>spriteSize</key>
+			<string>{95, 416}</string>
+			<key>spriteSourceSize</key>
+			<string>{235, 440}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{2, 420}, {95, 416}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>TI_ch13_left_vine_sway0025.png</key>
+		<dict>
+			<key>aliases</key>
+			<array/>
+			<key>spriteColorRect</key>
+			<string>{{119, 2}, {93, 416}}</string>
+			<key>spriteOffset</key>
+			<string>{48, 10}</string>
+			<key>spriteSize</key>
+			<string>{93, 416}</string>
+			<key>spriteSourceSize</key>
+			<string>{235, 440}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{504, 424}, {93, 416}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>TI_ch13_left_vine_sway0026.png</key>
+		<dict>
+			<key>aliases</key>
+			<array/>
+			<key>spriteColorRect</key>
+			<string>{{119, 2}, {89, 418}}</string>
+			<key>spriteOffset</key>
+			<string>{46, 9}</string>
+			<key>spriteSize</key>
+			<string>{89, 418}</string>
+			<key>spriteSourceSize</key>
+			<string>{235, 440}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{579, 842}, {89, 418}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>TI_ch13_left_vine_sway0027.png</key>
+		<dict>
+			<key>aliases</key>
+			<array/>
+			<key>spriteColorRect</key>
+			<string>{{119, 2}, {85, 418}}</string>
+			<key>spriteOffset</key>
+			<string>{44, 9}</string>
+			<key>spriteSize</key>
+			<string>{85, 418}</string>
+			<key>spriteSourceSize</key>
+			<string>{235, 440}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{714, 1262}, {85, 418}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>TI_ch13_left_vine_sway0028.png</key>
+		<dict>
+			<key>aliases</key>
+			<array/>
+			<key>spriteColorRect</key>
+			<string>{{119, 2}, {79, 420}}</string>
+			<key>spriteOffset</key>
+			<string>{41, 8}</string>
+			<key>spriteSize</key>
+			<string>{79, 420}</string>
+			<key>spriteSourceSize</key>
+			<string>{235, 440}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{368, 1272}, {79, 420}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>TI_ch13_left_vine_sway0029.png</key>
+		<dict>
+			<key>aliases</key>
+			<array/>
+			<key>spriteColorRect</key>
+			<string>{{119, 2}, {71, 422}}</string>
+			<key>spriteOffset</key>
+			<string>{37, 7}</string>
+			<key>spriteSize</key>
+			<string>{71, 422}</string>
+			<key>spriteSourceSize</key>
+			<string>{235, 440}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{119, 430}, {71, 422}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>TI_ch13_left_vine_sway0030.png</key>
+		<dict>
+			<key>aliases</key>
+			<array/>
+			<key>spriteColorRect</key>
+			<string>{{119, 2}, {63, 422}}</string>
+			<key>spriteOffset</key>
+			<string>{33, 7}</string>
+			<key>spriteSize</key>
+			<string>{63, 422}</string>
+			<key>spriteSourceSize</key>
+			<string>{235, 440}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{433, 2}, {63, 422}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>TI_ch13_left_vine_sway0031.png</key>
+		<dict>
+			<key>aliases</key>
+			<array/>
+			<key>spriteColorRect</key>
+			<string>{{119, 2}, {55, 424}}</string>
+			<key>spriteOffset</key>
+			<string>{29, 6}</string>
+			<key>spriteSize</key>
+			<string>{55, 424}</string>
+			<key>spriteSourceSize</key>
+			<string>{235, 440}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{205, 2}, {55, 424}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>TI_ch13_left_vine_sway0032.png</key>
+		<dict>
+			<key>aliases</key>
+			<array/>
+			<key>spriteColorRect</key>
+			<string>{{118, 2}, {47, 424}}</string>
+			<key>spriteOffset</key>
+			<string>{24, 6}</string>
+			<key>spriteSize</key>
+			<string>{47, 424}</string>
+			<key>spriteSourceSize</key>
+			<string>{235, 440}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{252, 1272}, {47, 424}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>TI_ch13_left_vine_sway0033.png</key>
+		<dict>
+			<key>aliases</key>
+			<array/>
+			<key>spriteColorRect</key>
+			<string>{{118, 2}, {35, 426}}</string>
+			<key>spriteOffset</key>
+			<string>{18, 5}</string>
+			<key>spriteSize</key>
+			<string>{35, 426}</string>
+			<key>spriteSourceSize</key>
+			<string>{235, 440}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{82, 838}, {35, 426}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>TI_ch13_left_vine_sway0034.png</key>
+		<dict>
+			<key>aliases</key>
+			<array/>
+			<key>spriteColorRect</key>
+			<string>{{118, 2}, {25, 426}}</string>
+			<key>spriteOffset</key>
+			<string>{13, 5}</string>
+			<key>spriteSize</key>
+			<string>{25, 426}</string>
+			<key>spriteSourceSize</key>
+			<string>{235, 440}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{64, 1266}, {25, 426}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>TI_ch13_left_vine_sway0035.png</key>
+		<dict>
+			<key>aliases</key>
+			<array/>
+			<key>spriteColorRect</key>
+			<string>{{118, 2}, {13, 426}}</string>
+			<key>spriteOffset</key>
+			<string>{7, 5}</string>
+			<key>spriteSize</key>
+			<string>{13, 426}</string>
+			<key>spriteSourceSize</key>
+			<string>{235, 440}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{154, 854}, {13, 426}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>TI_ch13_left_vine_sway0036.png</key>
+		<dict>
+			<key>aliases</key>
+			<array/>
+			<key>spriteColorRect</key>
+			<string>{{109, 2}, {17, 426}}</string>
+			<key>spriteOffset</key>
+			<string>{0, 5}</string>
+			<key>spriteSize</key>
+			<string>{17, 426}</string>
+			<key>spriteSourceSize</key>
+			<string>{235, 440}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{135, 854}, {17, 426}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>TI_ch13_left_vine_sway0037.png</key>
+		<dict>
+			<key>aliases</key>
+			<array/>
+			<key>spriteColorRect</key>
+			<string>{{98, 2}, {27, 426}}</string>
+			<key>spriteOffset</key>
+			<string>{-6, 5}</string>
+			<key>spriteSize</key>
+			<string>{27, 426}</string>
+			<key>spriteSourceSize</key>
+			<string>{235, 440}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{35, 1266}, {27, 426}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>TI_ch13_left_vine_sway0038.png</key>
+		<dict>
+			<key>aliases</key>
+			<array/>
+			<key>spriteColorRect</key>
+			<string>{{88, 2}, {37, 426}}</string>
+			<key>spriteOffset</key>
+			<string>{-11, 5}</string>
+			<key>spriteSize</key>
+			<string>{37, 426}</string>
+			<key>spriteSourceSize</key>
+			<string>{235, 440}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{43, 838}, {37, 426}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>TI_ch13_left_vine_sway0039.png</key>
+		<dict>
+			<key>aliases</key>
+			<array/>
+			<key>spriteColorRect</key>
+			<string>{{78, 2}, {47, 424}}</string>
+			<key>spriteOffset</key>
+			<string>{-16, 6}</string>
+			<key>spriteSize</key>
+			<string>{47, 424}</string>
+			<key>spriteSourceSize</key>
+			<string>{235, 440}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{258, 428}, {47, 424}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>TI_ch13_left_vine_sway0040.png</key>
+		<dict>
+			<key>aliases</key>
+			<array/>
+			<key>spriteColorRect</key>
+			<string>{{68, 2}, {57, 424}}</string>
+			<key>spriteOffset</key>
+			<string>{-21, 6}</string>
+			<key>spriteSize</key>
+			<string>{57, 424}</string>
+			<key>spriteSourceSize</key>
+			<string>{235, 440}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{132, 2}, {57, 424}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>TI_ch13_left_vine_sway0041.png</key>
+		<dict>
+			<key>aliases</key>
+			<array/>
+			<key>spriteColorRect</key>
+			<string>{{59, 2}, {65, 422}}</string>
+			<key>spriteOffset</key>
+			<string>{-26, 7}</string>
+			<key>spriteSize</key>
+			<string>{65, 422}</string>
+			<key>spriteSourceSize</key>
+			<string>{235, 440}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{301, 1272}, {65, 422}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>TI_ch13_left_vine_sway0042.png</key>
+		<dict>
+			<key>aliases</key>
+			<array/>
+			<key>spriteColorRect</key>
+			<string>{{51, 2}, {73, 420}}</string>
+			<key>spriteOffset</key>
+			<string>{-30, 8}</string>
+			<key>spriteSize</key>
+			<string>{73, 420}</string>
+			<key>spriteSourceSize</key>
+			<string>{235, 440}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{504, 842}, {73, 420}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>TI_ch13_left_vine_sway0043.png</key>
+		<dict>
+			<key>aliases</key>
+			<array/>
+			<key>spriteColorRect</key>
+			<string>{{44, 2}, {81, 420}}</string>
+			<key>spriteOffset</key>
+			<string>{-33, 8}</string>
+			<key>spriteSize</key>
+			<string>{81, 420}</string>
+			<key>spriteSourceSize</key>
+			<string>{235, 440}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{498, 2}, {81, 420}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>TI_ch13_left_vine_sway0044.png</key>
+		<dict>
+			<key>aliases</key>
+			<array/>
+			<key>spriteColorRect</key>
+			<string>{{39, 2}, {85, 418}}</string>
+			<key>spriteOffset</key>
+			<string>{-36, 9}</string>
+			<key>spriteSize</key>
+			<string>{85, 418}</string>
+			<key>spriteSourceSize</key>
+			<string>{235, 440}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{749, 2}, {85, 418}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>TI_ch13_left_vine_sway0045.png</key>
+		<dict>
+			<key>aliases</key>
+			<array/>
+			<key>spriteColorRect</key>
+			<string>{{35, 2}, {89, 418}}</string>
+			<key>spriteOffset</key>
+			<string>{-38, 9}</string>
+			<key>spriteSize</key>
+			<string>{89, 418}</string>
+			<key>spriteSourceSize</key>
+			<string>{235, 440}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{658, 2}, {89, 418}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>TI_ch13_left_vine_sway0046.png</key>
+		<dict>
+			<key>aliases</key>
+			<array/>
+			<key>spriteColorRect</key>
+			<string>{{33, 2}, {91, 416}}</string>
+			<key>spriteOffset</key>
+			<string>{-39, 10}</string>
+			<key>spriteSize</key>
+			<string>{91, 416}</string>
+			<key>spriteSourceSize</key>
+			<string>{235, 440}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{621, 1262}, {91, 416}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>TI_ch13_left_vine_sway0047.png</key>
+		<dict>
+			<key>aliases</key>
+			<array/>
+			<key>spriteColorRect</key>
+			<string>{{31, 2}, {93, 416}}</string>
+			<key>spriteOffset</key>
+			<string>{-40, 10}</string>
+			<key>spriteSize</key>
+			<string>{93, 416}</string>
+			<key>spriteSourceSize</key>
+			<string>{235, 440}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{264, 854}, {93, 416}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>TI_ch13_left_vine_sway0048.png</key>
+		<dict>
+			<key>aliases</key>
+			<array/>
+			<key>spriteColorRect</key>
+			<string>{{32, 2}, {93, 416}}</string>
+			<key>spriteOffset</key>
+			<string>{-39, 10}</string>
+			<key>spriteSize</key>
+			<string>{93, 416}</string>
+			<key>spriteSourceSize</key>
+			<string>{235, 440}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{169, 854}, {93, 416}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+	</dict>
+	<key>metadata</key>
+	<dict>
+		<key>size</key>
+		<string>{1024, 2048}</string>
+	</dict>
+</dict>
+</plist>

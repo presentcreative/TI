@@ -1,0 +1,5 @@
+Treasure Island, Chapter 7 windows
+
+The file "TI_ch7_windows_guide.jpg" shows the number associated with each window.
+
+Each window sequence has two states: "on" and "off" basically. The first frame in the sequence is the default appearance from the original illustration. The second frame in the sequence is the opposite state from the default appearance (on becomes off, off becomes on).
