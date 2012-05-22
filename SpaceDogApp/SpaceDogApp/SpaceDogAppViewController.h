@@ -50,6 +50,8 @@
 #define kBookmarkDismissOptionOriginY        270
 #define kBookmarkDismissOptionSizeHeight      60
 
+#define kBookmarkMaximumY                   450
+
 #define kBookmarkAnimationSeconds              0.45
 #define kBookmarkRevealAnimationSeconds        1.0
 
