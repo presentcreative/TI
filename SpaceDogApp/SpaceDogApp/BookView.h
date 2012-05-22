@@ -5,6 +5,8 @@
 #import <QuartzCore/QuartzCore.h>
 #import "CustomAnimation.h"
 
+@class TiledPDFView; //wpm
+
 @interface ABookView : UIImageView
 {
    NSInteger fPageNumber;
@@ -17,6 +19,13 @@
    CALayer* fHelpSuperLayer;
    
    BOOL fStarted;
+    
+    // wpm
+    // current pdf zoom scale
+    CGFloat pdfScale;
+
+    CGPDFDocumentRef pdf;
+
 }
 
 @property (assign) NSInteger pageNumber;

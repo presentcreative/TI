@@ -58,6 +58,14 @@
       fStarted = NO;
       
       self.opaque = YES;
+       
+#ifdef _PDF_STYLE
+       // code borrowed from Apple's ZoomingPDFViewer sample app
+       // Open the PDF document  
+       NSURL *pdfURL = [[NSBundle mainBundle] URLForResource:@"TI_book2.pdf" withExtension:nil];
+       pdf = CGPDFDocumentCreateWithURL((CFURLRef)pdfURL);
+#endif
+
    }
    
    return self;
@@ -71,6 +79,11 @@
    // Remove all assets
    Release(fAssets);
    Release(fHelpDescriptors);
+    
+#ifdef _PDF_STYLE
+    CGPDFDocumentRelease(pdf);
+#endif
+
    
    self.helpSuperLayer.delegate = nil;
    if (self.helpSuperLayer.superlayer)
@@ -88,13 +101,15 @@
    // Remove triggers
    Release(fTriggersOnView);
    
-   NSLog(@"Page %d deallocated", self.pageNumber);
+   NSLog(@"Chapter %d Page %d deallocated", self.assetChapterNumber, fAssetPageNumber);
    
    [super dealloc];
 }
 
 -(void)Sterilize
 {
+    NSAutoreleasePool *pool = [[NSAutoreleasePool alloc] init];
+    
    NSLog(@"Sterilizing ABookView for page %d", fPageNumber);
    
    fPageNumber = -1;
@@ -122,6 +137,8 @@
    [fHelpDescriptors removeAllObjects];
    
    self.layer.sublayers = nil;
+    [pool drain];
+
 }
 
 -(void)SetToPageNumber:(NSInteger)rawPageNumber 
@@ -130,24 +147,73 @@
    
    NSArray* chapterAndPage = [bookManager ChapterAndPageForRawPage:rawPageNumber];
    
-   NSUInteger chapter = [chapterAndPage chapter];
-   NSUInteger page = [chapterAndPage page];
-   
    self.frame = CGRectMake(rawPageNumber*kPageWidth, 0.0f, kPageWidth, kPageHeight);
    self.tag = kScrollViewBaseTag + rawPageNumber;
    self.userInteractionEnabled = YES;
-   
-   NSString* imageKey = [NSString stringWithFormat:kPageNumberTemplate, chapter, page];
-   NSString* imagePath = [[NSBundle mainBundle] pathForResource:imageKey ofType:nil];
-   
-   UIImage* image = [[UIImage alloc] initWithContentsOfFile:imagePath];
-   self.image = image;
-   [image release];
-   
+
+#ifdef _PDF_STYLE
+    // code borrowed from Apple's ZoomingPDFViewer sample app
+    // Get the PDF Page that we will be drawing
+    CGPDFPageRef page = CGPDFDocumentGetPage(pdf, rawPageNumber);
+    CGPDFPageRetain(page);
+    
+	// determine the size of the PDF page
+    CGRect pageRect = CGPDFPageGetBoxRect(page, kCGPDFMediaBox);
+    pdfScale = [[UIScreen mainScreen] scale];//self.frame.size.width/pageRect.size.width;
+    pageRect.size = CGSizeMake(pageRect.size.width*pdfScale, pageRect.size.height*pdfScale);
+    
+    
+    // Create the image representation of the PDF page 
+    UIGraphicsBeginImageContext(pageRect.size);
+    
+    CGContextRef context = UIGraphicsGetCurrentContext();
+    
+    // First fill the background with white.
+    CGContextSetRGBFillColor(context, 1.0,1.0,1.0,1.0);
+    CGContextFillRect(context,pageRect);
+    
+    CGContextSaveGState(context);
+    // Flip the context so that the PDF page is rendered
+    // right side up.
+    CGContextTranslateCTM(context, 0.0, pageRect.size.height);
+    CGContextScaleCTM(context, 1.0, -1.0);
+    
+    // Scale the context so that the PDF page is rendered 
+    // at the correct size for the zoom level.
+    CGContextScaleCTM(context, pdfScale,pdfScale);	
+    CGContextDrawPDFPage(context, page);
+    CGContextRestoreGState(context);
+    
+    self.image = UIGraphicsGetImageFromCurrentImageContext();
+
+    UIGraphicsEndImageContext();
+	CGPDFPageRelease(page);
+
+ /*   backgroundImageView = [[UIImageView alloc] initWithImage:backgroundImage];
+    backgroundImageView.frame = pageRect;
+    backgroundImageView.contentMode = UIViewContentModeScaleAspectFit;
+    [self addSubview:backgroundImageView];
+    [self sendSubviewToBack:backgroundImageView];
+    */
+  
+#else    
+     NSUInteger chapterNumber = [chapterAndPage chapter];
+     NSUInteger pageNumber = [chapterAndPage page];
+    
+       NSString* imageKey = [NSString stringWithFormat:kPageNumberTemplate, chapterNumber, pageNumber];
+     NSString* imagePath = [[NSBundle mainBundle] pathForResource:imageKey ofType:nil];
+     
+     UIImage* image = [[UIImage alloc] initWithContentsOfFile:imagePath];
+     self.image = image;
+     [image release];
+#endif
+
    self.pageNumber = rawPageNumber;
    
    self.assetChapterNumber = chapterAndPage.chapter;
    self.assetPageNumber = chapterAndPage.page;
+    
+    //NSLog(@"Loading assets");
    
    [self LoadAssets];
 }
@@ -270,7 +336,7 @@
       return;
    }
    
-   NSLog(@"Stopping %d animations on page %d", self.assets.count, self.pageNumber);
+   //NSLog(@"Stopping %d animations on page %d", self.assets.count, self.pageNumber);
    
    for (ATrigger* trigger in fTriggersOnView)
    {
