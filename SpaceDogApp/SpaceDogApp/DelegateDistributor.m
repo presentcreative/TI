@@ -67,6 +67,7 @@ static ADelegateDistributor* sSharedDelegateDistributor = nil;
 
 - (id)init 
 {
+    amAcceleratorDelegate = false;
    if ((self = [super init])) 
    {
       fDelegates = [[NSMutableDictionary alloc] initWithCapacity:8];
@@ -120,7 +121,7 @@ static ADelegateDistributor* sSharedDelegateDistributor = nil;
    
    [accelerometerQueue addObject:delegate];
    
-   if (1 == [accelerometerQueue count])
+   if (!amAcceleratorDelegate)//1 == [accelerometerQueue count])
    {
       [self BecomeAccelerometerDelegate];
    }
@@ -139,7 +140,12 @@ static ADelegateDistributor* sSharedDelegateDistributor = nil;
    if (0 == [accelerometerQueue count])
    {
       [self BecomeFreeOfAccelerometer];
+       amAcceleratorDelegate = false;
    }   
+   else {
+       NSLog(@"FUCKERONIOUS%p", delegate);
+       
+   }
 }
 
 #pragma mark UIAccelerometer delegate

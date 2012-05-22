@@ -55,7 +55,8 @@
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
 {
    // Return YES for supported orientations, i.e. Home button on right
-   if (interfaceOrientation == UIDeviceOrientationLandscapeRight)
+   if (interfaceOrientation == UIDeviceOrientationLandscapeRight
+       || interfaceOrientation == UIDeviceOrientationLandscapeLeft)
    {
       return YES;
    }

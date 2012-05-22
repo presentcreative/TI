@@ -6,6 +6,7 @@
 @interface ADelegateDistributor : NSObject <UIAccelerometerDelegate>
 {
    NSMutableDictionary* fDelegates;
+    BOOL amAcceleratorDelegate;
 }
 
 +(ADelegateDistributor*)sharedDelegateDistributor;
