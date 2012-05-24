@@ -10,7 +10,7 @@
 #define kGrowDarkDuration  40.0f
 #define kShowTheEndDuration 1.5f
 #define kTheEndDelay       10.0f
-#define kThemeDelay        14.0f
+#define kThemeDelay        10.0f//14.0f
 #define kNotificationDelay 60.0f
 
 @interface ASunset (Private)
