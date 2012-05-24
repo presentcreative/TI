@@ -12,12 +12,12 @@
    ATextureAtlasBasedSequence* fSloshingSequence1;
    CALayer* fSequence1Layer;
    
-   ATextureAtlasBasedSequence* fSloshingSequence2;
-   CALayer* fSequence2Layer;
+   //ATextureAtlasBasedSequence* fSloshingSequence2;
+   //CALayer* fSequence2Layer;
       
    TiltDirection fPreviousTilt;
    NSUInteger fSequence1LastImageSequenceIndex;
-   NSUInteger fSequence2LastImageSequenceIndex;
+   //NSUInteger fSequence2LastImageSequenceIndex;
    
    NSString* fSoundEffect;
    NSUInteger fFrameChanges;
@@ -28,11 +28,11 @@
 
 @property (nonatomic, retain) ATextureAtlasBasedSequence* sloshingSequence1;
 @property (nonatomic, retain) CALayer* sequence1Layer;
-@property (nonatomic, retain) ATextureAtlasBasedSequence* sloshingSequence2;
-@property (nonatomic, retain) CALayer* sequence2Layer;
+//@property (nonatomic, retain) ATextureAtlasBasedSequence* sloshingSequence2;
+//@property (nonatomic, retain) CALayer* sequence2Layer;
 @property (assign) TiltDirection previousTilt;
 @property (assign) NSUInteger sequence1LastImageSequenceIndex;
-@property (assign) NSUInteger sequence2LastImageSequenceIndex;
+//@property (assign) NSUInteger sequence2LastImageSequenceIndex;
 @property (copy) NSString* soundEffect;
 @property (assign) NSUInteger frameChanges;
 @property (nonatomic, retain) NSTimer* sloshTimer;

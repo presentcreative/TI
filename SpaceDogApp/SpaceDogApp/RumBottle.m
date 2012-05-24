@@ -10,9 +10,9 @@
 #define kRightTiltThreshold   150.0f   // degrees
 
 #define kSloshThreshold        10      // frames
-#define kFrameCheckInterval     0.5f   // seconds
+#define kFrameCheckInterval     0.25f   // seconds
 #define kNumberOfFramesKey    @"numberOfFrames"
-#define kMaxFrames             20
+#define kMaxFrames             40
 
 @interface ARumBottle (Private)
 -(void)CheckFrameChanges:(NSTimer*)timer;
@@ -22,11 +22,11 @@
 
 @synthesize sloshingSequence1=fSloshingSequence1;
 @synthesize sequence1Layer=fSequence1Layer;
-@synthesize sloshingSequence2=fSloshingSequence2;
-@synthesize sequence2Layer=fSequence2Layer;
+//@synthesize sloshingSequence2=fSloshingSequence2;
+//@synthesize sequence2Layer=fSequence2Layer;
 @synthesize previousTilt=fPreviousTilt;
 @synthesize sequence1LastImageSequenceIndex=fSequence1LastImageSequenceIndex;
-@synthesize sequence2LastImageSequenceIndex=fSequence2LastImageSequenceIndex;
+//@synthesize sequence2LastImageSequenceIndex=fSequence2LastImageSequenceIndex;
 @synthesize soundEffect=fSoundEffect;
 @synthesize frameChanges=fFrameChanges;
 @synthesize sloshTimer=fSloshTimer;
@@ -46,27 +46,23 @@
    }
    Release(fSoundEffect);
    
-   if (nil != fSequence1Layer)
+   if (nil != self.sequence1Layer)
    {
-      fSequence1Layer.delegate = nil;
+      self.sequence1Layer.delegate = nil;
       
-      if (nil != fSequence1Layer.superlayer)
+      if (nil != self.sequence1Layer.superlayer)
       {
-         [fSequence1Layer removeFromSuperlayer];
+         [self.sequence1Layer removeFromSuperlayer];
       }
    }
-   Release(fSloshingSequence1);
+    
+   Release(self.sequence1Layer);
    
-   if (nil != fSequence2Layer)
+/*   if (nil != self.sloshingSequence1)
    {
-      fSequence2Layer.delegate = nil;
-      
-      if (nil != fSequence2Layer.superlayer)
-      {
-         [fSequence2Layer removeFromSuperlayer];
-      }
-   }   
-   Release(fSloshingSequence2);
+       
+   }   */
+   Release(fSloshingSequence1);
    
    [super dealloc];
 }
@@ -77,7 +73,7 @@
    
    self.previousTilt = kNoTilt;
    self.sequence1LastImageSequenceIndex = kMaxFrames/2;   // assume level to start with
-   self.sequence2LastImageSequenceIndex = kMaxFrames/2;
+  // self.sequence2LastImageSequenceIndex = kMaxFrames/2;
    self.soundEffect = @"";
    self.frameChanges = 0;
    self.lastValidOrientation = UIDeviceOrientationLandscapeRight;
@@ -102,17 +98,17 @@
 
    
    // the "upside down" sloshing sequence
-   tSequence = (ATextureAtlasBasedSequence*)[[ATextureAtlasBasedSequence alloc] 
+/*   tSequence = (ATextureAtlasBasedSequence*)[[ATextureAtlasBasedSequence alloc] 
                                              initWithElement:element.sloshingSequence2 
-                                             RenderOnView:nil];
+                                             RenderOnView:nil];*/
    
-   self.sloshingSequence2 = tSequence;
-   [tSequence release];
+ //  self.sloshingSequence2 = tSequence;
+ //  [tSequence release];
    
    // need to hide the "upside down" layer
-   self.sequence2Layer = self.sloshingSequence2.layer;
+//   self.sequence2Layer = self.sloshingSequence2.layer;
    
-   [view.layer addSublayer:self.sequence2Layer];
+//   [view.layer addSublayer:self.sequence2Layer];
 
    
    self.soundEffect = element.rumBottleSoundEffect;
@@ -122,7 +118,7 @@
       [[OALSimpleAudio sharedInstance] preloadEffect:self.soundEffect];
    }
    
-   UIDeviceOrientation currentOrientation = [UIDevice currentDevice].orientation;
+/*   UIDeviceOrientation currentOrientation = [UIDevice currentDevice].orientation;
    
    if (currentOrientation == UIDeviceOrientationLandscapeRight ||
        currentOrientation == UIDeviceOrientationLandscapeLeft)
@@ -132,12 +128,12 @@
       // set the layer visible initially based on the current device orientation
       if (currentOrientation == UIDeviceOrientationLandscapeLeft)
       {
-         self.sequence2Layer.opacity = 1.0f;
+//         self.sequence2Layer.opacity = 1.0f;
          self.sequence1Layer.opacity = 0.0f;
       }
       else
       {
-         self.sequence2Layer.opacity = 0.0f;
+////         self.sequence2Layer.opacity = 0.0f;
          self.sequence1Layer.opacity = 1.0f;      
       }
    }
@@ -146,9 +142,9 @@
       // just assume UIDeviceOrientationLandscapeRight
       self.lastValidOrientation = UIDeviceOrientationLandscapeRight;
       
-      self.sequence2Layer.opacity = 0.0f;
+ //     self.sequence2Layer.opacity = 0.0f;
       self.sequence1Layer.opacity = 1.0f;
-   }
+   }*/
 }
 
 -(void)CheckFrameChanges:(NSTimer *)timer
@@ -193,14 +189,14 @@
    if (currentOrientation == UIDeviceOrientationLandscapeLeft)
    {
       DLog(@"UPSIDE DOWN");
-      self.sequence2Layer.opacity = 1.0f;
+//      self.sequence2Layer.opacity = 1.0f;
       self.sequence1Layer.opacity = 0.0f;
    }
    else
    {
       DLog(@"RIGHTSIDE UP");
       self.sequence1Layer.opacity = 1.0f;
-      self.sequence2Layer.opacity = 0.0f;      
+//      self.sequence2Layer.opacity = 0.0f;      
    }
    
    [CATransaction commit];
@@ -213,35 +209,24 @@
    
    // convert the tiltAngle to an image sequence index
    NSUInteger newImageSequence1Index = 1;
-   NSUInteger newImageSequence2Index = kMaxFrames;
    
    if (tiltAngle <= kLeftTiltThreshold)
    {
-      newImageSequence1Index = 1;
-      newImageSequence2Index = kMaxFrames;
+      newImageSequence1Index = kMaxFrames-1;
+      //NSLog(@"Max Image %u", newImageSequence1Index);   
    }
    else if (tiltAngle >= kRightTiltThreshold)
    {
-      newImageSequence1Index = kMaxFrames;
-      newImageSequence2Index = 1;
+      newImageSequence1Index = 1;
+      // NSLog(@"Max Image %u", newImageSequence1Index);        
    }
    else
    {
-      newImageSequence1Index = (tiltAngle - kLeftTiltThreshold)/((kRightTiltThreshold-kLeftTiltThreshold)/kMaxFrames);
-      
-      if (0 == newImageSequence1Index)
-      {
-         newImageSequence1Index = 1;
-         newImageSequence2Index = kMaxFrames;
-      }
-      else if (kMaxFrames == newImageSequence1Index)
-      {
-         newImageSequence2Index = 1;
-      }
-      else
-      {
-         newImageSequence2Index = kMaxFrames - newImageSequence1Index;
-      }
+      newImageSequence1Index = kMaxFrames - (tiltAngle - kLeftTiltThreshold)/((kRightTiltThreshold-kLeftTiltThreshold)/kMaxFrames);
+      //NSLog(@"Image %u", newImageSequence1Index);
+       if (newImageSequence1Index < 1)
+           newImageSequence1Index = 1;
+
    }
    
    //NSLog(@"tiltAngle = %f, imageSequenceIndex = %d", tiltAngle, newImageSequenceIndex);
@@ -251,10 +236,11 @@
       // nothing to do!
       return;
    }
+   // NSLog(@"Image %u", newImageSequence1Index);
    
    // run the animation from the current index to the newly calculated index
    [self.sloshingSequence1 AnimateFromIndex:self.sequence1LastImageSequenceIndex ToIndex:newImageSequence1Index];
-   [self.sloshingSequence2 AnimateFromIndex:self.sequence2LastImageSequenceIndex ToIndex:newImageSequence2Index];
+   //[self.sloshingSequence2 AnimateFromIndex:self.sequence2LastImageSequenceIndex //ToIndex:newImageSequence2Index];
    
 //   NSLog(@"Sequence 1: animating from %d to %d", self.sequence1LastImageSequenceIndex, newImageSequence1Index);
 //   NSLog(@"Sequence 2: animating from %d to %d", self.sequence2LastImageSequenceIndex, newImageSequence2Index);
@@ -264,13 +250,13 @@
    self.frameChanges = self.frameChanges + netChange;
    
    self.sequence1LastImageSequenceIndex = newImageSequence1Index;
-   self.sequence2LastImageSequenceIndex = newImageSequence2Index;
+   //self.sequence2LastImageSequenceIndex = newImageSequence2Index;
 }
 
 -(void)Start:(BOOL)triggered
 {
    [self.sloshingSequence1 Start:NO];
-   [self.sloshingSequence2 Start:NO];
+//   [self.sloshingSequence2 Start:NO];
    
    ATrigger* tiltTrigger = self.tiltTrigger;
    
@@ -292,13 +278,13 @@
    }
    
    // start device orientation notifications and register for same
-   [[NSNotificationCenter defaultCenter] 
+/*   [[NSNotificationCenter defaultCenter] 
     addObserver:self 
     selector:@selector(DeviceOrientationChanged:) 
     name:UIDeviceOrientationDidChangeNotification 
     object:nil];
    
-   [[UIDevice currentDevice] beginGeneratingDeviceOrientationNotifications];
+   //[[UIDevice currentDevice] beginGeneratingDeviceOrientationNotifications];*/
    
    [super Start:triggered];
 }
@@ -307,12 +293,12 @@
 {
    [super Stop];
    
-   [[NSNotificationCenter defaultCenter] removeObserver:self];
+  // [[NSNotificationCenter defaultCenter] removeObserver:self];
    
-   [[UIDevice currentDevice] endGeneratingDeviceOrientationNotifications];
+   //[[UIDevice currentDevice] endGeneratingDeviceOrientationNotifications];
    
    [self.sloshingSequence1 Stop];
-   [self.sloshingSequence2 Stop];
+//   [self.sloshingSequence2 Stop];
    
    ATrigger* tiltTrigger = self.tiltTrigger;
    

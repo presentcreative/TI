@@ -16,6 +16,9 @@
    
    ChipmunkBody*  fLeaf3Body;
    ChipmunkShape* fLeaf3Shape; 
+    
+   ATrigger* fTiltTrigger;
+
 }
 
 @property (nonatomic, retain) ChipmunkBody*  leaf1Body;
@@ -30,5 +33,7 @@
 @property (readonly) UIImageView* leaf1ImageView;
 @property (readonly) UIImageView* leaf2ImageView;
 @property (readonly) UIImageView* leaf3ImageView;
+
+@property (nonatomic, retain) ATrigger* tiltTrigger;
 
 @end

@@ -5,15 +5,16 @@
 #import "ObjectiveChipmunk.h"
 #import "NSDictionary+ElementAndPropertyValues.h"
 #import <objc/runtime.h>
+#import "trigger.h"
 
 #define kPhysicsTimeInterval 0.03f
 #define kPhysicsGravityVector CGPointMake(0.0,500.0)
 #define kMaxLeaves 3
 #define kLeafImageBaseTag 201
 
-#define kLeaf1Mass         20.0f
-#define kLeaf2Mass         30.0f
-#define kLeaf3Mass         35.0f
+#define kLeaf1Mass         40.0f
+#define kLeaf2Mass         60.0f
+#define kLeaf3Mass         70.0f
 
 #define kLeaf1ForceScale   10.0f
 #define kLeaf2ForceScale   15.0f
@@ -28,6 +29,8 @@
 
 -(void)TickPhysics;
 -(void)AnimatePhysics;
+-(void)BuildTiltTrigger;
+
 
 @end
 
@@ -41,6 +44,9 @@
 
 @synthesize leaf3Body=fLeaf3Body;
 @synthesize leaf3Shape=fLeaf3Shape;
+
+@synthesize tiltTrigger=fTiltTrigger;
+
 
 -(UIImageView*)leaf1ImageView
 {
@@ -56,6 +62,17 @@
 {
    return (UIImageView*)[self.containerView viewWithTag:kLeafImageBaseTag+2];
 }
+
+-(CGFloat)globalDamping
+{
+    return .05;
+}
+
+-(BOOL)gravityFollowsAccelerometer
+{
+    return YES;
+}
+
 
 -(void)SetupPhysics
 {
@@ -97,7 +114,7 @@
    [leafShape release];
    
    self.leaf1Shape.elasticity = .5;
-   self.leaf1Shape.friction = .5;
+   self.leaf1Shape.friction = .05;
    
    // Bind these to the space
    [self.physicsSpace addBody:self.leaf1Body];
@@ -123,7 +140,7 @@
    [leafShape release];
    
    self.leaf2Shape.elasticity = .5;
-   self.leaf2Shape.friction = .5;
+   self.leaf2Shape.friction = .05;
    
    // Bind these to the space
    [self.physicsSpace addBody:self.leaf2Body];
@@ -149,11 +166,14 @@
    [leafShape release];
    
    self.leaf3Shape.elasticity = .5;
-   self.leaf3Shape.friction = .5;
+   self.leaf3Shape.friction = .05;
    
    // Bind these to the space
    [self.physicsSpace addBody:self.leaf3Body];
    [self.physicsSpace addShape:self.leaf3Shape];
+    
+    [self BuildTiltTrigger];
+
 }
 
 -(void)DisplayLinkDidTick:(CADisplayLink *)displayLink
@@ -186,6 +206,7 @@
    Release(fLeaf2Shape);
    Release(fLeaf3Body);
    Release(fLeaf3Shape);
+   Release(fTiltTrigger);
    
    [super dealloc];
 }
@@ -277,6 +298,24 @@
    [panRecognizer setTranslation:CGPointZero inView:self.containerView];
 }
 
+-(NSDictionary*)TiltTriggerSpec
+{
+    return [NSDictionary dictionaryWithObjectsAndKeys:
+            @"TILT", @"type", 
+            @"ALWAYS", @"tiltNotificationEvent",
+            [NSNumber numberWithBool:YES], @"allowsConcurrentTrigger",
+            nil];
+}
+
+-(void)BuildTiltTrigger
+{
+    ATrigger* tiltTrigger = [[ATrigger alloc] initWithTriggerSpec:[self TiltTriggerSpec] ForAnimation:self OnView:self.containerView];
+    
+    self.tiltTrigger = tiltTrigger;
+    
+    [tiltTrigger release];
+}
+
 #pragma mark UIGestureRecognizerDelegate protocol
 -(BOOL)gestureRecognizerShouldBegin:(UIGestureRecognizer*)gestureRecognizer
 {
@@ -295,6 +334,74 @@
    }
    
    return result;
+}
+
+#pragma mark -
+#pragma mark ACustomAnimation protocol
+-(void)Start:(BOOL)triggered
+{
+       
+    [self.tiltTrigger BecomeAccelerometerDelegate];
+    
+    [super Start:triggered];
+       
+}
+
+-(void)Stop
+{
+    [super Stop];
+    
+    if (nil != self.tiltTrigger)
+    {
+        [self.tiltTrigger BecomeFreeOfAccelerometer];
+    }
+    
+}
+
+-(void)HandleTilt:(NSDictionary*)tiltInfo
+{
+    if (!self.isAnimating)
+    {
+        return;
+    }
+    
+    CGFloat tiltAngle = 0.0f;
+    CGFloat levelAngle = 90.0f; // tiltAngle when device is level
+    
+    int tiltDirection = [[tiltInfo objectForKey:@"tiltDirection"] intValue];
+    CGFloat incomingAngle = [(NSNumber*)[tiltInfo objectForKey:@"tiltAngle"] floatValue];
+    
+    if (kTiltingLeft == tiltDirection)
+    {
+        if (incomingAngle < levelAngle) // HOME button on right
+        {
+            tiltAngle = levelAngle - incomingAngle;
+        }
+        else // HOME button on left
+        {
+            tiltAngle = incomingAngle - levelAngle;
+        }
+    }
+    else if (kTiltingRight == tiltDirection)
+    {
+        if (incomingAngle < levelAngle) // HOME button on left
+        {
+            tiltAngle = incomingAngle - levelAngle;
+        }
+        else // HOME button on right
+        {
+            tiltAngle = levelAngle - incomingAngle;
+        }
+    }
+    
+    //NSLog(@"final tiltAngle = %f", tiltAngle);
+    
+    CGPoint adjustedGravity = cpvrotate(kPhysicsGravityVector, cpvforangle(DEGREES_TO_RADIANS(tiltAngle)));
+    
+    //NSLog(@"Tilt: %0.2f gravity.X: %0.2f, gravity.Y: %0.2f",
+    //      tiltAngle, adjustedGravity.x, adjustedGravity.y);
+    
+    fPhysicsSpace.gravity = adjustedGravity;
 }
 
 @end
