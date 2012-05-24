@@ -26,6 +26,8 @@
 #define kSpaceDogLogoPage        @"SDB_Logo.jpg"
 #define kLogoPageAssetsFile      @"LogoPage_Assets.plist"
 
+//#define ONE_PAGE_AT_A_TIME 1
+
 enum SCROLLING_DIRECTION
 {
    SCROLLING_NONE,
@@ -106,6 +108,7 @@ enum SCROLLING_DIRECTION
 
 -(void)applicationWillResignActive:(UIApplication*)application
 {
+    
    // the app has been resurrected - make sure it picks up where it left off...
    ABookView* activePage = [self LoadedPageWithNumber:fActivePage];
    
@@ -155,9 +158,9 @@ enum SCROLLING_DIRECTION
    
    [self BuildScrollView];
    
-   [self PopulateViewQueue];
+   //[self PopulateViewQueue];
    
-   [self InitializeChapter1];
+   //[self InitializeChapter1];
    
    [self BuildBookmark];
    
@@ -169,7 +172,8 @@ enum SCROLLING_DIRECTION
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
 {
    // Return YES for supported orientations
-   if (interfaceOrientation == UIDeviceOrientationLandscapeRight)
+   if (interfaceOrientation == UIDeviceOrientationLandscapeRight
+       || interfaceOrientation == UIDeviceOrientationLandscapeLeft)
    {
       return YES;
    }
@@ -427,6 +431,23 @@ enum SCROLLING_DIRECTION
    {
       [self BookmarkAnimateVisible:NO];
    }
+    
+    // wpm 
+    // 
+    optionRect = CGRectMake(0, kBookmarkDismissOptionOriginY + kBookmarkDismissOptionSizeHeight, bookmarkView.frame.size.width, kBookmarkMaximumY);
+    if (CGRectContainsPoint(optionRect, location))
+    {
+        CGRect bookmarkFrame = self.BookmarkView.frame;
+        if ( bookmarkFrame.origin.y > kBookmarkHiddenOriginY){
+            [self BookmarkAnimateVisible:NO];
+        }else{
+            [self BookmarkAnimateVisible:YES];
+        }
+        
+    }
+    
+    
+    
 }
 
 -(void)DisplayLogoPage
@@ -472,8 +493,26 @@ enum SCROLLING_DIRECTION
     
 -(void)HideLogoPage:(NSTimer*)logoTimer
 {
-   // build the cover...
-   [self DisplayCover];
+    if ([[NSUserDefaults standardUserDefaults] integerForKey:@"PageNumber"] > 1
+        && [[NSUserDefaults standardUserDefaults] integerForKey:@"PageNumber"] < [ABookManager sharedBookManager].LastPageIndex) // current page data exists
+    {
+        self.appJustOpened = NO;
+
+        fActivePage = [[NSUserDefaults standardUserDefaults] integerForKey:@"PageNumber"];
+        fMainScrollView.scrollEnabled = YES;
+        
+        [fMainScrollView setContentOffset:CGPointMake(kPageWidth*fActivePage, 0.0f) animated:YES];
+                
+        [[self LoadedPageWithNumber:fActivePage] StartAnimations];
+        
+        NSLog(@"CreditsPage removed");
+        [self ReportMemoryUsage];
+
+
+    }
+    else
+        // build the cover...
+        [self DisplayCover];
    
    UIImageView* logoPageView = (UIImageView*)[self.view viewWithTag:kLogoPageViewTag];
    
@@ -674,6 +713,7 @@ enum SCROLLING_DIRECTION
    [[self LoadedPageWithNumber:fActivePage] StartAnimations];
 
    // clean up the Map!
+    //[self.mapViewController release];
    self.mapViewController = nil;
    
    NSLog(@"Map dismissed!");
@@ -687,9 +727,11 @@ enum SCROLLING_DIRECTION
    if (CGRectContainsPoint(self.howToDismissRegion, touchLocation))
    {
       [self.HowToPageView removeFromSuperview];
+       [self.HowToPageView release];
       
       [self ShowCredits];
    } 
+    [self ReportMemoryUsage];
 }
 
 -(void)ShowCredits
@@ -744,7 +786,7 @@ enum SCROLLING_DIRECTION
       if ([subview isKindOfClass:[ABookView class]])
       {
          [subview removeFromSuperview];
-         [self.viewQueue enqueue:subview];
+         //[self.viewQueue enqueue:subview];
          [(ABookView*)subview Sterilize];
       }
    }
@@ -850,6 +892,7 @@ enum SCROLLING_DIRECTION
    [[self LoadedPageWithNumber:1] StartAnimations];
    
    NSLog(@"CreditsPage removed");
+    [self.CreditsPageView release];
    [self ReportMemoryUsage];
 }
 
@@ -953,10 +996,11 @@ enum SCROLLING_DIRECTION
 
    if (!page)
    {
-      NSLog(@"background ABOUT TO LOAD PAGE: %d", pageNumber);
-      [self ReportMemoryUsage];
+      //NSLog(@"background ABOUT TO LOAD PAGE: %d", pageNumber);
+      //[self ReportMemoryUsage];
       
-      page = (ABookView*)[self.viewQueue dequeue];
+      //page = (ABookView*)[self.viewQueue dequeue];
+       page = [[ABookView alloc] init];
       
       if (page)
       {
@@ -967,13 +1011,13 @@ enum SCROLLING_DIRECTION
       
          //[page release];
             
-         NSLog(@"background LOADED PAGE: %d", page.pageNumber);
+         //NSLog(@"background LOADED PAGE: %d", page.pageNumber);
          [self ReportMemoryUsage];
       }
       else
       {
          NSLog(@"background PAGE LOAD FAILED: %d", pageNumber);
-         [self ReportMemoryUsage];         
+         //[self ReportMemoryUsage];         
       }
    }   
 }
@@ -997,10 +1041,10 @@ enum SCROLLING_DIRECTION
    
    NSUInteger pageNumber = page.pageNumber;
    
-   NSLog(@"background ABOUT TO REMOVE PAGE: %d", pageNumber);
-   [self ReportMemoryUsage];
+  // NSLog(@"background ABOUT TO REMOVE PAGE: %d", pageNumber);
+   //[self ReportMemoryUsage];
    
-   [page retain];
+   //[page retain];
 
    // Make sure its removed on the main thread:
    [page performSelectorOnMainThread:@selector(StopAnimations) withObject:nil waitUntilDone:YES];
@@ -1009,12 +1053,13 @@ enum SCROLLING_DIRECTION
    
    [page Sterilize];
    
-   [self.viewQueue enqueue:page];
+   //[self.viewQueue enqueue:page];
    
    [page release];
+   //[page release];
    
-   NSLog(@"background REMOVED PAGE: %d", pageNumber);
-   [self ReportMemoryUsage];
+  // NSLog(@"background REMOVED PAGE: %d", pageNumber);
+  // [self ReportMemoryUsage];
 }
 
 -(void)DisplayLinkDidTick:(CADisplayLink*)displayLink
@@ -1057,10 +1102,14 @@ enum SCROLLING_DIRECTION
       {
          ABookView* page = (ABookView*)view;
          NSInteger pageNumber = page.pageNumber;
+#ifndef ONE_PAGE_AT_A_TIME
          if (![range containsIndex:pageNumber])
          {
             [self UnloadPage:page];
          }
+#else
+          [self UnloadPage:page];          
+#endif
       }
    }   
 }
@@ -1083,7 +1132,7 @@ enum SCROLLING_DIRECTION
    
    dispatch_async(concurrentQueue, ^{
       
-      NSAutoreleasePool* pool = [[NSAutoreleasePool alloc] init];
+      //NSAutoreleasePool* pool = [[NSAutoreleasePool alloc] init];
 
       [self performSelectorOnMainThread:@selector(UnloadPagesNotInRange:) withObject:range waitUntilDone:YES];
       
@@ -1113,7 +1162,8 @@ enum SCROLLING_DIRECTION
          self.mainScrollView.scrollEnabled = YES;
       });
       
-      [pool drain];
+      //[pool drain];
+       //[self ReportMemoryUsage];
       
    });
 }
@@ -1166,7 +1216,7 @@ enum SCROLLING_DIRECTION
                                   &size);
    if( kerr == KERN_SUCCESS ) 
    {
-      NSLog(@"Memory usage (bytes): %u", info.resident_size);
+      NSLog(@"Memory usage (kilobytes): %u", info.resident_size/1000);
       NSLog(@" ");
    } 
    else 
@@ -1220,7 +1270,14 @@ enum SCROLLING_DIRECTION
 
 -(void)ShowPage:(NSUInteger)pageNumber Scrolling:(int)scrollDirection
 {
+    //[self ReportMemoryUsage];
+    //NSAutoreleasePool* pool = [[NSAutoreleasePool alloc] init];
+
    fActivePage = pageNumber;
+
+    NSUserDefaults* defaults = [NSUserDefaults standardUserDefaults];
+    [defaults setInteger:pageNumber forKey:@"PageNumber"];
+
    
    [self UnloadPagesNotInRange:[self ActivePageSet]];
    
@@ -1232,7 +1289,7 @@ enum SCROLLING_DIRECTION
    }
    else
    {
-      NSLog(@"Trying to show page %d, which hasn't been loaded; loading now", pageNumber);
+      //NSLog(@"Trying to show page %d, which hasn't been loaded; loading now", pageNumber);
       
       // Now that loading is no longer done in the background
       //  through LoadPagesInRange, we can just load it now
@@ -1257,7 +1314,8 @@ enum SCROLLING_DIRECTION
    NSInteger pageNumberToLoad = 0;
    
    self.mainScrollView.scrollEnabled = NO;
-   
+ 
+#ifndef ONE_PAGE_AT_A_TIME    
    switch (scrollDirection)
    {
       case SCROLLING_LEFT:
@@ -1275,12 +1333,15 @@ enum SCROLLING_DIRECTION
          {
            [self LoadPageNumbered:pageNumberToLoad];
          }
+         else {
+             int fucko;
+         }
       }
       break;
          
       case SCROLLING_RIGHT:
       {
-         //[self UnloadPage:[self LoadedPageWithNumber:fActivePage + fCurrentForwardPreload + 1]]; 
+         [self UnloadPage:[self LoadedPageWithNumber:fActivePage + fCurrentForwardPreload + 1]]; 
          
          pageNumberToLoad = fActivePage - fCurrentBackwardPreload;
          
@@ -1290,9 +1351,37 @@ enum SCROLLING_DIRECTION
          }
       }
       break;
+       default:
+       {
+           pageNumberToLoad = fActivePage + fCurrentForwardPreload;
+
+           ABookManager* bookManager = [ABookManager sharedBookManager];
+           
+           if (![self IsLoaded:pageNumberToLoad] && pageNumberToLoad <= bookManager.LastPageIndex)
+           {
+               [self LoadPageNumbered:pageNumberToLoad];
+           }
+           else {
+               NSLog(@"not loading page");
+           }
+           
+           pageNumberToLoad = fActivePage - fCurrentBackwardPreload;
+           
+           if (1 <= pageNumberToLoad)
+           {
+               [self LoadPageNumbered:pageNumberToLoad];
+           }
+           
+       }
+           
    }
+#endif
    
    self.mainScrollView.scrollEnabled = YES;
+    
+    //[pool drain];
+   // [self ReportMemoryUsage];
+
 }
 
 #pragma mark -
@@ -1318,7 +1407,12 @@ enum SCROLLING_DIRECTION
    NSInteger scrollOffsetX = (NSUInteger)scrollView.contentOffset.x;
    
    // also, determine the current scrolling direction
-   int scrollDirection = self.lastContentOffset > scrollView.contentOffset.x?SCROLLING_RIGHT:SCROLLING_LEFT;
+    int scrollDirection;
+    if (self.lastContentOffset != 0)
+      scrollDirection  = self.lastContentOffset > scrollView.contentOffset.x?SCROLLING_RIGHT:SCROLLING_LEFT;
+    else {
+        scrollDirection = -1;
+    }
          
    selectedPageNum = scrollOffsetX / kPageWidth;
    
