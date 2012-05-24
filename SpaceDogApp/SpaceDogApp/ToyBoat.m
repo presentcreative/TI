@@ -169,13 +169,13 @@
       [[OALSimpleAudio sharedInstance] preloadEffect:self.soundEffect];
    }
    
-   // register for the notification that's issued by the springAnimation when
+/*   // register for the notification that's issued by the springAnimation when
    // it completes
    [[NSNotificationCenter defaultCenter] 
     addObserver:self 
     selector:@selector(SpringMotionTerminated:) 
     name:kSpringMotionTerminatedNotification 
-    object:nil];
+    object:nil];*/
 }
 
 -(CGPoint)MoveDeltaXY:(CGPoint)deltaXY
@@ -208,7 +208,7 @@
    return newPosition;
 }
 
--(void)SpringMotionTerminated:(NSNotification*)notification
+-(void)SpringMotionTerminated:(NSTimer*)timer
 {
    self.boatIsSwipeable = YES;
 }
@@ -224,6 +224,11 @@
    {
       return;
    }
+    [NSTimer scheduledTimerWithTimeInterval:0.3 
+                                     target:self 
+                                   selector:@selector(SpringMotionTerminated:) 
+                                   userInfo:nil 
+                                    repeats:NO];
    
    UIPanGestureRecognizer* recognizer = (UIPanGestureRecognizer*)sender;
    

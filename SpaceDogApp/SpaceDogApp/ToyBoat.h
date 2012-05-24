@@ -21,6 +21,7 @@
    ATriggeredSpringAnimation* fSpringAnimation;
    
    NSString* fSoundEffect;
+   NSDate *triggerTime;
 }
 
 @property (nonatomic, retain) CALayer* islandLayer;
