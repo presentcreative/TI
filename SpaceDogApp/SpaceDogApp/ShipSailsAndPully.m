@@ -16,29 +16,29 @@
 
 @implementation AShipSailsAndPully
 
-@synthesize sailSequences = fSailSequences;
+//@synthesize sailSequences = fSailSequences;
 
 @synthesize hookLayer=fHookLayer;
-@synthesize centerFrontLayer=fCenterFronLayer;
+/*@synthesize centerFrontLayer=fCenterFronLayer;
 @synthesize centerMiddleLayer=fCenterMiddleLayer;
 @synthesize centerRearLayer=fCenterRearLayer;
 @synthesize topFrontLayer=fTopFrontLayer;
 @synthesize topMiddleLayer=fTopMiddleLayer;
-@synthesize topRearLayer=fTopRearLayer;
+@synthesize topRearLayer=fTopRearLayer;*/
 
 @synthesize minY=fMinY;
 @synthesize maxY=fMaxY;
-@synthesize furlThreshold=fFurlThreshold;
+/*@synthesize furlThreshold=fFurlThreshold;
 @synthesize unfurlThreshold=fUnfurlThreshold;
 
 @synthesize unfurled=fUnfurled;
 
 @synthesize furlSoundEffect=fFurlSoundEffect;
-@synthesize unfurlSoundEffect=fUnfurlSoundEffect;
+@synthesize unfurlSoundEffect=fUnfurlSoundEffect;*/
 
 -(void)dealloc
 {   
-   Release(fSailSequences);
+  // Release(fSailSequences);
    
    self.hookLayer.delegate = nil;
    if (self.hookLayer.superlayer)
@@ -47,7 +47,7 @@
    }
    Release(fHookLayer);
    
-   self.centerFrontLayer.delegate = nil;
+/*   self.centerFrontLayer.delegate = nil;
    if (self.centerFrontLayer.superlayer)
    {
       [self.centerFrontLayer removeFromSuperlayer];
@@ -90,7 +90,7 @@
    Release(fTopRearLayer);
    
    Release(fUnfurlSoundEffect);
-   Release(fFurlSoundEffect);
+   Release(fFurlSoundEffect);*/
       
    [super dealloc];
 }
@@ -99,20 +99,20 @@
 {
    [super BaseInit];
    
-   self.sailSequences = [NSMutableArray array];
+   //self.sailSequences = [NSMutableArray array];
    self.minY = 0.0f;
    self.maxY = 0.0f;
-   self.furlThreshold = 0.0f;
-   self.unfurlThreshold = 0.0f;
-   self.unfurled = NO;
+  // self.furlThreshold = 0.0f;
+  // self.unfurlThreshold = 0.0f;
+  // self.unfurled = NO;
 }
 
 -(void)BaseInitWithElement:(NSDictionary*)element RenderOnView:(UIView*)view
 {
    [super BaseInitWithElement:element RenderOnView:view];
    
-   self.furlThreshold = element.furlThreshold;
-   self.unfurlThreshold = element.unfurlThreshold;
+  // self.furlThreshold = element.furlThreshold;
+ //  self.unfurlThreshold = element.unfurlThreshold;
       
    NSDictionary* layerSpec = nil;
    NSString* imagePath = nil;
@@ -122,7 +122,7 @@
    // build the scene in this order:
    // rear sails, middle sails, front sails, hook
    
-   ////////////////////////////////////////////////////////////////////////////////
+/*   ////////////////////////////////////////////////////////////////////////////////
    // rear sails
    layerSpec = element.bottomRearSail;
 
@@ -255,7 +255,7 @@
    [self.sailSequences addObject:sailSequence];
    
    [view.layer addSublayer:sailSequence.layer];
-   [sailSequence release];
+   [sailSequence release];*/
    
    
    // hook
@@ -285,7 +285,7 @@
    [view.layer addSublayer:self.hookLayer]; 
    
    // finally, add the sound effects
-   ATriggeredSoundEffect* soundEffect = nil;
+/*   ATriggeredSoundEffect* soundEffect = nil;
    
    soundEffect = [[ATriggeredSoundEffect alloc] initWithElement:element.unfurlSoundEffect RenderOnView:view];
    self.unfurlSoundEffect = soundEffect;
@@ -293,7 +293,7 @@
    
    soundEffect = [[ATriggeredSoundEffect alloc] initWithElement:element.furlSoundEffect RenderOnView:view];
    self.furlSoundEffect = soundEffect;
-   [soundEffect release];
+   [soundEffect release];*/
 }
 
 -(CGFloat)MoveDeltaY:(CGFloat)deltaY
@@ -319,7 +319,7 @@
    return newY;
 }
 
--(void)UnfurlTheSails
+/*-(void)UnfurlTheSails
 {
    if (self.isUnfurled)
    {
@@ -353,7 +353,7 @@
    }
    
    self.unfurled = NO;
-}
+}*/
 
 #pragma mark ACustomAnimation protocol
 // retrieve the latest results recorded by the pan gesture recognizer and
@@ -376,24 +376,24 @@
    [recognizer setTranslation:CGPointZero inView:self.containerView];
    
    // time to furl or unfurl the sails?
-   CGPoint currentPosition = self.hookLayer.position;
+   CGPoint currentPosition = self.hookLayer.position; 
    
-   if (currentPosition.y >= self.unfurlThreshold)
+/*   if (currentPosition.y >= self.unfurlThreshold)
    {
       [self UnfurlTheSails];
    }
    else if (currentPosition.y < self.furlThreshold)
    {
       [self FurlTheSails];
-   }
+   }*/
 }
 
 -(void)Stop
 {
-   for (ATextureAtlasBasedSequence* sailSequence in self.sailSequences)
+/*   for (ATextureAtlasBasedSequence* sailSequence in self.sailSequences)
    {
       [sailSequence Stop];
-   }
+   }*/
 }
 
 @end
