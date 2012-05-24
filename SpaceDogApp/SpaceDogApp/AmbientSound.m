@@ -108,7 +108,7 @@
 
 -(void)Stop
 {
-   [super Stop];
+   //[super Stop];  wpm commented out to allow fade out.
    
    if (nil != self.lastPlayed)
    {

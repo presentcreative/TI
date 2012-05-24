@@ -5,7 +5,7 @@
 
 @class ChipmunkSpace;
 
-@interface APhysicsEngineBasedAnimation : APageBasedAnimation
+@interface APhysicsEngineBasedAnimation : APageBasedAnimation <UIAccelerometerDelegate>
 {
    ChipmunkSpace* fPhysicsSpace;
    
@@ -18,6 +18,11 @@
    
    NSString* fObjectWallCollisionSoundEffect;
    BOOL fHasObjectWallCollisionSoundEffect;
+    
+    CGFloat fPrevX;
+    CGFloat fPrevY;
+    CGFloat fPrevZ;
+
 }
 
 @property (nonatomic, retain) ChipmunkSpace* physicsSpace;
@@ -29,6 +34,11 @@
 
 @property (readonly) CGPoint gravityVector;
 @property (readonly) CGFloat globalDamping;
+
+@property (assign) CGFloat prevX;
+@property (assign) CGFloat prevY;
+@property (assign) CGFloat prevZ;
+
 
 -(void)SetupPhysics;
 -(void)StartPhysics;
@@ -48,8 +58,8 @@
 #define kObject @"object"
 #define kWall   @"wall"
 
-// gravity vectors for the four orientations we recognize
-@property (readonly) BOOL gravityFollowsDeviceOrientation;
+// 
+@property (readonly) BOOL gravityFollowsAccelerometer;
 
 #define kGravityVectorPortrait            CGPointMake(-500.0f, 0.0f)     // portrait orientation, Home button down
 #define kGravityVectorPortraitUpsideDown  CGPointMake(500.0f, 0.0f)    // portrait orientation, Home button up

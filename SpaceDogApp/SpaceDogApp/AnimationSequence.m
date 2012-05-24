@@ -36,10 +36,10 @@
        name:notificationName 
        object:nil];
    }
-   Release(fLayer);
+    [fLayer release];//Release(fLayer);
    
-   Release(fInPlayNotification);
-   Release(fSequenceNotifications);
+    [fInPlayNotification release];//Release(fInPlayNotification);
+    [fSequenceNotifications release];//Release(fSequenceNotifications);
    
    NSLog(@"AAnimationSequence deallocated");
    

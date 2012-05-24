@@ -1,4 +1,4 @@
-// Copyright (c) 2011 Space Dog Books, Inc. All Rights Reserved.
+    // Copyright (c) 2011 Space Dog Books, Inc. All Rights Reserved.
 // $Id$
 
 #import "TextureAtlasBasedSequence.h"
@@ -32,6 +32,7 @@
 @synthesize textureAtlas = fTextureAtlas;
 @synthesize stepTriggerRequired = fStepTriggerRequired;
 @synthesize autoResetToBase = fAutoResetToBase;
+@synthesize forward = fForward;
 
 -(void)dealloc
 {  
@@ -49,6 +50,7 @@
    Release(fTextureAtlas);
    
    [super dealloc];
+
 }
 
 -(id)retain
@@ -59,7 +61,7 @@
 -(void)BaseInit
 {
    [super BaseInit];
-   
+   self.forward = YES;
    self.sequenceInPlay = 0;
    self.repeatCount = NSUIntegerMax;
    
@@ -117,9 +119,6 @@
       
       imageSequence.sequenceIndex = sequenceIndex++;
       
-      [self.imageSequences addObject:imageSequence];
-      [imageSequence release];
-      
       if (isBaseSequence)
       {
          // there can only be one base sequence
@@ -127,6 +126,10 @@
          
          isBaseSequence = NO;
       }
+       
+       [self.imageSequences addObject:imageSequence];
+       [imageSequence release];
+       
    }
 
    // because the receiver manages a texture atlas based-image, there is only
@@ -359,7 +362,14 @@
 
 -(void)AnimateSequence:(unsigned int)sequenceIndex
 {
-   [self AnimateSequence:sequenceIndex Forward:YES];
+    AImageSequence* sequenceToAnimate = [self.imageSequences objectAtIndex:sequenceIndex];
+    if (sequenceToAnimate.hasToggleProperty)
+    {
+        [self AnimateSequence:sequenceIndex Forward:self.isForward];
+        self.forward = !self.isForward;
+    }else {
+        [self AnimateSequence:sequenceIndex Forward:YES];
+    }
 }
 
 -(void)AnimateFromIndex:(unsigned int)fromIndex ToIndex:(unsigned int)toIndex
@@ -380,6 +390,7 @@
       
       self.layer.contentsRect = [self ContentsRectForImageAtIndex:loopCounter];
       self.layer.position = [self PositionForImageAtIndex:loopCounter];
+//      CGPoint position = [self PositionForImageAtIndex:loopCounter];
       
       loopCounter = loopCounter + indexStep;
       
@@ -443,8 +454,8 @@
    // for all known image sequences...
    for (int i = 0; i < [self.imageSequences count]; i++)
    {
-      // a sequence doesn't transition to itself...
-      if (i == self.sequenceInPlay)
+      // a sequence doesn't transition to itself...  unless its the only sequence
+      if (i == self.sequenceInPlay && [self.imageSequences count]>1)
       {
          continue;
       }
@@ -694,6 +705,7 @@
    }
    else 
    {
+      // CGRect layerFrame = self.baseFrame;
       CGSize spriteSourceSize = CGSizeFromString([imageSpec objectForKey:@"spriteSourceSize"]);
       
       result.x = layerFrame.origin.x + spriteSourceSize.width/2.0f;

@@ -30,6 +30,7 @@ typedef enum {
    CGFloat fRepeatDelayMin;
    CGFloat fRepeatDelayMax;
    BOOL fAutoreverses;
+   BOOL fHasToggleProperty;
    NSString* fTimingFunctionName;
    NSUInteger fNextImageIndex;
    NSMutableArray* fTransitions;
@@ -45,6 +46,7 @@ typedef enum {
 @property (nonatomic, retain) id<ACustomAnimation> soundEffect;
 @property (readonly) BOOL hasSoundEffect;
 @property (assign, getter=isBaseSequence) BOOL baseSequence;
+@property (assign, getter=hasToggle) BOOL hasToggleProperty;
 @property (assign) NSUInteger numRepeats;
 @property (assign) CGFloat duration;
 @property (assign) RepeatType repeatType;

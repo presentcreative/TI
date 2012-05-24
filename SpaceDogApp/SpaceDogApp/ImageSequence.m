@@ -26,6 +26,7 @@
 @synthesize postExecutionNotification = fPostExecutionNotification;
 @synthesize unpatterned=fUnpatterned;
 @synthesize initialFrame=fInitialFrame;
+@synthesize hasToggleProperty=HasToggleProperty;
 
 -(id)init
 {
@@ -98,6 +99,8 @@
          self.numRepeats = sequenceSpec.numRepeats;
       }
       
+       self.hasToggleProperty = sequenceSpec.hasToggleProperty; 
+       
       self.duration = sequenceSpec.duration;
       
       if (sequenceSpec.hasAutoReverse)

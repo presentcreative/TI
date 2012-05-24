@@ -7,7 +7,7 @@
 
 -(void)Start:(BOOL)triggered
 {
-   if (triggered)
+   if (triggered ||self.autoStart)
    {
       [super Start:triggered];
    }

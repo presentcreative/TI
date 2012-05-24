@@ -24,6 +24,7 @@
    
    BOOL fStepTriggerRequired;
    BOOL fAutoResetToBase;
+    BOOL fForward;
 }
 
 @property (nonatomic, retain) AImageSequenceLayer* layer;
@@ -42,6 +43,7 @@
 @property (nonatomic, retain) NSMutableArray* effectQueue;
 @property (assign, getter=isStepTriggerRequired) BOOL stepTriggerRequired;
 @property (assign, getter=isAutoResetToBase) BOOL autoResetToBase;
+@property (assign, getter=isForward) BOOL forward;
 @property (assign, getter=hasSingleImageBaseSequence) BOOL singleImageBaseSequence;
 
 @property (nonatomic, retain) NSDictionary* textureAtlas;

@@ -5,6 +5,10 @@
 #import "ObjectiveChipmunk.h"
 #import "OALSimpleAudio.h"
 #import "NSDictionary+ElementAndPropertyValues.h"
+#import "DelegateDistributor.h"
+#import "Trigger.h"
+
+
 
 @interface APhysicsEngineBasedAnimation (Private)
 -(CGFloat)ImpactThresholdLow;
@@ -19,6 +23,9 @@
 @synthesize hasObjectObjectCollisionSoundEffect=fHasObjectObjectCollisionSoundEffect;
 @synthesize objectWallCollisionSoundEffect=fObjectWallCollisionSoundEffect;
 @synthesize hasObjectWallCollisionSoundEffect=fHasObjectWallCollisionSoundEffect;
+@synthesize prevX=fPrevX;
+@synthesize prevY=fPrevY;
+@synthesize prevZ=fPrevZ;
 
 -(void)dealloc
 {
@@ -81,13 +88,13 @@
    return kDefaultGlobalDamping;
 }
 
--(BOOL)gravityFollowsDeviceOrientation
+-(BOOL)gravityFollowsAccelerometer
 {
-   // most subclasses do, so we'll make YES the default
-   return YES;
+   return NO;
 }
 
--(void)DeviceOrientationChanged:(NSNotification*)notification
+// using device orientation to do gravity physics is a BAAAD idea
+/*-(void)DeviceOrientationChanged:(NSNotification*)notification
 {
    CGPoint gravityVector = CGPointZero;
    
@@ -115,7 +122,7 @@
    }
    
    fPhysicsSpace.gravity = gravityVector;
-}
+}*/
 
 -(void)SetupPhysics
 {
@@ -125,9 +132,9 @@
    fPhysicsSpace.damping = [self globalDamping];
    
    // Apply gravity, so things fall.
-   if (self.gravityFollowsDeviceOrientation)
+   if (self.gravityFollowsAccelerometer)
    {
-      [self DeviceOrientationChanged:nil];
+       [self BecomeAccelerometerDelegate];       
    }
    else
    {
@@ -142,27 +149,18 @@
       [self SetupPhysics];
    }
    
-   if (self.gravityFollowsDeviceOrientation)
-   {   
-      // start device orientation notifications and register for same
-      [[NSNotificationCenter defaultCenter] 
-       addObserver:self 
-       selector:@selector(DeviceOrientationChanged:) 
-       name:UIDeviceOrientationDidChangeNotification 
-       object:nil];
-      
-      [[UIDevice currentDevice] beginGeneratingDeviceOrientationNotifications];
-   }
    
    //[self AnimatePhysics];
 }
 
 -(void)StopPhysics
 {
-   [[NSNotificationCenter defaultCenter] removeObserver:self];
-   
-   [[UIDevice currentDevice] endGeneratingDeviceOrientationNotifications];
-   
+   // unregister for accelerometer
+    if (self.gravityFollowsAccelerometer)
+    {   
+        [self BecomeFreeOfAccelerometer];
+    }
+
    Release(fPhysicsSpace);
    fPhysicsSpace = nil;
 }
@@ -321,5 +319,89 @@
 {
   
 }
+
+#pragma mark UIAccelerometer delegate
+-(void)BecomeAccelerometerDelegate
+{
+    [[ADelegateDistributor sharedDelegateDistributor] AddAccelerometerDelegate:self];
+}
+
+-(void)BecomeFreeOfAccelerometer
+{
+    [[ADelegateDistributor sharedDelegateDistributor] RemoveAccelerometerDelegate:self];
+}
+
+
+-(void)accelerometer:(UIAccelerometer*)accelerometer didAccelerate:(UIAcceleration*)acceleration
+{      
+    
+     if (0.0f == self.prevX && 0.0f == self.prevY && 0.0f == self.prevZ)
+    {
+        self.prevX = acceleration.x;
+        self.prevY = acceleration.y;
+        self.prevZ = acceleration.z;
+        
+        return;
+    }
+    
+    // apply a low-pass filter to the incoming acceleration data
+    self.prevX = acceleration.x * kFilterFactor + self.prevX * (1.0 - kFilterFactor);
+    self.prevY = acceleration.y * kFilterFactor + self.prevY * (1.0 - kFilterFactor);
+    self.prevZ = acceleration.z * kFilterFactor + self.prevZ * (1.0 - kFilterFactor);
+    
+    float R = sqrt(pow(self.prevX,2)+pow(self.prevY,2)+pow(self.prevZ,2));
+    
+    // float aRx = acos(self.prevX/R);
+    // float aRz = acos(self.prevZ/R);   
+    
+    float aRy = acos(self.prevY/R);
+    
+    float deviceTiltAngle = RADIANS_TO_DEGREES(aRy);
+    
+    TiltDirection localTilt = kNoTilt;
+    
+    
+    UIInterfaceOrientation currentOrientation = [[UIApplication sharedApplication] statusBarOrientation];
+    
+    AccelerationData ad;
+    
+    ad.x = acceleration.x;
+    ad.y = acceleration.y;
+    ad.z = acceleration.z;
+    
+    CGFloat tiltAngle = 0.0f;
+    CGFloat levelAngle = 90.0f; // tiltAngle when device is level*/
+    
+
+    if (UIInterfaceOrientationLandscapeLeft==currentOrientation)
+    {
+
+            tiltAngle = deviceTiltAngle - levelAngle;
+    }
+    else if (UIInterfaceOrientationLandscapeRight==currentOrientation)
+    {
+            tiltAngle = levelAngle - deviceTiltAngle;
+    }
+    
+    //NSLog(@"final tiltAngle = %f", tiltAngle);*/
+    
+    CGPoint adjustedGravity = cpvrotate(CGPointMake(0.0,1000.0), cpvforangle(DEGREES_TO_RADIANS(tiltAngle)));
+    
+    //NSLog(@"Tilt: %0.2f gravity.X: %0.2f, gravity.Y: %0.2f",
+    //      tiltAngle, adjustedGravity.x, adjustedGravity.y);
+    
+    fPhysicsSpace.gravity = adjustedGravity;
+
+/*            [self.animation HandleTilt:[NSDictionary dictionaryWithObjectsAndKeys:
+                                        [NSNumber numberWithFloat:deviceTiltAngle], 
+                                        @"tiltAngle", 
+                                        [NSNumber numberWithInt:self.tiltDirection], 
+                                        @"tiltDirection", 
+                                        [NSValue value:&ad withObjCType:@encode(AccelerationData)],
+                                        @"accelerationData",
+                                        nil]];         */
+ 
+}
+
 
 @end

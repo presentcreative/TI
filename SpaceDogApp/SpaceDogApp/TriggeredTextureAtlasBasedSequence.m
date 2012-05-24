@@ -33,10 +33,9 @@
 #pragma mark ACustomAnimation protocol
 -(void)Trigger
 {
-   if ([self CalculateNextSequence])
-   {
-      [self TransitionSequence];
-   }   
+    [self CalculateNextSequence];
+    [self TransitionSequence];
+
 }
 
 -(void)Trigger:(NSNotification*)notification

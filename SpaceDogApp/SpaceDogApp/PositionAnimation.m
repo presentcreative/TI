@@ -24,6 +24,7 @@
 
 -(void)BaseInitWithElement:(NSDictionary*)element RenderOnLayer:(CALayer*)layer
 {
+    
    [super BaseInitWithElement:element RenderOnLayer:layer];
    
    self.originalPosition = self.layer.position;
@@ -67,7 +68,10 @@
    }
    
    [self.layer addAnimation:theAnimation forKey:self.keyPath];
+    //[theAnimation release];
    
+    
+    
    [CATransaction commit];
 }
 
