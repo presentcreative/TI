@@ -8,8 +8,8 @@
 
 #define kPhysicsTimeInterval .03f
 #define kPhysicsGravityVector CGPointMake(0.0,500.0)
-#define kPhysicsGlobalDamping 0.75f
-#define kShardMass 300.0f
+#define kPhysicsGlobalDamping 0.5f
+#define kShardMass 150.0f
 #define kMaxShards 9
 #define kShardViewBaseTag 200
 
@@ -97,8 +97,7 @@
       [shardShape release];
    }
       
-   // pottery shard movement is restricted to just the floor area
-   [fPhysicsSpace addBounds:CGRectMake(0.0f, 420.0f, 1024.0f, 308.0f) 
+   [fPhysicsSpace addBounds:CGRectMake(0.0f, 0.00f, 1024.0f, 728.0f) 
                       thickness:300.0f 
                      elasticity:1.0f 
                        friction:1.0f 
