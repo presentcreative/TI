@@ -6,6 +6,43 @@
 	<array>
 		<dict>
 			<key>page</key>
+			<integer>0</integer>
+			<key>elements</key>
+			<array>
+				<dict>
+					<key>description</key>
+					<string>CrossedPistols_0</string>
+					<key>id</key>
+					<string>CrossedPistols_0</string>
+					<key>customClass</key>
+					<string>ATextureAtlasBasedSequence</string>
+					<key>resourceBase</key>
+					<string>CrossedPistols_0</string>
+					<key>frame</key>
+					<array>
+						<integer>260</integer>
+						<integer>100</integer>
+						<integer>75</integer>
+						<integer>75</integer>
+					</array>
+					<key>sequences</key>
+					<array>
+						<dict>
+							<key>description</key>
+							<string>CrossedPistols_0</string>
+							<key>imageIndices</key>
+							<string>{1,14}</string>
+							<key>duration</key>
+							<integer>1</integer>
+							<key>repeatType</key>
+							<string>CONTINUOUS</string>
+						</dict>
+					</array>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>page</key>
 			<integer>2</integer>
 			<key>elements</key>
 			<array>
@@ -109,6 +146,36 @@
 			<array>
 				<dict>
 					<key>description</key>
+					<string>topleftsail</string>
+					<key>id</key>
+					<string>topleftsail</string>
+					<key>customClass</key>
+					<string>ATextureAtlasBasedSequence</string>
+					<key>resourceBase</key>
+					<string>Chapter26_TopLftSail_</string>
+					<key>frame</key>
+					<array>
+						<integer>510</integer>
+						<integer>70</integer>
+						<integer>176</integer>
+						<integer>278</integer>
+					</array>
+					<key>sequences</key>
+					<array>
+						<dict>
+							<key>description</key>
+							<string>topleftsail</string>
+							<key>imageIndices</key>
+							<string>{1,25}</string>
+							<key>duration</key>
+							<integer>2</integer>
+							<key>repeatType</key>
+							<string>CONTINUOUS</string>
+						</dict>
+					</array>
+				</dict>
+				<dict>
+					<key>description</key>
 					<string>Israel falls</string>
 					<key>id</key>
 					<string>israel_falls</string>
@@ -173,6 +240,96 @@
 					<string>800</string>
 					<key>duration</key>
 					<integer>30</integer>
+				</dict>
+				<dict>
+					<key>description</key>
+					<string>BottomRtSail</string>
+					<key>id</key>
+					<string>BottomRtSail</string>
+					<key>customClass</key>
+					<string>ATextureAtlasBasedSequence</string>
+					<key>resourceBase</key>
+					<string>Chapter26_BottomRtSail_</string>
+					<key>frame</key>
+					<array>
+						<integer>766</integer>
+						<integer>180</integer>
+						<integer>177</integer>
+						<integer>107</integer>
+					</array>
+					<key>sequences</key>
+					<array>
+						<dict>
+							<key>description</key>
+							<string>BottomRtSail</string>
+							<key>imageIndices</key>
+							<string>{1,25}</string>
+							<key>duration</key>
+							<integer>2</integer>
+							<key>repeatType</key>
+							<string>CONTINUOUS</string>
+						</dict>
+					</array>
+				</dict>
+				<dict>
+					<key>description</key>
+					<string>bottomleftsail</string>
+					<key>id</key>
+					<string>bottomleftsail</string>
+					<key>customClass</key>
+					<string>ATextureAtlasBasedSequence</string>
+					<key>resourceBase</key>
+					<string>Chapter26_BottomLftSail_</string>
+					<key>frame</key>
+					<array>
+						<integer>512</integer>
+						<integer>255</integer>
+						<integer>369</integer>
+						<integer>374</integer>
+					</array>
+					<key>sequences</key>
+					<array>
+						<dict>
+							<key>description</key>
+							<string>bottomleftsail</string>
+							<key>imageIndices</key>
+							<string>{1,25}</string>
+							<key>duration</key>
+							<integer>2</integer>
+							<key>repeatType</key>
+							<string>CONTINUOUS</string>
+						</dict>
+					</array>
+				</dict>
+				<dict>
+					<key>description</key>
+					<string>TopRtSail</string>
+					<key>id</key>
+					<string>TopRtSail</string>
+					<key>customClass</key>
+					<string>ATextureAtlasBasedSequence</string>
+					<key>resourceBase</key>
+					<string>Chapter26_TopRtSail_</string>
+					<key>frame</key>
+					<array>
+						<integer>615</integer>
+						<integer>76</integer>
+						<integer>123</integer>
+						<integer>36</integer>
+					</array>
+					<key>sequences</key>
+					<array>
+						<dict>
+							<key>description</key>
+							<string>TopRtSail</string>
+							<key>imageIndices</key>
+							<string>{1,25}</string>
+							<key>duration</key>
+							<integer>2</integer>
+							<key>repeatType</key>
+							<string>CONTINUOUS</string>
+						</dict>
+					</array>
 				</dict>
 			</array>
 		</dict>

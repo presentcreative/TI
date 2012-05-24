@@ -6,6 +6,45 @@
 	<array>
 		<dict>
 			<key>page</key>
+			<integer>0</integer>
+			<key>elements</key>
+			<array>
+				<dict>
+					<key>description</key>
+					<string>Telescope</string>
+					<key>id</key>
+					<string>telescope_header</string>
+					<key>customClass</key>
+					<string>ATextureAtlasBasedSequence</string>
+					<key>resourceBase</key>
+					<string>TI_ch1_header</string>
+					<key>frame</key>
+					<array>
+						<integer>276</integer>
+						<integer>149</integer>
+						<integer>52</integer>
+						<integer>17</integer>
+					</array>
+					<key>sequences</key>
+					<array>
+						<dict>
+							<key>description</key>
+							<string>telescope header</string>
+							<key>imageIndices</key>
+							<string>{1,14}</string>
+							<key>duration</key>
+							<integer>2</integer>
+							<key>repeatType</key>
+							<string>CONTINUOUS_WITH_DELAY</string>
+							<key>repeatDelay</key>
+							<real>2.4</real>
+						</dict>
+					</array>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>page</key>
 			<integer>1</integer>
 			<key>elements</key>
 			<array>
@@ -22,12 +61,26 @@
 					<integer>-1</integer>
 				</dict>
 				<dict>
+					<key>trigger</key>
+					<dict>
+						<key>type</key>
+						<string>TOUCH</string>
+						<key>regions</key>
+						<array>
+							<array>
+								<integer>130</integer>
+								<integer>300</integer>
+								<integer>65</integer>
+								<integer>110</integer>
+							</array>
+						</array>
+					</dict>
 					<key>description</key>
 					<string>The spyglass sign.</string>
 					<key>id</key>
 					<string>spyglass_sign</string>
 					<key>customClass</key>
-					<string>ATextureAtlasBasedSequence</string>
+					<string>ATriggeredTextureAtlasBasedSequence</string>
 					<key>resourceBase</key>
 					<string>TI_ch8_spyglass_sign</string>
 					<key>frame</key>
@@ -46,8 +99,6 @@
 							<string>{1,45}</string>
 							<key>duration</key>
 							<real>4.5</real>
-							<key>repeatType</key>
-							<string>CONTINUOUS</string>
 						</dict>
 					</array>
 				</dict>
@@ -82,6 +133,20 @@
 					</array>
 				</dict>
 				<dict>
+					<key>trigger</key>
+					<dict>
+						<key>type</key>
+						<string>TOUCH</string>
+						<key>regions</key>
+						<array>
+							<array>
+								<integer>0</integer>
+								<integer>400</integer>
+								<integer>100</integer>
+								<integer>200</integer>
+							</array>
+						</array>
+					</dict>
 					<key>description</key>
 					<string>The man walking in and out of the doorway under the sign.</string>
 					<key>id</key>
@@ -101,7 +166,17 @@
 					<array>
 						<dict>
 							<key>imageIndices</key>
-							<string>{1,7}</string>
+							<string>{1,14}</string>
+							<key>duration</key>
+							<real>1.7</real>
+							<key>transitionsFrom</key>
+							<array>
+								<string>0,8</string>
+							</array>
+						</dict>
+						<dict>
+							<key>imageIndices</key>
+							<string>{0,14}</string>
 							<key>duration</key>
 							<real>0.7</real>
 							<key>transitionsFrom</key>
@@ -109,28 +184,7 @@
 								<string>1,15</string>
 							</array>
 						</dict>
-						<dict>
-							<key>imageIndices</key>
-							<string>{8,7}</string>
-							<key>duration</key>
-							<real>0.7</real>
-							<key>transitionsFrom</key>
-							<array>
-								<string>0,8</string>
-							</array>
-						</dict>
 					</array>
-					<key>stepTriggerRequired</key>
-					<true/>
-					<key>trigger</key>
-					<dict>
-						<key>type</key>
-						<string>TIMER</string>
-						<key>repeats</key>
-						<true/>
-						<key>interval</key>
-						<integer>5</integer>
-					</dict>
 				</dict>
 				<dict>
 					<key>description</key>
@@ -209,12 +263,26 @@
 					</dict>
 				</dict>
 				<dict>
+					<key>trigger</key>
+					<dict>
+						<key>type</key>
+						<string>TOUCH</string>
+						<key>regions</key>
+						<array>
+							<array>
+								<integer>460</integer>
+								<integer>480</integer>
+								<integer>120</integer>
+								<integer>230</integer>
+							</array>
+						</array>
+					</dict>
 					<key>description</key>
 					<string>The black pirate waving on the bow of the ship.</string>
 					<key>id</key>
 					<string>black_pirate</string>
 					<key>customClass</key>
-					<string>ATextureAtlasBasedSequence</string>
+					<string>ATriggeredTextureAtlasBasedSequence</string>
 					<key>resourceBase</key>
 					<string>TI_ch8_black_pirate</string>
 					<key>frame</key>
@@ -233,8 +301,6 @@
 							<string>{1,12}</string>
 							<key>duration</key>
 							<real>1.2</real>
-							<key>repeatType</key>
-							<string>CONTINUOUS</string>
 						</dict>
 					</array>
 				</dict>
@@ -680,15 +746,15 @@
 						<string>tankard2.png</string>
 						<key>frame</key>
 						<array>
-							<integer>436</integer>
-							<integer>134</integer>
+							<integer>427</integer>
+							<integer>136</integer>
 							<integer>69</integer>
 							<integer>65</integer>
 						</array>
 						<key>anchorPoint</key>
 						<array>
-							<integer>36</integer>
-							<integer>5</integer>
+							<integer>42</integer>
+							<integer>6</integer>
 						</array>
 					</dict>
 					<key>triggers</key>

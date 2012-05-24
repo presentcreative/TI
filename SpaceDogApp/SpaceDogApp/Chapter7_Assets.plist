@@ -97,11 +97,7 @@
 					<key>trigger</key>
 					<dict>
 						<key>type</key>
-						<string>SWIPE</string>
-						<key>swipeDirection</key>
-						<string>DOWN</string>
-						<key>numberOfTouchesRequired</key>
-						<integer>1</integer>
+						<string>TOUCH</string>
 						<key>regions</key>
 						<array>
 							<array>
@@ -140,11 +136,7 @@
 					<key>trigger</key>
 					<dict>
 						<key>type</key>
-						<string>SWIPE</string>
-						<key>numberOfTouchesRequired</key>
-						<integer>1</integer>
-						<key>swipeDirection</key>
-						<string>DOWN</string>
+						<string>TOUCH</string>
 						<key>regions</key>
 						<array>
 							<array>
@@ -183,11 +175,7 @@
 					<key>trigger</key>
 					<dict>
 						<key>type</key>
-						<string>SWIPE</string>
-						<key>numberOfTouchesRequired</key>
-						<integer>1</integer>
-						<key>swipeDirection</key>
-						<string>DOWN</string>
+						<string>TOUCH</string>
 						<key>regions</key>
 						<array>
 							<array>
@@ -226,11 +214,7 @@
 					<key>trigger</key>
 					<dict>
 						<key>type</key>
-						<string>SWIPE</string>
-						<key>numberOfTouchesRequired</key>
-						<integer>1</integer>
-						<key>swipeDirection</key>
-						<string>DOWN</string>
+						<string>TOUCH</string>
 						<key>regions</key>
 						<array>
 							<array>
@@ -269,11 +253,7 @@
 					<key>trigger</key>
 					<dict>
 						<key>type</key>
-						<string>SWIPE</string>
-						<key>numberOfTouchesRequired</key>
-						<integer>1</integer>
-						<key>swipeDirection</key>
-						<string>DOWN</string>
+						<string>TOUCH</string>
 						<key>regions</key>
 						<array>
 							<array>

@@ -11,6 +11,36 @@
 			<array>
 				<dict>
 					<key>description</key>
+					<string>palm</string>
+					<key>id</key>
+					<string>palm</string>
+					<key>customClass</key>
+					<string>ATextureAtlasBasedSequence</string>
+					<key>resourceBase</key>
+					<string>Palms_0</string>
+					<key>frame</key>
+					<array>
+						<integer>677</integer>
+						<integer>92</integer>
+						<integer>100</integer>
+						<integer>85</integer>
+					</array>
+					<key>sequences</key>
+					<array>
+						<dict>
+							<key>description</key>
+							<string>telescope header</string>
+							<key>imageIndices</key>
+							<string>{1,19}</string>
+							<key>duration</key>
+							<integer>2</integer>
+							<key>repeatType</key>
+							<string>CONTINUOUS</string>
+						</dict>
+					</array>
+				</dict>
+				<dict>
+					<key>description</key>
 					<string>Ambient sounds of pirates yelling.</string>
 					<key>id</key>
 					<string>pirates_yelling</string>
@@ -179,7 +209,7 @@
 					<key>customClass</key>
 					<string>ACoconut</string>
 					<key>resource</key>
-					<string>coconut.png</string>
+					<string>coconut_02.png</string>
 					<key>objectObjectCollisionSoundEffect</key>
 					<string>Coconut1.m4a</string>
 					<key>objectWallCollisionSoundEffect</key>
@@ -188,10 +218,10 @@
 					<dict>
 						<key>frame</key>
 						<array>
-							<integer>0</integer>
+							<integer>20</integer>
 							<integer>558</integer>
-							<integer>176</integer>
-							<integer>190</integer>
+							<integer>111</integer>
+							<integer>116</integer>
 						</array>
 					</dict>
 					<key>coconut2Layer</key>
@@ -200,8 +230,8 @@
 						<array>
 							<integer>424</integer>
 							<integer>558</integer>
-							<integer>176</integer>
-							<integer>190</integer>
+							<integer>111</integer>
+							<integer>116</integer>
 						</array>
 					</dict>
 					<key>coconut3Layer</key>
@@ -210,8 +240,8 @@
 						<array>
 							<integer>848</integer>
 							<integer>558</integer>
-							<integer>176</integer>
-							<integer>190</integer>
+							<integer>111</integer>
+							<integer>116</integer>
 						</array>
 					</dict>
 				</dict>

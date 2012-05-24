@@ -11,6 +11,36 @@
 			<array>
 				<dict>
 					<key>description</key>
+					<string>JollyRoger_0</string>
+					<key>id</key>
+					<string>JollyRoger_0</string>
+					<key>customClass</key>
+					<string>ATextureAtlasBasedSequence</string>
+					<key>resourceBase</key>
+					<string>JollyRoger_0</string>
+					<key>frame</key>
+					<array>
+						<integer>689</integer>
+						<integer>107</integer>
+						<integer>75</integer>
+						<integer>75</integer>
+					</array>
+					<key>sequences</key>
+					<array>
+						<dict>
+							<key>description</key>
+							<string>JollyRoger_0</string>
+							<key>imageIndices</key>
+							<string>{1,19}</string>
+							<key>duration</key>
+							<integer>2</integer>
+							<key>repeatType</key>
+							<string>CONTINUOUS</string>
+						</dict>
+					</array>
+				</dict>
+				<dict>
+					<key>description</key>
 					<string>The sails flapping in the wind.</string>
 					<key>id</key>
 					<string>sails_flapping</string>
@@ -213,7 +243,7 @@
 					<key>frame</key>
 					<array>
 						<integer>470</integer>
-						<integer>430</integer>
+						<integer>490</integer>
 						<integer>500</integer>
 						<integer>220</integer>
 					</array>
@@ -271,7 +301,7 @@
 						<array>
 							<array>
 								<integer>440</integer>
-								<integer>430</integer>
+								<integer>490</integer>
 								<integer>500</integer>
 								<integer>220</integer>
 							</array>

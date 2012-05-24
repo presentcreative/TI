@@ -8,7 +8,38 @@
 			<key>page</key>
 			<integer>0</integer>
 			<key>elements</key>
-			<array/>
+			<array>
+				<dict>
+					<key>description</key>
+					<string>campfire</string>
+					<key>id</key>
+					<string>campfire</string>
+					<key>customClass</key>
+					<string>ATextureAtlasBasedSequence</string>
+					<key>resourceBase</key>
+					<string>Campfire_0</string>
+					<key>frame</key>
+					<array>
+						<integer>268</integer>
+						<integer>114</integer>
+						<integer>60</integer>
+						<integer>60</integer>
+					</array>
+					<key>sequences</key>
+					<array>
+						<dict>
+							<key>description</key>
+							<string>telescope header</string>
+							<key>imageIndices</key>
+							<string>{1,19}</string>
+							<key>duration</key>
+							<integer>2</integer>
+							<key>repeatType</key>
+							<string>CONTINUOUS</string>
+						</dict>
+					</array>
+				</dict>
+			</array>
 		</dict>
 		<dict>
 			<key>page</key>

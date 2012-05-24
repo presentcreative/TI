@@ -378,13 +378,13 @@
 					<key>customClass</key>
 					<string>APositionAnimation</string>
 					<key>resource</key>
-					<string>pew_falling.png</string>
+					<string>ch5_pg20_falling_pew.png</string>
 					<key>frame</key>
 					<array>
 						<integer>35</integer>
 						<integer>473</integer>
-						<integer>286</integer>
-						<integer>256</integer>
+						<integer>273</integer>
+						<integer>226</integer>
 					</array>
 					<key>xDelta</key>
 					<integer>-286</integer>

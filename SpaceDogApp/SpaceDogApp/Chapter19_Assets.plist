@@ -11,6 +11,36 @@
 			<array>
 				<dict>
 					<key>description</key>
+					<string>campfire</string>
+					<key>id</key>
+					<string>campfire</string>
+					<key>customClass</key>
+					<string>ATextureAtlasBasedSequence</string>
+					<key>resourceBase</key>
+					<string>Campfire_0</string>
+					<key>frame</key>
+					<array>
+						<integer>697</integer>
+						<integer>114</integer>
+						<integer>60</integer>
+						<integer>60</integer>
+					</array>
+					<key>sequences</key>
+					<array>
+						<dict>
+							<key>description</key>
+							<string>telescope header</string>
+							<key>imageIndices</key>
+							<string>{1,19}</string>
+							<key>duration</key>
+							<integer>2</integer>
+							<key>repeatType</key>
+							<string>CONTINUOUS</string>
+						</dict>
+					</array>
+				</dict>
+				<dict>
+					<key>description</key>
 					<string>The party!</string>
 					<key>id</key>
 					<string>the_party</string>
@@ -21,7 +51,9 @@
 					<key>maxDuration</key>
 					<integer>12</integer>
 					<key>fadeOutDuration</key>
-					<integer>2</integer>
+					<integer>5</integer>
+					<key>fadeInDuration</key>
+					<integer>3</integer>
 				</dict>
 				<dict>
 					<key>description</key>
@@ -101,7 +133,7 @@
 							<key>imageIndices</key>
 							<string>{1,7}</string>
 							<key>duration</key>
-							<real>0.7</real>
+							<integer>1</integer>
 							<key>repeatType</key>
 							<string>CONTINUOUS</string>
 						</dict>

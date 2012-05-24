@@ -11,6 +11,36 @@
 			<array>
 				<dict>
 					<key>description</key>
+					<string>Ship_0</string>
+					<key>id</key>
+					<string>Ship_0</string>
+					<key>customClass</key>
+					<string>ATextureAtlasBasedSequence</string>
+					<key>resourceBase</key>
+					<string>Ship_0</string>
+					<key>frame</key>
+					<array>
+						<integer>690</integer>
+						<integer>113</integer>
+						<integer>70</integer>
+						<integer>70</integer>
+					</array>
+					<key>sequences</key>
+					<array>
+						<dict>
+							<key>description</key>
+							<string>ship</string>
+							<key>imageIndices</key>
+							<string>{1,19}</string>
+							<key>duration</key>
+							<integer>2</integer>
+							<key>repeatType</key>
+							<string>CONTINUOUS</string>
+						</dict>
+					</array>
+				</dict>
+				<dict>
+					<key>description</key>
 					<string>The storm at sea.</string>
 					<key>id</key>
 					<string>the_storm</string>

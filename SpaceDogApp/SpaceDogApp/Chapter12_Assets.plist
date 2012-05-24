@@ -11,6 +11,36 @@
 			<array>
 				<dict>
 					<key>description</key>
+					<string>ship and island</string>
+					<key>id</key>
+					<string>ship and island</string>
+					<key>customClass</key>
+					<string>ATextureAtlasBasedSequence</string>
+					<key>resourceBase</key>
+					<string>ShipAndIsland_0</string>
+					<key>frame</key>
+					<array>
+						<integer>673</integer>
+						<integer>126</integer>
+						<integer>107</integer>
+						<integer>40</integer>
+					</array>
+					<key>sequences</key>
+					<array>
+						<dict>
+							<key>description</key>
+							<string>telescope header</string>
+							<key>imageIndices</key>
+							<string>{1,19}</string>
+							<key>duration</key>
+							<integer>2</integer>
+							<key>repeatType</key>
+							<string>CONTINUOUS</string>
+						</dict>
+					</array>
+				</dict>
+				<dict>
+					<key>description</key>
 					<string>The sound of the sea splashing against the Hispanola.</string>
 					<key>id</key>
 					<string>splashing_seas</string>
@@ -96,7 +126,142 @@
 						<integer>579</integer>
 					</array>
 					<key>delay</key>
-					<integer>2</integer>
+					<integer>0</integer>
+				</dict>
+				<dict>
+					<key>description</key>
+					<string>land ahead</string>
+					<key>id</key>
+					<string>land ahead</string>
+					<key>customClass</key>
+					<string>ATriggeredTextureAtlasBasedSequence</string>
+					<key>resourceBase</key>
+					<string>Chapter12_Smollett_</string>
+					<key>frame</key>
+					<array>
+						<integer>276</integer>
+						<integer>298</integer>
+						<integer>216</integer>
+						<integer>357</integer>
+					</array>
+					<key>sequences</key>
+					<array>
+						<dict>
+							<key>description</key>
+							<string>The character lying silently.  This is the base sequence and is assumed to display until the next sequence is triggered.</string>
+							<key>imageIndices</key>
+							<string>{1,1}</string>
+							<key>transitionsFrom</key>
+							<array>
+								<string>1,24</string>
+							</array>
+						</dict>
+						<dict>
+							<key>description</key>
+							<string>The last gasp sequence.</string>
+							<key>imageIndices</key>
+							<string>{1,29}</string>
+							<key>duration</key>
+							<integer>3</integer>
+							<key>numRepeats</key>
+							<integer>0</integer>
+							<key>transitionsFrom</key>
+							<array>
+								<string>0,1</string>
+							</array>
+						</dict>
+					</array>
+					<key>trigger</key>
+					<dict>
+						<key>type</key>
+						<string>TOUCH</string>
+						<key>allowsConcurrentTrigger</key>
+						<true/>
+						<key>regions</key>
+						<array>
+							<array>
+								<integer>240</integer>
+								<integer>260</integer>
+								<integer>200</integer>
+								<integer>300</integer>
+							</array>
+						</array>
+					</dict>
+				</dict>
+				<dict>
+					<key>description</key>
+					<string>land ho</string>
+					<key>id</key>
+					<string>land ho</string>
+					<key>customClass</key>
+					<string>ATriggeredTextureAtlasBasedSequence</string>
+					<key>resourceBase</key>
+					<string>Chapter12_PirateSm_</string>
+					<key>frame</key>
+					<array>
+						<integer>52</integer>
+						<integer>82</integer>
+						<integer>165</integer>
+						<integer>335</integer>
+					</array>
+					<key>sequences</key>
+					<array>
+						<dict>
+							<key>description</key>
+							<string>The character lying silently.  This is the base sequence and is assumed to display until the next sequence is triggered.</string>
+							<key>imageIndices</key>
+							<string>{1,1}</string>
+							<key>transitionsFrom</key>
+							<array>
+								<string>1,24</string>
+							</array>
+						</dict>
+						<dict>
+							<key>description</key>
+							<string>The last gasp sequence.</string>
+							<key>imageIndices</key>
+							<string>{1,29}</string>
+							<key>duration</key>
+							<real>3.3</real>
+							<key>numRepeats</key>
+							<integer>0</integer>
+							<key>transitionsFrom</key>
+							<array>
+								<string>0,1</string>
+							</array>
+							<key>soundEffect</key>
+							<dict>
+								<key>fadeInDuration</key>
+								<integer>0</integer>
+								<key>description</key>
+								<string>The sound made the chest</string>
+								<key>id</key>
+								<string>chest</string>
+								<key>resource</key>
+								<string>Chap12_DLG_PirateOnRopes_LandHo.m4a</string>
+								<key>customClass</key>
+								<string>AAmbientSound</string>
+								<key>numLoops</key>
+								<integer>0</integer>
+							</dict>
+						</dict>
+					</array>
+					<key>trigger</key>
+					<dict>
+						<key>type</key>
+						<string>TOUCH</string>
+						<key>allowsConcurrentTrigger</key>
+						<true/>
+						<key>regions</key>
+						<array>
+							<array>
+								<integer>90</integer>
+								<integer>120</integer>
+								<integer>50</integer>
+								<integer>200</integer>
+							</array>
+						</array>
+					</dict>
 				</dict>
 			</array>
 			<key>helpDescriptors</key>

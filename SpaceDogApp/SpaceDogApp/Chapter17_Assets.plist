@@ -6,6 +6,43 @@
 	<array>
 		<dict>
 			<key>page</key>
+			<integer>0</integer>
+			<key>elements</key>
+			<array>
+				<dict>
+					<key>description</key>
+					<string>OArs</string>
+					<key>id</key>
+					<string>Oars</string>
+					<key>customClass</key>
+					<string>ATextureAtlasBasedSequence</string>
+					<key>resourceBase</key>
+					<string>Oars_0</string>
+					<key>frame</key>
+					<array>
+						<integer>261</integer>
+						<integer>110</integer>
+						<integer>75</integer>
+						<integer>75</integer>
+					</array>
+					<key>sequences</key>
+					<array>
+						<dict>
+							<key>description</key>
+							<string>telescope header</string>
+							<key>imageIndices</key>
+							<string>{1,19}</string>
+							<key>duration</key>
+							<integer>2</integer>
+							<key>repeatType</key>
+							<string>CONTINUOUS</string>
+						</dict>
+					</array>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>page</key>
 			<integer>1</integer>
 			<key>elements</key>
 			<array>
@@ -144,7 +181,7 @@
 									<key>imageIndices</key>
 									<string>{1,6}</string>
 									<key>duration</key>
-									<real>0.6</real>
+									<real>0.2</real>
 									<key>postExecutionNotification</key>
 									<string>CH17_SHOT_FIRED</string>
 									<key>transitionsFrom</key>

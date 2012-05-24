@@ -382,6 +382,36 @@
 			<array>
 				<dict>
 					<key>description</key>
+					<string>the ship</string>
+					<key>id</key>
+					<string>ship</string>
+					<key>customClass</key>
+					<string>ATextureAtlasBasedSequence</string>
+					<key>resourceBase</key>
+					<string>Chapter10_Ship_</string>
+					<key>frame</key>
+					<array>
+						<integer>620</integer>
+						<integer>210</integer>
+						<integer>184</integer>
+						<integer>176</integer>
+					</array>
+					<key>sequences</key>
+					<array>
+						<dict>
+							<key>description</key>
+							<string>The bobbing ship.</string>
+							<key>imageIndices</key>
+							<string>{1,29}</string>
+							<key>duration</key>
+							<integer>4</integer>
+							<key>repeatType</key>
+							<string>CONTINUOUS</string>
+						</dict>
+					</array>
+				</dict>
+				<dict>
+					<key>description</key>
 					<string>Ambient sounds of the Hispanola in rough seas.</string>
 					<key>id</key>
 					<string>rough_seas</string>
@@ -487,9 +517,23 @@
 					<key>id</key>
 					<string>lightning</string>
 					<key>customClass</key>
-					<string>ATextureAtlasBasedSequence</string>
+					<string>ATriggeredTextureAtlasBasedSequence</string>
 					<key>resourceBase</key>
 					<string>TI_ch10_lightning</string>
+					<key>trigger</key>
+					<dict>
+						<key>type</key>
+						<string>TOUCH</string>
+						<key>regions</key>
+						<array>
+							<array>
+								<integer>524</integer>
+								<integer>70</integer>
+								<integer>500</integer>
+								<integer>600</integer>
+							</array>
+						</array>
+					</dict>
 					<key>frame</key>
 					<array>
 						<integer>704</integer>
@@ -500,16 +544,27 @@
 					<key>sequences</key>
 					<array>
 						<dict>
+							<key>soundEffect</key>
+							<dict>
+								<key>delay</key>
+								<real>0.2</real>
+								<key>description</key>
+								<string>Thunder to accompany lighting flash</string>
+								<key>type</key>
+								<string>SOUNDEFFECT</string>
+								<key>id</key>
+								<string>ljs_parley</string>
+								<key>resource</key>
+								<string>Chap10b_thunder.m4a</string>
+								<key>customClass</key>
+								<string>ASoundEffect</string>
+							</dict>
 							<key>description</key>
 							<string>The lightning, flashing.</string>
 							<key>imageIndices</key>
 							<string>{1,12}</string>
 							<key>duration</key>
 							<real>1.2</real>
-							<key>repeatType</key>
-							<string>CONTINUOUS_WITH_DELAY</string>
-							<key>repeatDelay</key>
-							<integer>3</integer>
 						</dict>
 					</array>
 				</dict>

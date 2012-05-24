@@ -11,6 +11,36 @@
 			<array>
 				<dict>
 					<key>description</key>
+					<string>Helm_0</string>
+					<key>id</key>
+					<string>Helm_0</string>
+					<key>customClass</key>
+					<string>ATextureAtlasBasedSequence</string>
+					<key>resourceBase</key>
+					<string>Helm_0</string>
+					<key>frame</key>
+					<array>
+						<integer>687</integer>
+						<integer>102</integer>
+						<integer>80</integer>
+						<integer>80</integer>
+					</array>
+					<key>sequences</key>
+					<array>
+						<dict>
+							<key>description</key>
+							<string>Helm_0</string>
+							<key>imageIndices</key>
+							<string>{1,19}</string>
+							<key>duration</key>
+							<integer>2</integer>
+							<key>repeatType</key>
+							<string>CONTINUOUS</string>
+						</dict>
+					</array>
+				</dict>
+				<dict>
+					<key>description</key>
 					<string>Jim at the helm.</string>
 					<key>id</key>
 					<string>jim_at_the_helm_ambient</string>

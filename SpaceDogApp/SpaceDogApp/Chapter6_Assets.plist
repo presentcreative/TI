@@ -11,6 +11,38 @@
 			<array>
 				<dict>
 					<key>description</key>
+					<string>The chapter header.</string>
+					<key>id</key>
+					<string>ch6_header</string>
+					<key>customClass</key>
+					<string>ATextureAtlasBasedSequence</string>
+					<key>resourceBase</key>
+					<string>XMarksSpot_0</string>
+					<key>frame</key>
+					<array>
+						<integer>705</integer>
+						<integer>120</integer>
+						<integer>44</integer>
+						<integer>57</integer>
+					</array>
+					<key>sequences</key>
+					<array>
+						<dict>
+							<key>description</key>
+							<string>x marks the spot</string>
+							<key>imageIndices</key>
+							<string>{1,15}</string>
+							<key>duration</key>
+							<real>1.5</real>
+							<key>repeatType</key>
+							<string>CONTINUOUS_WITH_DELAY</string>
+							<key>repeatDelay</key>
+							<integer>2</integer>
+						</dict>
+					</array>
+				</dict>
+				<dict>
+					<key>description</key>
 					<string>Ambient sound of the cat purring by the fire.</string>
 					<key>id</key>
 					<string>cat_purr</string>

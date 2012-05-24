@@ -11,6 +11,38 @@
 			<array>
 				<dict>
 					<key>description</key>
+					<string>bottle breaking</string>
+					<key>id</key>
+					<string>bottle_header</string>
+					<key>customClass</key>
+					<string>ATextureAtlasBasedSequence</string>
+					<key>resourceBase</key>
+					<string>Bottle_0</string>
+					<key>frame</key>
+					<array>
+						<integer>666</integer>
+						<integer>103</integer>
+						<integer>80</integer>
+						<integer>80</integer>
+					</array>
+					<key>sequences</key>
+					<array>
+						<dict>
+							<key>description</key>
+							<string>bottle header</string>
+							<key>imageIndices</key>
+							<string>{1,19}</string>
+							<key>duration</key>
+							<integer>2</integer>
+							<key>repeatType</key>
+							<string>CONTINUOUS_WITH_DELAY</string>
+							<key>repeatDelay</key>
+							<real>2.4</real>
+						</dict>
+					</array>
+				</dict>
+				<dict>
+					<key>description</key>
 					<string>Ambient sound of the wind whistling in the door</string>
 					<key>id</key>
 					<string>whistling_wind</string>
@@ -364,13 +396,13 @@
 					<key>sloshingSequence1</key>
 					<dict>
 						<key>resourceBase</key>
-						<string>TI_ch2_rum_bottle</string>
+						<string>TI_ch2_rum_bottle_0</string>
 						<key>frame</key>
 						<array>
 							<integer>525</integer>
 							<integer>385</integer>
-							<integer>411</integer>
-							<integer>262</integer>
+							<integer>420</integer>
+							<integer>300</integer>
 						</array>
 						<key>sequences</key>
 						<array>
@@ -378,36 +410,11 @@
 								<key>description</key>
 								<string>The rum in the bottle.</string>
 								<key>imageIndices</key>
-								<string>{1,20}</string>
+								<string>{1,39}</string>
 								<key>unpatterned</key>
 								<true/>
 								<key>initialFrame</key>
-								<integer>10</integer>
-							</dict>
-						</array>
-					</dict>
-					<key>sloshingSequence2</key>
-					<dict>
-						<key>resourceBase</key>
-						<string>TI_ch2_rum_bottle_upsidedown</string>
-						<key>frame</key>
-						<array>
-							<integer>525</integer>
-							<integer>385</integer>
-							<integer>411</integer>
-							<integer>262</integer>
-						</array>
-						<key>sequences</key>
-						<array>
-							<dict>
-								<key>description</key>
-								<string>The rum in the bottle.</string>
-								<key>imageIndices</key>
-								<string>{1,20}</string>
-								<key>unpatterned</key>
-								<true/>
-								<key>initialFrame</key>
-								<integer>10</integer>
+								<integer>20</integer>
 							</dict>
 						</array>
 					</dict>

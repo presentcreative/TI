@@ -3,6 +3,46 @@
 <plist version="1.0">
 <dict>
 	<key>pages</key>
-	<array/>
+	<array>
+		<dict>
+			<key>page</key>
+			<integer>0</integer>
+			<key>elements</key>
+			<array>
+				<dict>
+					<key>description</key>
+					<string>Black Spot</string>
+					<key>id</key>
+					<string>blspot</string>
+					<key>customClass</key>
+					<string>ATextureAtlasBasedSequence</string>
+					<key>resourceBase</key>
+					<string>BlackSpot_0</string>
+					<key>frame</key>
+					<array>
+						<integer>276</integer>
+						<integer>130</integer>
+						<integer>45</integer>
+						<integer>45</integer>
+					</array>
+					<key>sequences</key>
+					<array>
+						<dict>
+							<key>description</key>
+							<string>blackspot</string>
+							<key>imageIndices</key>
+							<string>{1,19}</string>
+							<key>duration</key>
+							<integer>2</integer>
+							<key>repeatType</key>
+							<string>CONTINUOUS_WITH_DELAY</string>
+							<key>repeatDelay</key>
+							<real>2.4</real>
+						</dict>
+					</array>
+				</dict>
+			</array>
+		</dict>
+	</array>
 </dict>
 </plist>

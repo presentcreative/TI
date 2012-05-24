@@ -11,6 +11,68 @@
 			<array>
 				<dict>
 					<key>description</key>
+					<string>flapping sail</string>
+					<key>id</key>
+					<string>flapping</string>
+					<key>customClass</key>
+					<string>ATextureAtlasBasedSequence</string>
+					<key>resourceBase</key>
+					<string>Chapter16_Sail_</string>
+					<key>frame</key>
+					<array>
+						<integer>294</integer>
+						<integer>76</integer>
+						<integer>220</integer>
+						<integer>200</integer>
+					</array>
+					<key>sequences</key>
+					<array>
+						<dict>
+							<key>description</key>
+							<string>sailflap</string>
+							<key>imageIndices</key>
+							<string>{1,29}</string>
+							<key>duration</key>
+							<integer>3</integer>
+							<key>repeatType</key>
+							<string>CONTINUOUS</string>
+						</dict>
+					</array>
+				</dict>
+				<dict>
+					<key>description</key>
+					<string>Pistol</string>
+					<key>id</key>
+					<string>pistol</string>
+					<key>customClass</key>
+					<string>ATextureAtlasBasedSequence</string>
+					<key>resourceBase</key>
+					<string>Pistol_0</string>
+					<key>frame</key>
+					<array>
+						<integer>680</integer>
+						<integer>124</integer>
+						<integer>120</integer>
+						<integer>50</integer>
+					</array>
+					<key>sequences</key>
+					<array>
+						<dict>
+							<key>repeatDelay</key>
+							<real>2.4</real>
+							<key>description</key>
+							<string>pistol</string>
+							<key>imageIndices</key>
+							<string>{1,19}</string>
+							<key>duration</key>
+							<integer>1</integer>
+							<key>repeatType</key>
+							<string>CONTINUOUS_WITH_DELAY</string>
+						</dict>
+					</array>
+				</dict>
+				<dict>
+					<key>description</key>
 					<string>Ambient sounds of ship at sea.</string>
 					<key>id</key>
 					<string>ship_at_sea</string>

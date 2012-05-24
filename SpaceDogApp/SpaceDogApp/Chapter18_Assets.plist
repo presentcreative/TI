@@ -11,6 +11,36 @@
 			<array>
 				<dict>
 					<key>description</key>
+					<string>Sword</string>
+					<key>id</key>
+					<string>sword</string>
+					<key>customClass</key>
+					<string>ATextureAtlasBasedSequence</string>
+					<key>resourceBase</key>
+					<string>Sword_0</string>
+					<key>frame</key>
+					<array>
+						<integer>625</integer>
+						<integer>127</integer>
+						<integer>200</integer>
+						<integer>50</integer>
+					</array>
+					<key>sequences</key>
+					<array>
+						<dict>
+							<key>description</key>
+							<string>telescope header</string>
+							<key>imageIndices</key>
+							<string>{1,19}</string>
+							<key>duration</key>
+							<integer>2</integer>
+							<key>repeatType</key>
+							<string>CONTINUOUS</string>
+						</dict>
+					</array>
+				</dict>
+				<dict>
+					<key>description</key>
 					<string>The chase...</string>
 					<key>id</key>
 					<string>the_chase</string>
@@ -30,7 +60,7 @@
 					<string>TI_ch18_dust_particles</string>
 					<key>frame</key>
 					<array>
-						<integer>228</integer>
+						<integer>224</integer>
 						<integer>351</integer>
 						<integer>285</integer>
 						<integer>227</integer>
@@ -107,6 +137,53 @@
 							<key>repeatType</key>
 							<string>CONTINUOUS</string>
 						</dict>
+					</array>
+				</dict>
+				<dict>
+					<key>description</key>
+					<string>scooby doo legs</string>
+					<key>id</key>
+					<string>scooby doo legs</string>
+					<key>customClass</key>
+					<string>ATextureAtlasBasedSequence</string>
+					<key>resourceBase</key>
+					<string>chapter18_legs_</string>
+					<key>frame</key>
+					<array>
+						<integer>250</integer>
+						<integer>296</integer>
+						<integer>258</integer>
+						<integer>264</integer>
+					</array>
+					<key>sequences</key>
+					<array>
+						<dict>
+							<key>description</key>
+							<string>scooby doo legs</string>
+							<key>imageIndices</key>
+							<string>{0,6}</string>
+							<key>duration</key>
+							<real>0.4</real>
+							<key>repeatType</key>
+							<string>CONTINUOUS</string>
+						</dict>
+					</array>
+				</dict>
+				<dict>
+					<key>description</key>
+					<string>border</string>
+					<key>id</key>
+					<string>border</string>
+					<key>customClass</key>
+					<string>AStaticImage</string>
+					<key>resource</key>
+					<string>Chapter18_Border.png</string>
+					<key>frame</key>
+					<array>
+						<integer>80</integer>
+						<integer>74</integer>
+						<integer>433</integer>
+						<integer>577</integer>
 					</array>
 				</dict>
 			</array>

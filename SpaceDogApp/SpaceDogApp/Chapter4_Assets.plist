@@ -8,13 +8,119 @@
 			<key>page</key>
 			<integer>0</integer>
 			<key>elements</key>
-			<array/>
+			<array>
+				<dict>
+					<key>description</key>
+					<string>Lock Opening</string>
+					<key>id</key>
+					<string>lock_header</string>
+					<key>customClass</key>
+					<string>ATextureAtlasBasedSequence</string>
+					<key>resourceBase</key>
+					<string>TI_ch4_header</string>
+					<key>frame</key>
+					<array>
+						<integer>268</integer>
+						<integer>126</integer>
+						<integer>50</integer>
+						<integer>50</integer>
+					</array>
+					<key>sequences</key>
+					<array>
+						<dict>
+							<key>description</key>
+							<string>chap lock</string>
+							<key>imageIndices</key>
+							<string>{1,14}</string>
+							<key>duration</key>
+							<integer>2</integer>
+							<key>repeatType</key>
+							<string>CONTINUOUS_WITH_DELAY</string>
+							<key>repeatDelay</key>
+							<real>2.4</real>
+						</dict>
+					</array>
+				</dict>
+			</array>
 		</dict>
 		<dict>
 			<key>page</key>
 			<integer>1</integer>
 			<key>elements</key>
 			<array>
+				<dict>
+					<key>description</key>
+					<string>treasurechest</string>
+					<key>id</key>
+					<string>treasure chest</string>
+					<key>customClass</key>
+					<string>ATriggeredTextureAtlasBasedSequence</string>
+					<key>resourceBase</key>
+					<string>Chest_0</string>
+					<key>frame</key>
+					<array>
+						<integer>711</integer>
+						<integer>460</integer>
+						<integer>350</integer>
+						<integer>300</integer>
+					</array>
+					<key>sequences</key>
+					<array>
+						<dict>
+							<key>description</key>
+							<string>The character lying silently.  This is the base sequence and is assumed to display until the next sequence is triggered.</string>
+							<key>imageIndices</key>
+							<string>{1,1}</string>
+							<key>transitionsFrom</key>
+							<array>
+								<string>1,24</string>
+							</array>
+						</dict>
+						<dict>
+							<key>description</key>
+							<string>The last gasp sequence.</string>
+							<key>imageIndices</key>
+							<string>{1,39}</string>
+							<key>duration</key>
+							<real>1.5</real>
+							<key>numRepeats</key>
+							<integer>0</integer>
+							<key>transitionsFrom</key>
+							<array>
+								<string>0,1</string>
+							</array>
+							<key>soundEffect</key>
+							<dict>
+								<key>description</key>
+								<string>The sound made the chest</string>
+								<key>id</key>
+								<string>chest</string>
+								<key>resource</key>
+								<string>chest.m4a</string>
+								<key>customClass</key>
+								<string>AAmbientSound</string>
+								<key>numLoops</key>
+								<integer>0</integer>
+							</dict>
+						</dict>
+					</array>
+					<key>trigger</key>
+					<dict>
+						<key>type</key>
+						<string>TOUCH</string>
+						<key>allowsConcurrentTrigger</key>
+						<true/>
+						<key>regions</key>
+						<array>
+							<array>
+								<integer>740</integer>
+								<integer>615</integer>
+								<integer>270</integer>
+								<integer>120</integer>
+							</array>
+						</array>
+					</dict>
+				</dict>
 				<dict>
 					<key>description</key>
 					<string>Ambient sound of glass breaking.</string>
@@ -196,30 +302,6 @@
 								<integer>225</integer>
 								<integer>300</integer>
 								<integer>300</integer>
-							</array>
-						</array>
-					</dict>
-				</dict>
-				<dict>
-					<key>description</key>
-					<string>The sound of a lock made when the chest is touched.</string>
-					<key>id</key>
-					<string>lock_sound</string>
-					<key>resource</key>
-					<string>chest.m4a</string>
-					<key>customClass</key>
-					<string>ATriggeredSoundEffect</string>
-					<key>trigger</key>
-					<dict>
-						<key>type</key>
-						<string>TOUCH</string>
-						<key>regions</key>
-						<array>
-							<array>
-								<integer>740</integer>
-								<integer>615</integer>
-								<integer>270</integer>
-								<integer>120</integer>
 							</array>
 						</array>
 					</dict>

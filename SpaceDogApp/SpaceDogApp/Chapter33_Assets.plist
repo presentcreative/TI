@@ -11,6 +11,36 @@
 			<array>
 				<dict>
 					<key>description</key>
+					<string>ChestAndSword_0</string>
+					<key>id</key>
+					<string>ChestAndSword_0</string>
+					<key>customClass</key>
+					<string>ATextureAtlasBasedSequence</string>
+					<key>resourceBase</key>
+					<string>ChestAndSword_0</string>
+					<key>frame</key>
+					<array>
+						<integer>667</integer>
+						<integer>106</integer>
+						<integer>120</integer>
+						<integer>100</integer>
+					</array>
+					<key>sequences</key>
+					<array>
+						<dict>
+							<key>description</key>
+							<string>ChestAndSword_0</string>
+							<key>imageIndices</key>
+							<string>{1,19}</string>
+							<key>duration</key>
+							<integer>2</integer>
+							<key>repeatType</key>
+							<string>CONTINUOUS</string>
+						</dict>
+					</array>
+				</dict>
+				<dict>
+					<key>description</key>
 					<string>Treasure laugh.</string>
 					<key>id</key>
 					<string>treasure_laugh</string>

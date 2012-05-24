@@ -8,7 +8,38 @@
 			<key>page</key>
 			<integer>0</integer>
 			<key>elements</key>
-			<array/>
+			<array>
+				<dict>
+					<key>description</key>
+					<string>Sun_0</string>
+					<key>id</key>
+					<string>Sun_0</string>
+					<key>customClass</key>
+					<string>ATextureAtlasBasedSequence</string>
+					<key>resourceBase</key>
+					<string>Sun_0</string>
+					<key>frame</key>
+					<array>
+						<integer>268</integer>
+						<integer>115</integer>
+						<integer>60</integer>
+						<integer>60</integer>
+					</array>
+					<key>sequences</key>
+					<array>
+						<dict>
+							<key>description</key>
+							<string>Sun_0</string>
+							<key>imageIndices</key>
+							<string>{1,14}</string>
+							<key>duration</key>
+							<integer>2</integer>
+							<key>repeatType</key>
+							<string>CONTINUOUS</string>
+						</dict>
+					</array>
+				</dict>
+			</array>
 		</dict>
 		<dict>
 			<key>page</key>
@@ -98,33 +129,55 @@
 			<array>
 				<dict>
 					<key>description</key>
-					<string>The shine on the chest&apos;s lock.</string>
+					<string>the chest</string>
 					<key>id</key>
-					<string>lock_shine</string>
+					<string>the chest</string>
 					<key>customClass</key>
-					<string>ATextureAtlasBasedSequence</string>
+					<string>ATriggeredTextureAtlasBasedSequence</string>
 					<key>resourceBase</key>
-					<string>TI_ch34b_lock_shine</string>
+					<string>Ch34Chest_</string>
 					<key>frame</key>
 					<array>
-						<integer>645</integer>
-						<integer>297</integer>
-						<integer>79</integer>
-						<integer>73</integer>
+						<integer>474</integer>
+						<integer>196</integer>
+						<integer>500</integer>
+						<integer>300</integer>
 					</array>
 					<key>sequences</key>
 					<array>
 						<dict>
+							<key>description</key>
+							<string>The initial view </string>
 							<key>imageIndices</key>
-							<string>{1,12}</string>
+							<string>{1,1}</string>
+						</dict>
+						<dict>
+							<key>description</key>
+							<string>chest opening</string>
+							<key>imageIndices</key>
+							<string>{1,39}</string>
 							<key>duration</key>
-							<real>1.2</real>
-							<key>repeatType</key>
-							<string>CONTINUOUS_WITH_DELAY</string>
-							<key>repeatDelay</key>
-							<integer>2</integer>
+							<real>1.5</real>
+							<key>transitionsFrom</key>
+							<array>
+								<string>[1,1]</string>
+							</array>
 						</dict>
 					</array>
+					<key>trigger</key>
+					<dict>
+						<key>type</key>
+						<string>TOUCH</string>
+						<key>regions</key>
+						<array>
+							<array>
+								<integer>474</integer>
+								<integer>196</integer>
+								<integer>500</integer>
+								<integer>300</integer>
+							</array>
+						</array>
+					</dict>
 				</dict>
 				<dict>
 					<key>description</key>
@@ -167,6 +220,8 @@
 					<string>ATriggeredSoundEffect</string>
 					<key>trigger</key>
 					<dict>
+						<key>allowsConcurrentTrigger</key>
+						<true/>
 						<key>type</key>
 						<string>TOUCH</string>
 						<key>regions</key>
@@ -363,6 +418,130 @@
 							<integer>93</integer>
 						</array>
 					</dict>
+				</dict>
+				<dict>
+					<key>description</key>
+					<string>BottomRtPlants</string>
+					<key>id</key>
+					<string>BottomRtPlants</string>
+					<key>customClass</key>
+					<string>ATextureAtlasBasedSequence</string>
+					<key>resourceBase</key>
+					<string>Chapter34_BottomRtPlants_</string>
+					<key>frame</key>
+					<array>
+						<integer>410</integer>
+						<integer>480</integer>
+						<integer>600</integer>
+						<integer>260</integer>
+					</array>
+					<key>sequences</key>
+					<array>
+						<dict>
+							<key>description</key>
+							<string>BottomRtPlants</string>
+							<key>imageIndices</key>
+							<string>{1,44}</string>
+							<key>duration</key>
+							<integer>2</integer>
+							<key>repeatType</key>
+							<string>CONTINUOUS</string>
+						</dict>
+					</array>
+				</dict>
+				<dict>
+					<key>description</key>
+					<string>IslandPlants</string>
+					<key>id</key>
+					<string>IslandPlants</string>
+					<key>customClass</key>
+					<string>ATextureAtlasBasedSequence</string>
+					<key>resourceBase</key>
+					<string>Chapter34_IslandPlants_</string>
+					<key>frame</key>
+					<array>
+						<integer>200</integer>
+						<integer>175</integer>
+						<integer>200</integer>
+						<integer>225</integer>
+					</array>
+					<key>sequences</key>
+					<array>
+						<dict>
+							<key>description</key>
+							<string>IslandPlants</string>
+							<key>imageIndices</key>
+							<string>{1,44}</string>
+							<key>duration</key>
+							<integer>2</integer>
+							<key>repeatType</key>
+							<string>CONTINUOUS</string>
+						</dict>
+					</array>
+				</dict>
+				<dict>
+					<key>description</key>
+					<string>TopLftTree</string>
+					<key>id</key>
+					<string>TopLftTree</string>
+					<key>customClass</key>
+					<string>ATextureAtlasBasedSequence</string>
+					<key>resourceBase</key>
+					<string>Chapter34_TopLftTree_</string>
+					<key>frame</key>
+					<array>
+						<integer>25</integer>
+						<integer>25</integer>
+						<integer>580</integer>
+						<integer>360</integer>
+					</array>
+					<key>sequences</key>
+					<array>
+						<dict>
+							<key>description</key>
+							<string>TopLftTree</string>
+							<key>imageIndices</key>
+							<string>{1,44}</string>
+							<key>duration</key>
+							<integer>2</integer>
+							<key>repeatType</key>
+							<string>CONTINUOUS</string>
+						</dict>
+					</array>
+				</dict>
+				<dict>
+					<key>description</key>
+					<string>foreground</string>
+					<key>id</key>
+					<string>foreground</string>
+					<key>customClass</key>
+					<string>AStaticImage</string>
+					<key>resource</key>
+					<string>ch34_StillForeground.png</string>
+					<key>frame</key>
+					<array>
+						<integer>25</integer>
+						<integer>25</integer>
+						<integer>983</integer>
+						<integer>714</integer>
+					</array>
+				</dict>
+				<dict>
+					<key>description</key>
+					<string>border</string>
+					<key>id</key>
+					<string>border</string>
+					<key>customClass</key>
+					<string>AStaticImage</string>
+					<key>resource</key>
+					<string>Chapter34_Border.png</string>
+					<key>frame</key>
+					<array>
+						<integer>0</integer>
+						<integer>0</integer>
+						<integer>1024</integer>
+						<integer>748</integer>
+					</array>
 				</dict>
 			</array>
 		</dict>

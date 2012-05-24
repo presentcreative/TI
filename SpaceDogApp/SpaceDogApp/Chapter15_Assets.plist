@@ -11,6 +11,36 @@
 			<array>
 				<dict>
 					<key>description</key>
+					<string>crabs</string>
+					<key>id</key>
+					<string>crabs</string>
+					<key>customClass</key>
+					<string>ATextureAtlasBasedSequence</string>
+					<key>resourceBase</key>
+					<string>crabexporter_0</string>
+					<key>frame</key>
+					<array>
+						<integer>350</integer>
+						<integer>550</integer>
+						<integer>100</integer>
+						<integer>100</integer>
+					</array>
+					<key>sequences</key>
+					<array>
+						<dict>
+							<key>description</key>
+							<string>The header eyes.</string>
+							<key>imageIndices</key>
+							<string>{1,23}</string>
+							<key>duration</key>
+							<integer>2</integer>
+							<key>repeatType</key>
+							<string>CONTINUOUS</string>
+						</dict>
+					</array>
+				</dict>
+				<dict>
+					<key>description</key>
 					<string>Jungle sounds.</string>
 					<key>id</key>
 					<string>ben_in_the_jungle</string>
@@ -275,10 +305,10 @@
 						<key>regions</key>
 						<array>
 							<array>
-								<integer>500</integer>
-								<integer>550</integer>
-								<integer>500</integer>
-								<integer>200</integer>
+								<integer>100</integer>
+								<integer>0</integer>
+								<integer>824</integer>
+								<integer>768</integer>
 							</array>
 						</array>
 					</dict>

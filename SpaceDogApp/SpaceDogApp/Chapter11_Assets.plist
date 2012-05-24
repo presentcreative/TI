@@ -8,13 +8,78 @@
 			<key>page</key>
 			<integer>0</integer>
 			<key>elements</key>
-			<array/>
+			<array>
+				<dict>
+					<key>description</key>
+					<string>Apple</string>
+					<key>id</key>
+					<string>Apple</string>
+					<key>customClass</key>
+					<string>ATextureAtlasBasedSequence</string>
+					<key>resourceBase</key>
+					<string>Apple_0</string>
+					<key>frame</key>
+					<array>
+						<integer>256</integer>
+						<integer>110</integer>
+						<integer>81</integer>
+						<integer>60</integer>
+					</array>
+					<key>sequences</key>
+					<array>
+						<dict>
+							<key>description</key>
+							<string>telescope header</string>
+							<key>imageIndices</key>
+							<string>{1,19}</string>
+							<key>duration</key>
+							<integer>2</integer>
+							<key>repeatType</key>
+							<string>CONTINUOUS_WITH_DELAY</string>
+							<key>repeatDelay</key>
+							<real>2.4</real>
+						</dict>
+					</array>
+				</dict>
+			</array>
 		</dict>
 		<dict>
 			<key>page</key>
 			<integer>1</integer>
 			<key>elements</key>
 			<array>
+				<dict>
+					<key>description</key>
+					<string>sail blowing</string>
+					<key>id</key>
+					<string>sail blowing</string>
+					<key>customClass</key>
+					<string>ATextureAtlasBasedSequence</string>
+					<key>resourceBase</key>
+					<string>chapter11_Sail_</string>
+					<key>frame</key>
+					<array>
+						<integer>10</integer>
+						<integer>10</integer>
+						<integer>501</integer>
+						<integer>262</integer>
+					</array>
+					<key>sequences</key>
+					<array>
+						<dict>
+							<key>description</key>
+							<string>Crashing waves.</string>
+							<key>imageIndices</key>
+							<string>{1,29}</string>
+							<key>duration</key>
+							<real>1.5</real>
+							<key>repeatType</key>
+							<string>CONTINUOUS</string>
+							<key>repeatDelay</key>
+							<real>3.7</real>
+						</dict>
+					</array>
+				</dict>
 				<dict>
 					<key>description</key>
 					<string>The sound of the sea splashing against the Hispanola.</string>
@@ -62,6 +127,8 @@
 				<dict>
 					<key>description</key>
 					<string>The stars, twinkling in the sky (1).</string>
+					<key>fromValue</key>
+					<integer>1</integer>
 					<key>id</key>
 					<string>ch_11_stars_1</string>
 					<key>customClass</key>
@@ -77,8 +144,6 @@
 					</array>
 					<key>keyPath</key>
 					<string>opacity</string>
-					<key>fromValue</key>
-					<integer>1</integer>
 					<key>toValue</key>
 					<real>0.2</real>
 					<key>duration</key>
@@ -151,9 +216,11 @@
 							<key>imageIndices</key>
 							<string>{1,7}</string>
 							<key>duration</key>
-							<integer>2</integer>
+							<real>2.3</real>
 							<key>soundEffect</key>
 							<dict>
+								<key>delay</key>
+								<real>0.3</real>
 								<key>description</key>
 								<string>The sound made by the cawing crow.</string>
 								<key>id</key>
@@ -208,9 +275,11 @@
 					<key>autoReverse</key>
 					<true/>
 					<key>reverseDelay</key>
-					<integer>3</integer>
+					<integer>2</integer>
 					<key>postAnimationNotification</key>
 					<string>NOTIFICATION_JIM_REVEALED</string>
+					<key>autoStart</key>
+					<true/>
 					<key>soundEffect</key>
 					<dict>
 						<key>description</key>

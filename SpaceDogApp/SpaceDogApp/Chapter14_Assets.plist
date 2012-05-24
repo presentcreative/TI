@@ -6,9 +6,76 @@
 	<array>
 		<dict>
 			<key>page</key>
+			<integer>0</integer>
+			<key>elements</key>
+			<array>
+				<dict>
+					<key>description</key>
+					<string>Knife</string>
+					<key>id</key>
+					<string>Knife</string>
+					<key>customClass</key>
+					<string>ATextureAtlasBasedSequence</string>
+					<key>resourceBase</key>
+					<string>Knife_0</string>
+					<key>frame</key>
+					<array>
+						<integer>250</integer>
+						<integer>140</integer>
+						<integer>90</integer>
+						<integer>45</integer>
+					</array>
+					<key>sequences</key>
+					<array>
+						<dict>
+							<key>description</key>
+							<string>telescope header</string>
+							<key>imageIndices</key>
+							<string>{1,19}</string>
+							<key>duration</key>
+							<integer>1</integer>
+							<key>repeatType</key>
+							<string>CONTINUOUS</string>
+						</dict>
+					</array>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>page</key>
 			<integer>1</integer>
 			<key>elements</key>
 			<array>
+				<dict>
+					<key>description</key>
+					<string>Jims jump</string>
+					<key>id</key>
+					<string>Jims jump</string>
+					<key>customClass</key>
+					<string>ATextureAtlasBasedSequence</string>
+					<key>resourceBase</key>
+					<string>Chapter14_Jim_</string>
+					<key>frame</key>
+					<array>
+						<integer>400</integer>
+						<integer>238</integer>
+						<integer>544</integer>
+						<integer>256</integer>
+					</array>
+					<key>sequences</key>
+					<array>
+						<dict>
+							<key>description</key>
+							<string>jims jump</string>
+							<key>imageIndices</key>
+							<string>{1,44}</string>
+							<key>duration</key>
+							<integer>4</integer>
+							<key>repeatType</key>
+							<string>NONE</string>
+						</dict>
+					</array>
+				</dict>
 				<dict>
 					<key>description</key>
 					<string>Ambient sounds of the jungle.</string>
@@ -176,34 +243,25 @@
 				</dict>
 				<dict>
 					<key>description</key>
-					<string>Jim and his shadow moving across the foreground.</string>
-					<key>id</key>
-					<string>jim_and_shadow</string>
-					<key>customClass</key>
-					<string>APositionAnimation</string>
-					<key>resource</key>
-					<string>jim.png</string>
-					<key>frame</key>
-					<array>
-						<integer>550</integer>
-						<integer>270</integer>
-						<integer>170</integer>
-						<integer>437</integer>
-					</array>
-					<key>xDelta</key>
-					<integer>70</integer>
-					<key>yDelta</key>
-					<integer>-10</integer>
-					<key>duration</key>
-					<integer>14</integer>
-				</dict>
-				<dict>
-					<key>description</key>
 					<string>The large yellow eyes in the jungle.</string>
 					<key>id</key>
 					<string>large_eyes</string>
 					<key>customClass</key>
-					<string>ATextureAtlasBasedSequence</string>
+					<string>ATriggeredTextureAtlasBasedSequence</string>
+					<key>trigger</key>
+					<dict>
+						<key>type</key>
+						<string>TOUCH</string>
+						<key>regions</key>
+						<array>
+							<array>
+								<integer>60</integer>
+								<integer>500</integer>
+								<integer>300</integer>
+								<integer>228</integer>
+							</array>
+						</array>
+					</dict>
 					<key>resourceBase</key>
 					<string>TI_ch14_yellow_eyes_lg</string>
 					<key>frame</key>
@@ -223,17 +281,31 @@
 							<key>repeatType</key>
 							<string>CONTINUOUS_WITH_DELAY</string>
 							<key>repeatDelay</key>
-							<real>3.5</real>
+							<integer>10</integer>
 						</dict>
 					</array>
 				</dict>
 				<dict>
+					<key>trigger</key>
+					<dict>
+						<key>type</key>
+						<string>TOUCH</string>
+						<key>regions</key>
+						<array>
+							<array>
+								<integer>800</integer>
+								<integer>200</integer>
+								<integer>224</integer>
+								<integer>228</integer>
+							</array>
+						</array>
+					</dict>
 					<key>description</key>
 					<string>The medium yellow eyes in the jungle.</string>
 					<key>id</key>
 					<string>medium_eyes</string>
 					<key>customClass</key>
-					<string>ATextureAtlasBasedSequence</string>
+					<string>ATriggeredTextureAtlasBasedSequence</string>
 					<key>resourceBase</key>
 					<string>TI_ch14_yellow_eyes_md</string>
 					<key>frame</key>
@@ -253,17 +325,31 @@
 							<key>repeatType</key>
 							<string>CONTINUOUS_WITH_DELAY</string>
 							<key>repeatDelay</key>
-							<real>3.2</real>
+							<integer>10</integer>
 						</dict>
 					</array>
 				</dict>
 				<dict>
+					<key>trigger</key>
+					<dict>
+						<key>type</key>
+						<string>TOUCH</string>
+						<key>regions</key>
+						<array>
+							<array>
+								<integer>200</integer>
+								<integer>500</integer>
+								<integer>300</integer>
+								<integer>228</integer>
+							</array>
+						</array>
+					</dict>
 					<key>description</key>
 					<string>The small yellow eyes in the jungle.</string>
 					<key>id</key>
 					<string>small_eyes</string>
 					<key>customClass</key>
-					<string>ATextureAtlasBasedSequence</string>
+					<string>ATriggeredTextureAtlasBasedSequence</string>
 					<key>resourceBase</key>
 					<string>TI_ch14_yellow_eyes_sm</string>
 					<key>frame</key>

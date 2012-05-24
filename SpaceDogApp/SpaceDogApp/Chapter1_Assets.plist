@@ -17,6 +17,38 @@
 			<array>
 				<dict>
 					<key>description</key>
+					<string>Telescope</string>
+					<key>id</key>
+					<string>telescope_header</string>
+					<key>customClass</key>
+					<string>ATextureAtlasBasedSequence</string>
+					<key>resourceBase</key>
+					<string>TI_ch1_header</string>
+					<key>frame</key>
+					<array>
+						<integer>704</integer>
+						<integer>149</integer>
+						<integer>52</integer>
+						<integer>17</integer>
+					</array>
+					<key>sequences</key>
+					<array>
+						<dict>
+							<key>description</key>
+							<string>telescope header</string>
+							<key>imageIndices</key>
+							<string>{1,14}</string>
+							<key>duration</key>
+							<integer>2</integer>
+							<key>repeatType</key>
+							<string>CONTINUOUS_WITH_DELAY</string>
+							<key>repeatDelay</key>
+							<real>2.4</real>
+						</dict>
+					</array>
+				</dict>
+				<dict>
+					<key>description</key>
 					<string>Ambient sound of the leaves blowing by the &apos;Admiral Benbow&apos; sign.</string>
 					<key>id</key>
 					<string>leaves_into</string>
@@ -548,7 +580,7 @@
 						<key>id</key>
 						<string>seagull_1_layer</string>
 						<key>customClass</key>
-						<string>ATextureAtlasBasedSequence</string>
+						<string>ATriggeredTextureAtlasBasedSequence</string>
 						<key>resourceBase</key>
 						<string>TI_ch1b_seagull_2_1_</string>
 						<key>frame</key>
@@ -587,6 +619,20 @@
 							<string>{9, 524}</string>
 						</array>
 					</dict>
+					<key>trigger</key>
+					<dict>
+						<key>type</key>
+						<string>TOUCH</string>
+						<key>regions</key>
+						<array>
+							<array>
+								<integer>550</integer>
+								<integer>70</integer>
+								<integer>200</integer>
+								<integer>600</integer>
+							</array>
+						</array>
+					</dict>
 				</dict>
 				<dict>
 					<key>description</key>
@@ -600,7 +646,7 @@
 						<key>id</key>
 						<string>seagull_2_layer</string>
 						<key>customClass</key>
-						<string>ATextureAtlasBasedSequence</string>
+						<string>ATriggeredTextureAtlasBasedSequence</string>
 						<key>resourceBase</key>
 						<string>TI_ch1b_seagull_2_2_</string>
 						<key>frame</key>
@@ -636,6 +682,20 @@
 							<string>{140, 638}</string>
 							<string>{77, 628}</string>
 							<string>{9, 606}</string>
+						</array>
+					</dict>
+					<key>trigger</key>
+					<dict>
+						<key>type</key>
+						<string>TOUCH</string>
+						<key>regions</key>
+						<array>
+							<array>
+								<integer>750</integer>
+								<integer>70</integer>
+								<integer>200</integer>
+								<integer>600</integer>
+							</array>
 						</array>
 					</dict>
 				</dict>

@@ -72,32 +72,33 @@
 				</dict>
 				<dict>
 					<key>description</key>
-					<string>The fog rolling behind LJS&apos; back.</string>
+					<string>background whisps</string>
 					<key>id</key>
-					<string>back_fog</string>
+					<string>background whisps</string>
 					<key>customClass</key>
-					<string>ASimplePropertyAnimation</string>
-					<key>resource</key>
-					<string>TI_ch20_back_fog.png</string>
+					<string>ATextureAtlasBasedSequence</string>
+					<key>resourceBase</key>
+					<string>Chapter20_BackgroundWhisps_</string>
 					<key>frame</key>
 					<array>
-						<integer>79</integer>
-						<integer>76</integer>
-						<integer>398</integer>
-						<integer>181</integer>
+						<integer>80</integer>
+						<integer>74</integer>
+						<integer>433</integer>
+						<integer>185</integer>
 					</array>
-					<key>keyPath</key>
-					<string>opacity</string>
-					<key>fromValue</key>
-					<real>1</real>
-					<key>toValue</key>
-					<real>0.3</real>
-					<key>duration</key>
-					<real>1.2</real>
-					<key>repeatType</key>
-					<string>CONTINUOUS</string>
-					<key>autoStart</key>
-					<true/>
+					<key>sequences</key>
+					<array>
+						<dict>
+							<key>description</key>
+							<string>The smoking pipe.</string>
+							<key>imageIndices</key>
+							<string>{1,44}</string>
+							<key>duration</key>
+							<integer>4</integer>
+							<key>repeatType</key>
+							<string>CONTINUOUS</string>
+						</dict>
+					</array>
 				</dict>
 				<dict>
 					<key>description</key>
@@ -118,32 +119,33 @@
 				</dict>
 				<dict>
 					<key>description</key>
-					<string>The fog rolling in front of LJS.</string>
+					<string>foreground whisps</string>
 					<key>id</key>
-					<string>front_fog</string>
+					<string>foreground whisps</string>
 					<key>customClass</key>
-					<string>ASimplePropertyAnimation</string>
-					<key>resource</key>
-					<string>TI_ch20_front_fog.png</string>
+					<string>ATextureAtlasBasedSequence</string>
+					<key>resourceBase</key>
+					<string>Chapter20_ForegroundWhisps_</string>
 					<key>frame</key>
 					<array>
-						<integer>79</integer>
-						<integer>75</integer>
+						<integer>80</integer>
+						<integer>60</integer>
 						<integer>433</integer>
-						<integer>481</integer>
+						<integer>577</integer>
 					</array>
-					<key>keyPath</key>
-					<string>opacity</string>
-					<key>fromValue</key>
-					<real>1</real>
-					<key>toValue</key>
-					<real>0.4</real>
-					<key>duration</key>
-					<real>1.5</real>
-					<key>repeatType</key>
-					<string>CONTINUOUS</string>
-					<key>autoStart</key>
-					<true/>
+					<key>sequences</key>
+					<array>
+						<dict>
+							<key>description</key>
+							<string>The smoking pipe.</string>
+							<key>imageIndices</key>
+							<string>{1,44}</string>
+							<key>duration</key>
+							<integer>4</integer>
+							<key>repeatType</key>
+							<string>CONTINUOUS</string>
+						</dict>
+					</array>
 				</dict>
 				<dict>
 					<key>description</key>

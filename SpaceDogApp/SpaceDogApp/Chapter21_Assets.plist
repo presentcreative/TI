@@ -6,9 +6,78 @@
 	<array>
 		<dict>
 			<key>page</key>
+			<integer>0</integer>
+			<key>elements</key>
+			<array>
+				<dict>
+					<key>description</key>
+					<string>swordfight</string>
+					<key>id</key>
+					<string>swordfight</string>
+					<key>customClass</key>
+					<string>ATextureAtlasBasedSequence</string>
+					<key>resourceBase</key>
+					<string>Swords_0</string>
+					<key>frame</key>
+					<array>
+						<integer>259</integer>
+						<integer>100</integer>
+						<integer>80</integer>
+						<integer>80</integer>
+					</array>
+					<key>sequences</key>
+					<array>
+						<dict>
+							<key>description</key>
+							<string>swords</string>
+							<key>imageIndices</key>
+							<string>{1,19}</string>
+							<key>duration</key>
+							<integer>2</integer>
+							<key>repeatType</key>
+							<string>CONTINUOUS</string>
+						</dict>
+					</array>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>page</key>
 			<integer>2</integer>
 			<key>elements</key>
 			<array>
+				<dict>
+					<key>description</key>
+					<string>bullets firing</string>
+					<key>id</key>
+					<string>bullets firing</string>
+					<key>customClass</key>
+					<string>ATextureAtlasBasedSequence</string>
+					<key>resourceBase</key>
+					<string>Chapter21_BulletsFullSize_</string>
+					<key>frame</key>
+					<array>
+						<integer>450</integer>
+						<integer>0</integer>
+						<integer>344</integer>
+						<integer>530</integer>
+					</array>
+					<key>sequences</key>
+					<array>
+						<dict>
+							<key>repeatDelay</key>
+							<integer>2</integer>
+							<key>repeatType</key>
+							<string>CONTINUOUS_WITH_DELAY</string>
+							<key>description</key>
+							<string>The jumping pirate.</string>
+							<key>imageIndices</key>
+							<string>{1,9}</string>
+							<key>duration</key>
+							<real>0.4</real>
+						</dict>
+					</array>
+				</dict>
 				<dict>
 					<key>description</key>
 					<string>The attack!</string>
@@ -104,17 +173,17 @@
 						<string>Smollet.png</string>
 						<key>frame</key>
 						<array>
-							<integer>488</integer>
+							<integer>472</integer>
 							<integer>3</integer>
-							<integer>521</integer>
-							<integer>380</integer>
+							<integer>570</integer>
+							<integer>396</integer>
 						</array>
 						<key>xDelta</key>
 						<integer>-50</integer>
 						<key>yDelta</key>
 						<integer>0</integer>
 						<key>duration</key>
-						<integer>10</integer>
+						<integer>8</integer>
 						<key>updateToFinalPosition</key>
 						<true/>
 						<key>swordAnimation</key>
@@ -127,8 +196,8 @@
 							<string>TI_ch21_smollet3</string>
 							<key>frame</key>
 							<array>
-								<integer>113</integer>
-								<integer>192</integer>
+								<integer>103</integer>
+								<integer>212</integer>
 								<integer>192</integer>
 								<integer>172</integer>
 							</array>
@@ -156,8 +225,8 @@
 							<string>TI_ch21_smollet_sword</string>
 							<key>frame</key>
 							<array>
-								<integer>255</integer>
-								<integer>201</integer>
+								<integer>246</integer>
+								<integer>221</integer>
 								<integer>30</integer>
 								<integer>20</integer>
 							</array>
@@ -171,7 +240,7 @@
 									<key>repeatType</key>
 									<string>CONTINUOUS_WITH_DELAY</string>
 									<key>repeatDelay</key>
-									<integer>3</integer>
+									<integer>6</integer>
 								</dict>
 							</array>
 						</dict>
