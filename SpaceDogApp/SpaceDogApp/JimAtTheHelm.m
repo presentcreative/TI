@@ -11,7 +11,7 @@
 #define kPortSailAnimation       @"portSailAnimation"
 #define kStarbordSailAnimation   @"starbordSailAnimation"
 
-#define kWheelEaseRotation 10    // degrees
+#define kWheelEaseRotation 45// degrees
 #define kWheelEaseDuration 1.0f  // seconds
 
 @interface AJimAtTheHelm (Private)
@@ -361,10 +361,12 @@
    if (0.0f > self.yMovement)
    {
       [self TurnToStarbord];
+       self.yMovement = 0.0;
    }
    else 
    {
       [self TurnToPort];
+       self.yMovement = 0.0;
    }
    
    [CATransaction commit];
