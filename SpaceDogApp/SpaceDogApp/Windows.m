@@ -4,7 +4,7 @@
 #import "Windows.h"
 #import "NSDictionary+ElementAndPropertyValues.h"
 
-#define kWindowFrameExpansionFactor 0.10f
+#define kWindowFrameExpansionPixels 10
 
 @interface AWindows (Private)
 -(CGRect)ContentsRectForWindowAtIndex:(NSUInteger)windowIndex PrimaryImage:(BOOL)primaryImage;
@@ -147,14 +147,12 @@
 -(CGRect)ExtendedWindowFrameFrom:(CGRect)windowFrame
 {
    // answer a window frame that x% bigger all around (to make activation easier
-   CGFloat newWidth = windowFrame.size.width + (windowFrame.size.width * kWindowFrameExpansionFactor);
-   CGFloat newHeight = windowFrame.size.height + (windowFrame.size.height * kWindowFrameExpansionFactor);
    
    
-   CGRect result = CGRectMake(windowFrame.origin.x-(newWidth/2), 
-                              windowFrame.origin.y-(newHeight/2.0f), 
-                              newWidth, 
-                              newHeight);
+   CGRect result = CGRectMake(windowFrame.origin.x-kWindowFrameExpansionPixels, 
+                              windowFrame.origin.y-kWindowFrameExpansionPixels, 
+                              windowFrame.size.width + 2*kWindowFrameExpansionPixels, 
+                              windowFrame.size.height + 2*kWindowFrameExpansionPixels);
    
    return result;
 }
