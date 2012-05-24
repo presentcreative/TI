@@ -9,7 +9,7 @@
 
 #define kPhysicsTimeInterval .03f
 #define kPhysicsGravityVector CGPointMake(0.0,1000.0) //CGPointMake(0.0,500.0)
-#define kSignMass 90.0f
+#define kSignMass 1.0f //90.0f  wpm reuced weight
 
 @interface ASign (Private)
 
@@ -42,12 +42,12 @@
    return 0.50f;
 }
 
--(BOOL)gravityFollowsDeviceOrientation
+/*-(BOOL)gravityFollowsAccelerometer
 {
    // doesn't make sense for the sign to have 'down' be anything but the bottom
    // of the screen in the app's default orientation.
-   return NO;
-}
+   return YES;
+}*/
 
 -(void)SetupPhysics
 {
