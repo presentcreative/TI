@@ -48,6 +48,11 @@
 {
    return (UIImageView*)[self.containerView viewWithTag:kCoconut3ImageViewTag];
 }
+-(BOOL)gravityFollowsAccelerometer
+{
+    return YES;
+}
+
 
 -(void)SetupPhysics
 {

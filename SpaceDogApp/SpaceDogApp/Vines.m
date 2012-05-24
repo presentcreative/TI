@@ -52,13 +52,16 @@
    return (UIImageView*)[self.containerView viewWithTag:kRightVineImageTag];
 }
 
--(BOOL)gravityFollowsDeviceOrientation
+-(BOOL)gravityFollowsAccelerometer
 {
    return NO;
 }
 
 -(void)SetupPhysics
 {
+    //some rope physics documentation here: 
+    // http://www.andengine.org/forums/physics-box2d-extension/how-to-make-rope-t7038.html
+    
    if (nil != fPhysicsSpace)
    {
       NSAssert(nil == fPhysicsSpace, @"Unexpected reconfiguration of Sign physics engine.");
