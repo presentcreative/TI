@@ -8,6 +8,10 @@
 {
    CALayer* fBoatLayer;
    CALayer* fWavesLayer;
+    
+    CGFloat bobFactor;
+    CGFloat rockFactor;
+    bool isRocking;
 }
 
 @property (nonatomic, retain) CALayer* boatLayer;

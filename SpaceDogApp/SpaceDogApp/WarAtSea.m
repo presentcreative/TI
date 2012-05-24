@@ -52,6 +52,11 @@
    NSString* imagePath = nil;
    NSDictionary* layerSpec = nil;
    CALayer* aLayer = nil;
+    
+   bobFactor = -10.0f;
+   rockFactor = 0.0f;
+   isRocking = false;
+    
    UIImage* image = nil;
    
    // background...
@@ -178,14 +183,23 @@
     selector:@selector(ShotFired:) 
     name:@"CH17_SHOT_FIRED" 
     object:nil];
+    
 }
+
 
 -(void)ShotFired:(NSNotification*)notification
 {
+    rockFactor = -10.0f;
+    bobFactor = 30.0f;
+    if (!isRocking){
+        [self.boatLayer addAnimation:[self RockTheBoatAnimation] forKey:@"transform.rotation.z"];
+        isRocking = true;
+    }
+    /*
    [CATransaction begin];
    [self.boatLayer addAnimation:[self RockTheBoatAnimation] forKey:@"transform.rotation.z"];
    [self.boatLayer addAnimation:[self BobTheBoatAnimation] forKey:@"position"];
-   [CATransaction commit];
+   [CATransaction commit];*/
 }
 
 -(CABasicAnimation*)RockTheBoatAnimation
@@ -195,14 +209,14 @@
    [result setValue:@"rockTheBoat" forKey:@"animationId"];
       
    result.duration = 1.0f;
-   
-   result.repeatCount = 4;
+
+   result.repeatCount = 0;
    result.autoreverses = YES;
    
    result.timingFunction = [CAMediaTimingFunction functionWithName:kCAMediaTimingFunctionEaseInEaseOut];
    
-   result.fromValue = [NSNumber numberWithDouble:DEGREES_TO_RADIANS(0.0f)];
-   result.toValue = [NSNumber numberWithDouble:DEGREES_TO_RADIANS(-10.0f)];
+    result.fromValue = nil;//[NSNumber numberWithDouble:DEGREES_TO_RADIANS(0.0f)];
+   result.toValue = [NSNumber numberWithDouble:DEGREES_TO_RADIANS(rockFactor)];
       
    return result;   
 }
@@ -215,17 +229,17 @@
       
    result.duration = 0.8f;
    
-   result.repeatCount = 3;
+   result.repeatCount = 0;
    result.autoreverses = YES;
    
    result.timingFunction = [CAMediaTimingFunction functionWithName:kCAMediaTimingFunctionEaseInEaseOut];
    
    CGPoint layerPosition = self.boatLayer.position;
    
-   NSValue* currentPositionValue = [NSValue valueWithCGPoint:layerPosition];
-   NSValue* newPositionValue = [NSValue valueWithCGPoint:CGPointMake(layerPosition.x, layerPosition.y+30.0f)];
+//   NSValue* currentPositionValue = [NSValue valueWithCGPoint:layerPosition];
+   NSValue* newPositionValue = [NSValue valueWithCGPoint:CGPointMake(layerPosition.x, layerPosition.y+bobFactor)];
    
-   result.fromValue = currentPositionValue;
+    result.fromValue = nil;//currentPositionValue;
    result.toValue = newPositionValue;
    
    return result;   
@@ -239,7 +253,7 @@
    
    result.duration = 1.0f;
    
-   result.repeatCount = NSUIntegerMax;
+    result.repeatCount = 0;//NSUIntegerMax;
    result.autoreverses = YES;
    
    result.timingFunction = [CAMediaTimingFunction functionWithName:kCAMediaTimingFunctionEaseInEaseOut];
@@ -258,19 +272,21 @@
 -(void)Start:(BOOL)triggered
 {
    // start the boat bobbing slowly...
-   [self.boatLayer addAnimation:[self BobTheBoatSlowlyAnimation] forKey:@"position"]; 
+   [self.boatLayer addAnimation:[self BobTheBoatAnimation] forKey:@"position"]; 
+    [self.boatLayer addAnimation:[self RockTheBoatAnimation] forKey:@"transform.rotation.z"];
    
    // prime the triggered animations
    for (ATriggeredTextureAtlasBasedSequence* triggeredAnimation in [self.animationsByName allValues])
    {
       [(id<ACustomAnimation>)triggeredAnimation Start:NO];
    }
+    [(id<ACustomAnimation>)[self.animationsByName objectForKey:kSmolletAnimation] Trigger];
 }
 
 #pragma mark ACustomAnimation protocol
 -(void)Trigger
 {
-   [(id<ACustomAnimation>)[self.animationsByName objectForKey:kSmolletAnimation] Trigger];
+   [(id<ACustomAnimation>)[self.animationsByName objectForKey:kRifleHammerAnimation] Trigger];
 }
 
 -(void)Stop
@@ -298,8 +314,21 @@
       if ([@"bobTheBoat" isEqualToString:animationId])
       {
          // start the boat bobbing slowly again
-         [self.boatLayer addAnimation:[self BobTheBoatSlowlyAnimation] forKey:@"position"];         
+         [self.boatLayer addAnimation:[self BobTheBoatAnimation] forKey:@"position"];         
+          if (bobFactor > 10.0f)
+              bobFactor -= 5.0f;
       }
+       if ([@"rockTheBoat" isEqualToString:animationId])
+       {
+           
+           if (rockFactor < 0.0f)  {
+               rockFactor +=  2.5f;
+               [self.boatLayer addAnimation:[self RockTheBoatAnimation] forKey:@"transform.rotation.z"];
+           }
+           else {
+               isRocking = false;
+           }
+       }
    }
 }
 
