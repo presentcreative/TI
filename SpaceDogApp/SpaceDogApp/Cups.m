@@ -47,9 +47,9 @@
    return (UIImageView*)[self.containerView viewWithTag:kRightCupViewTag];
 }
 
--(BOOL)gravityFollowsDeviceOrientation
+-(BOOL)gravityFollowsAccelerometer
 {
-   return NO;
+    return YES;//NO; wpm
 }
 
 -(CGFloat)globalDamping

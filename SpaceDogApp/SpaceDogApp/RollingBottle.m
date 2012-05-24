@@ -7,8 +7,8 @@
 #import "NSTimer+Blocks.h"
 #import "OALSimpleAudio.h"
 
-#define kLeftTiltThreshold     20.0f   // degrees
-#define kRightTiltThreshold   140.0f   // degrees
+#define kLeftTiltThreshold     80.0f   // degrees
+#define kRightTiltThreshold   100.0f   // degrees
 
 #define kMaxFrames             30
 
