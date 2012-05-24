@@ -7,6 +7,8 @@
 {
    CGRect fLeftScrollRegion;
    CGRect fRightScrollRegion;
+    
+    bool fSwipeTimeout;
 }
 
 @property (assign) CGRect leftScrollRegion;

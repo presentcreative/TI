@@ -11,9 +11,20 @@
 
 #pragma mark -
 #pragma mark UIScrollViewDelegate protocol
+
+
+-(void)SwipeTimeoutEnded:(NSTimer*)timer
+{
+    fSwipeTimeout = NO;
+}
+
+
 -(BOOL)gestureRecognizerShouldBegin:(UIGestureRecognizer*)gestureRecognizer
 {
    BOOL result = NO;
+    
+    if(fSwipeTimeout)
+        return result;
    
    UIPanGestureRecognizer* panRecognizer = (UIPanGestureRecognizer*)gestureRecognizer;
    
@@ -30,7 +41,15 @@
        CGRectContainsPoint(self.rightScrollRegion, panLocation))
    {
       result = YES;
+       [NSTimer scheduledTimerWithTimeInterval:0.3 
+                                        target:self 
+                                      selector:@selector(SwipeTimeoutEnded:) 
+                                      userInfo:nil 
+                                       repeats:NO];
+       fSwipeTimeout = YES;
    }
+    
+ 
    
    return result;
 }
