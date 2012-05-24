@@ -187,4 +187,12 @@
    [recognizer setTranslation:CGPointZero inView:self.containerView];
 }
 
+-(void)Start:(BOOL)triggered
+{
+    //CGFloat deltaY = 600;
+    //[self MoveDeltaY:deltaY];
+    // todo: animate cargo pully
+}
+
+
 @end
