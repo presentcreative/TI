@@ -77,11 +77,14 @@
    [self StopAnimations];
 
    // Remove all assets
-   Release(fAssets);
-   Release(fHelpDescriptors);
+   //Release(fAssets);
+    [fAssets release];
+  // Release(fHelpDescriptors);
+    [fHelpDescriptors release];
     
 #ifdef _PDF_STYLE
     CGPDFDocumentRelease(pdf);
+	CGPDFPageRelease(page);
 #endif
 
    
@@ -90,7 +93,8 @@
    {
       [self.helpSuperLayer removeFromSuperlayer];
    }
-   Release(fHelpSuperLayer);
+   //Release(fHelpSuperLayer);
+    [fHelpSuperLayer release];
    
    // Remove gesture recognizers
    for (UIGestureRecognizer* gestureRecognizer in self.gestureRecognizers)
@@ -99,23 +103,25 @@
    }
    
    // Remove triggers
-   Release(fTriggersOnView);
+   [fTriggersOnView removeAllObjects];
+  // Release(fTriggersOnView);
+    [fTriggersOnView release];
    
-   NSLog(@"Chapter %d Page %d deallocated", self.assetChapterNumber, fAssetPageNumber);
+   //NSLog(@"Chapter %d Page %d deallocated", self.assetChapterNumber, fAssetPageNumber);
    
    [super dealloc];
 }
 
 -(void)Sterilize
 {
-    NSAutoreleasePool *pool = [[NSAutoreleasePool alloc] init];
+   // NSAutoreleasePool *pool = [[NSAutoreleasePool alloc] init];
     
-   NSLog(@"Sterilizing ABookView for page %d", fPageNumber);
+  NSLog(@"Sterilizing ABookView for page %d", fPageNumber);
    
    fPageNumber = -1;
    self.tag = -100;
    self.userInteractionEnabled = NO;
-   self.image = nil;
+  // self.image = nil;
    
    self.helpSuperLayer.delegate = nil;
    if (self.helpSuperLayer.superlayer)
@@ -137,7 +143,7 @@
    [fHelpDescriptors removeAllObjects];
    
    self.layer.sublayers = nil;
-    [pool drain];
+    //[pool drain];
 
 }
 
@@ -154,7 +160,7 @@
 #ifdef _PDF_STYLE
     // code borrowed from Apple's ZoomingPDFViewer sample app
     // Get the PDF Page that we will be drawing
-    CGPDFPageRef page = CGPDFDocumentGetPage(pdf, rawPageNumber);
+    page = CGPDFDocumentGetPage(pdf, rawPageNumber);
     CGPDFPageRetain(page);
     
 	// determine the size of the PDF page
@@ -187,7 +193,6 @@
     self.image = UIGraphicsGetImageFromCurrentImageContext();
 
     UIGraphicsEndImageContext();
-	CGPDFPageRelease(page);
 
  /*   backgroundImageView = [[UIImageView alloc] initWithImage:backgroundImage];
     backgroundImageView.frame = pageRect;
@@ -302,7 +307,7 @@
    
    fStarted = YES;
    
-   NSLog(@"Starting %d animations on page %d", self.assets.count, self.pageNumber);
+  // NSLog(@"Starting %d animations on page %d", self.assets.count, self.pageNumber);
    
    for (id<ACustomAnimation>anim in [self.assets allValues])
    {

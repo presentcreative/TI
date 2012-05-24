@@ -5,7 +5,7 @@
 #import <QuartzCore/QuartzCore.h>
 #import "CustomAnimation.h"
 
-@class TiledPDFView; //wpm
+//@class TiledPDFView; //wpm
 
 @interface ABookView : UIImageView
 {
@@ -24,6 +24,7 @@
     // current pdf zoom scale
     CGFloat pdfScale;
 
+    CGPDFPageRef page;
     CGPDFDocumentRef pdf;
 
 }
