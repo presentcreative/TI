@@ -157,7 +157,9 @@ SYNTHESIZE_SINGLETON_FOR_CLASS(OALActionManager);
 		// Remove stopped actions
 		for(OALAction* action in actionsToRemove)
 		{
-			NSUInteger index = [targets indexOfObject:action.target];
+            //WPM crash here!!!
+			NSUInteger index = [targets indexOfObject:action.target];              //WPM crash here!!!
+
 			if(NSNotFound != index)
 			{
 				// Remove the action.
