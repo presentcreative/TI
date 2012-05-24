@@ -7,7 +7,7 @@
 
 #define kPhysicsTimeInterval .03f
 #define kPhysicsGravityVector CGPointMake(0.0,500.0)
-#define kCaneMass 60.0f
+#define kCaneMass 300.0f
 #define kCaneForceScale 10.0f
 
 #define kCaneViewTag 300
@@ -40,10 +40,6 @@
    return CGPointMake(0.0f, 0.0f);
 }
 
--(BOOL)gravityFollowsDeviceOrientation
-{
-   return NO;
-}
 
 -(void)SetupPhysics
 {
@@ -56,7 +52,7 @@
    [super SetupPhysics];
 
    // Override the default gravity vector
-   fPhysicsSpace.gravity = cpvzero; // kPhysicsGravityVector
+    fPhysicsSpace.gravity = kPhysicsGravityVector;
       
    [fPhysicsSpace addBounds:self.containerView.bounds 
                       thickness:300.0f 

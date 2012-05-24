@@ -32,9 +32,9 @@
 @synthesize soundEffect=fSoundEffect;
 @synthesize lastAngle=fLastAngle;
 
--(BOOL)gravityFollowsDeviceOrientation
+-(BOOL)gravityFollowsAccelerometer
 {
-   return NO;
+    return YES;//NO; wpm
 }
 
 -(void)SetupPhysics
