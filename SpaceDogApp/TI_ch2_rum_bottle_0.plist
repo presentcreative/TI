@@ -1,0 +1,918 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>frames</key>
+	<dict>
+		
+		<key>TI_ch2_rum_bottle_00000.png</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{24, 41}, {372, 220}}</string>
+			<key>spriteOffset</key>
+			<string>{0, 0}</string>
+			<key>spriteSize</key>
+			<string>{420, 300}</string>
+			<key>spriteSourceSize</key>
+			<string>{420, 300}</string>
+			<key>spriteTrimmed</key>
+			<false/>
+			<key>textureRect</key>
+			<string>{{1266, 906}, {420, 300}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>TI_ch2_rum_bottle_00001.png</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{24, 41}, {372, 220}}</string>
+			<key>spriteOffset</key>
+			<string>{0, 0}</string>
+			<key>spriteSize</key>
+			<string>{420, 300}</string>
+			<key>spriteSourceSize</key>
+			<string>{420, 300}</string>
+			<key>spriteTrimmed</key>
+			<false/>
+			<key>textureRect</key>
+			<string>{{422, 604}, {420, 300}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>TI_ch2_rum_bottle_00002.png</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{24, 41}, {372, 220}}</string>
+			<key>spriteOffset</key>
+			<string>{0, 0}</string>
+			<key>spriteSize</key>
+			<string>{420, 300}</string>
+			<key>spriteSourceSize</key>
+			<string>{420, 300}</string>
+			<key>spriteTrimmed</key>
+			<false/>
+			<key>textureRect</key>
+			<string>{{0, 302}, {420, 300}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>TI_ch2_rum_bottle_00003.png</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{24, 41}, {372, 220}}</string>
+			<key>spriteOffset</key>
+			<string>{0, 0}</string>
+			<key>spriteSize</key>
+			<string>{420, 300}</string>
+			<key>spriteSourceSize</key>
+			<string>{420, 300}</string>
+			<key>spriteTrimmed</key>
+			<false/>
+			<key>textureRect</key>
+			<string>{{1688, 1208}, {420, 300}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>TI_ch2_rum_bottle_00004.png</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{24, 41}, {372, 220}}</string>
+			<key>spriteOffset</key>
+			<string>{0, 0}</string>
+			<key>spriteSize</key>
+			<string>{420, 300}</string>
+			<key>spriteSourceSize</key>
+			<string>{420, 300}</string>
+			<key>spriteTrimmed</key>
+			<false/>
+			<key>textureRect</key>
+			<string>{{3376, 302}, {420, 300}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>TI_ch2_rum_bottle_00005.png</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{24, 41}, {372, 220}}</string>
+			<key>spriteOffset</key>
+			<string>{0, 0}</string>
+			<key>spriteSize</key>
+			<string>{420, 300}</string>
+			<key>spriteSourceSize</key>
+			<string>{420, 300}</string>
+			<key>spriteTrimmed</key>
+			<false/>
+			<key>textureRect</key>
+			<string>{{2110, 0}, {420, 300}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>TI_ch2_rum_bottle_00006.png</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{24, 41}, {372, 220}}</string>
+			<key>spriteOffset</key>
+			<string>{0, 0}</string>
+			<key>spriteSize</key>
+			<string>{420, 300}</string>
+			<key>spriteSourceSize</key>
+			<string>{420, 300}</string>
+			<key>spriteTrimmed</key>
+			<false/>
+			<key>textureRect</key>
+			<string>{{1688, 1510}, {420, 300}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>TI_ch2_rum_bottle_00007.png</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{24, 41}, {372, 220}}</string>
+			<key>spriteOffset</key>
+			<string>{0, 0}</string>
+			<key>spriteSize</key>
+			<string>{420, 300}</string>
+			<key>spriteSourceSize</key>
+			<string>{420, 300}</string>
+			<key>spriteTrimmed</key>
+			<false/>
+			<key>textureRect</key>
+			<string>{{2532, 0}, {420, 300}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>TI_ch2_rum_bottle_00008.png</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{24, 41}, {372, 220}}</string>
+			<key>spriteOffset</key>
+			<string>{0, 0}</string>
+			<key>spriteSize</key>
+			<string>{420, 300}</string>
+			<key>spriteSourceSize</key>
+			<string>{420, 300}</string>
+			<key>spriteTrimmed</key>
+			<false/>
+			<key>textureRect</key>
+			<string>{{844, 906}, {420, 300}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>TI_ch2_rum_bottle_00009.png</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{24, 41}, {372, 220}}</string>
+			<key>spriteOffset</key>
+			<string>{0, 0}</string>
+			<key>spriteSize</key>
+			<string>{420, 300}</string>
+			<key>spriteSourceSize</key>
+			<string>{420, 300}</string>
+			<key>spriteTrimmed</key>
+			<false/>
+			<key>textureRect</key>
+			<string>{{1688, 0}, {420, 300}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>TI_ch2_rum_bottle_00010.png</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{24, 41}, {372, 220}}</string>
+			<key>spriteOffset</key>
+			<string>{0, 0}</string>
+			<key>spriteSize</key>
+			<string>{420, 300}</string>
+			<key>spriteSourceSize</key>
+			<string>{420, 300}</string>
+			<key>spriteTrimmed</key>
+			<false/>
+			<key>textureRect</key>
+			<string>{{2954, 302}, {420, 300}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>TI_ch2_rum_bottle_00011.png</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{24, 41}, {372, 220}}</string>
+			<key>spriteOffset</key>
+			<string>{0, 0}</string>
+			<key>spriteSize</key>
+			<string>{420, 300}</string>
+			<key>spriteSourceSize</key>
+			<string>{420, 300}</string>
+			<key>spriteTrimmed</key>
+			<false/>
+			<key>textureRect</key>
+			<string>{{1688, 604}, {420, 300}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>TI_ch2_rum_bottle_00012.png</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{24, 41}, {372, 220}}</string>
+			<key>spriteOffset</key>
+			<string>{0, 0}</string>
+			<key>spriteSize</key>
+			<string>{420, 300}</string>
+			<key>spriteSourceSize</key>
+			<string>{420, 300}</string>
+			<key>spriteTrimmed</key>
+			<false/>
+			<key>textureRect</key>
+			<string>{{844, 0}, {420, 300}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>TI_ch2_rum_bottle_00013.png</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{24, 41}, {372, 220}}</string>
+			<key>spriteOffset</key>
+			<string>{0, 0}</string>
+			<key>spriteSize</key>
+			<string>{420, 300}</string>
+			<key>spriteSourceSize</key>
+			<string>{420, 300}</string>
+			<key>spriteTrimmed</key>
+			<false/>
+			<key>textureRect</key>
+			<string>{{422, 0}, {420, 300}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>TI_ch2_rum_bottle_00014.png</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{24, 41}, {372, 220}}</string>
+			<key>spriteOffset</key>
+			<string>{0, 0}</string>
+			<key>spriteSize</key>
+			<string>{420, 300}</string>
+			<key>spriteSourceSize</key>
+			<string>{420, 300}</string>
+			<key>spriteTrimmed</key>
+			<false/>
+			<key>textureRect</key>
+			<string>{{2954, 0}, {420, 300}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>TI_ch2_rum_bottle_00015.png</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{24, 41}, {372, 220}}</string>
+			<key>spriteOffset</key>
+			<string>{0, 0}</string>
+			<key>spriteSize</key>
+			<string>{420, 300}</string>
+			<key>spriteSourceSize</key>
+			<string>{420, 300}</string>
+			<key>spriteTrimmed</key>
+			<false/>
+			<key>textureRect</key>
+			<string>{{0, 0}, {420, 300}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>TI_ch2_rum_bottle_00016.png</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{24, 41}, {372, 220}}</string>
+			<key>spriteOffset</key>
+			<string>{0, 0}</string>
+			<key>spriteSize</key>
+			<string>{420, 300}</string>
+			<key>spriteSourceSize</key>
+			<string>{420, 300}</string>
+			<key>spriteTrimmed</key>
+			<false/>
+			<key>textureRect</key>
+			<string>{{844, 604}, {420, 300}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>TI_ch2_rum_bottle_00017.png</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{24, 41}, {372, 220}}</string>
+			<key>spriteOffset</key>
+			<string>{0, 0}</string>
+			<key>spriteSize</key>
+			<string>{420, 300}</string>
+			<key>spriteSourceSize</key>
+			<string>{420, 300}</string>
+			<key>spriteTrimmed</key>
+			<false/>
+			<key>textureRect</key>
+			<string>{{2110, 302}, {420, 300}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>TI_ch2_rum_bottle_00018.png</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{24, 41}, {372, 220}}</string>
+			<key>spriteOffset</key>
+			<string>{0, 0}</string>
+			<key>spriteSize</key>
+			<string>{420, 300}</string>
+			<key>spriteSourceSize</key>
+			<string>{420, 300}</string>
+			<key>spriteTrimmed</key>
+			<false/>
+			<key>textureRect</key>
+			<string>{{0, 604}, {420, 300}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>TI_ch2_rum_bottle_00019.png</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{24, 41}, {372, 220}}</string>
+			<key>spriteOffset</key>
+			<string>{0, 0}</string>
+			<key>spriteSize</key>
+			<string>{420, 300}</string>
+			<key>spriteSourceSize</key>
+			<string>{420, 300}</string>
+			<key>spriteTrimmed</key>
+			<false/>
+			<key>textureRect</key>
+			<string>{{0, 906}, {420, 300}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>TI_ch2_rum_bottle_00020.png</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{24, 41}, {372, 220}}</string>
+			<key>spriteOffset</key>
+			<string>{0, 0}</string>
+			<key>spriteSize</key>
+			<string>{420, 300}</string>
+			<key>spriteSourceSize</key>
+			<string>{420, 300}</string>
+			<key>spriteTrimmed</key>
+			<false/>
+			<key>textureRect</key>
+			<string>{{2110, 906}, {420, 300}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>TI_ch2_rum_bottle_00021.png</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{24, 41}, {372, 220}}</string>
+			<key>spriteOffset</key>
+			<string>{0, 0}</string>
+			<key>spriteSize</key>
+			<string>{420, 300}</string>
+			<key>spriteSourceSize</key>
+			<string>{420, 300}</string>
+			<key>spriteTrimmed</key>
+			<false/>
+			<key>textureRect</key>
+			<string>{{422, 906}, {420, 300}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>TI_ch2_rum_bottle_00022.png</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{24, 41}, {372, 220}}</string>
+			<key>spriteOffset</key>
+			<string>{0, 0}</string>
+			<key>spriteSize</key>
+			<string>{420, 300}</string>
+			<key>spriteSourceSize</key>
+			<string>{420, 300}</string>
+			<key>spriteTrimmed</key>
+			<false/>
+			<key>textureRect</key>
+			<string>{{1266, 0}, {420, 300}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>TI_ch2_rum_bottle_00023.png</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{24, 41}, {372, 220}}</string>
+			<key>spriteOffset</key>
+			<string>{0, 0}</string>
+			<key>spriteSize</key>
+			<string>{420, 300}</string>
+			<key>spriteSourceSize</key>
+			<string>{420, 300}</string>
+			<key>spriteTrimmed</key>
+			<false/>
+			<key>textureRect</key>
+			<string>{{1266, 302}, {420, 300}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>TI_ch2_rum_bottle_00024.png</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{24, 41}, {372, 220}}</string>
+			<key>spriteOffset</key>
+			<string>{0, 0}</string>
+			<key>spriteSize</key>
+			<string>{420, 300}</string>
+			<key>spriteSourceSize</key>
+			<string>{420, 300}</string>
+			<key>spriteTrimmed</key>
+			<false/>
+			<key>textureRect</key>
+			<string>{{1266, 1208}, {420, 300}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>TI_ch2_rum_bottle_00025.png</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{24, 41}, {372, 220}}</string>
+			<key>spriteOffset</key>
+			<string>{0, 0}</string>
+			<key>spriteSize</key>
+			<string>{420, 300}</string>
+			<key>spriteSourceSize</key>
+			<string>{420, 300}</string>
+			<key>spriteTrimmed</key>
+			<false/>
+			<key>textureRect</key>
+			<string>{{844, 302}, {420, 300}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>TI_ch2_rum_bottle_00026.png</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{24, 41}, {372, 220}}</string>
+			<key>spriteOffset</key>
+			<string>{0, 0}</string>
+			<key>spriteSize</key>
+			<string>{420, 300}</string>
+			<key>spriteSourceSize</key>
+			<string>{420, 300}</string>
+			<key>spriteTrimmed</key>
+			<false/>
+			<key>textureRect</key>
+			<string>{{1266, 1510}, {420, 300}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>TI_ch2_rum_bottle_00027.png</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{24, 41}, {372, 220}}</string>
+			<key>spriteOffset</key>
+			<string>{0, 0}</string>
+			<key>spriteSize</key>
+			<string>{420, 300}</string>
+			<key>spriteSourceSize</key>
+			<string>{420, 300}</string>
+			<key>spriteTrimmed</key>
+			<false/>
+			<key>textureRect</key>
+			<string>{{422, 302}, {420, 300}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>TI_ch2_rum_bottle_00028.png</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{24, 41}, {372, 220}}</string>
+			<key>spriteOffset</key>
+			<string>{0, 0}</string>
+			<key>spriteSize</key>
+			<string>{420, 300}</string>
+			<key>spriteSourceSize</key>
+			<string>{420, 300}</string>
+			<key>spriteTrimmed</key>
+			<false/>
+			<key>textureRect</key>
+			<string>{{2110, 604}, {420, 300}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>TI_ch2_rum_bottle_00029.png</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{24, 41}, {372, 220}}</string>
+			<key>spriteOffset</key>
+			<string>{0, 0}</string>
+			<key>spriteSize</key>
+			<string>{420, 300}</string>
+			<key>spriteSourceSize</key>
+			<string>{420, 300}</string>
+			<key>spriteTrimmed</key>
+			<false/>
+			<key>textureRect</key>
+			<string>{{1688, 906}, {420, 300}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>TI_ch2_rum_bottle_00030.png</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{24, 41}, {372, 220}}</string>
+			<key>spriteOffset</key>
+			<string>{0, 0}</string>
+			<key>spriteSize</key>
+			<string>{420, 300}</string>
+			<key>spriteSourceSize</key>
+			<string>{420, 300}</string>
+			<key>spriteTrimmed</key>
+			<false/>
+			<key>textureRect</key>
+			<string>{{844, 1208}, {420, 300}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>TI_ch2_rum_bottle_00031.png</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{24, 41}, {372, 220}}</string>
+			<key>spriteOffset</key>
+			<string>{0, 0}</string>
+			<key>spriteSize</key>
+			<string>{420, 300}</string>
+			<key>spriteSourceSize</key>
+			<string>{420, 300}</string>
+			<key>spriteTrimmed</key>
+			<false/>
+			<key>textureRect</key>
+			<string>{{3376, 0}, {420, 300}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>TI_ch2_rum_bottle_00032.png</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{24, 41}, {372, 220}}</string>
+			<key>spriteOffset</key>
+			<string>{0, 0}</string>
+			<key>spriteSize</key>
+			<string>{420, 300}</string>
+			<key>spriteSourceSize</key>
+			<string>{420, 300}</string>
+			<key>spriteTrimmed</key>
+			<false/>
+			<key>textureRect</key>
+			<string>{{422, 1208}, {420, 300}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>TI_ch2_rum_bottle_00033.png</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{24, 41}, {372, 220}}</string>
+			<key>spriteOffset</key>
+			<string>{0, 0}</string>
+			<key>spriteSize</key>
+			<string>{420, 300}</string>
+			<key>spriteSourceSize</key>
+			<string>{420, 300}</string>
+			<key>spriteTrimmed</key>
+			<false/>
+			<key>textureRect</key>
+			<string>{{0, 1510}, {420, 300}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>TI_ch2_rum_bottle_00034.png</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{24, 41}, {372, 220}}</string>
+			<key>spriteOffset</key>
+			<string>{0, 0}</string>
+			<key>spriteSize</key>
+			<string>{420, 300}</string>
+			<key>spriteSourceSize</key>
+			<string>{420, 300}</string>
+			<key>spriteTrimmed</key>
+			<false/>
+			<key>textureRect</key>
+			<string>{{844, 1510}, {420, 300}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>TI_ch2_rum_bottle_00035.png</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{24, 41}, {372, 220}}</string>
+			<key>spriteOffset</key>
+			<string>{0, 0}</string>
+			<key>spriteSize</key>
+			<string>{420, 300}</string>
+			<key>spriteSourceSize</key>
+			<string>{420, 300}</string>
+			<key>spriteTrimmed</key>
+			<false/>
+			<key>textureRect</key>
+			<string>{{2532, 302}, {420, 300}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>TI_ch2_rum_bottle_00036.png</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{24, 41}, {372, 220}}</string>
+			<key>spriteOffset</key>
+			<string>{0, 0}</string>
+			<key>spriteSize</key>
+			<string>{420, 300}</string>
+			<key>spriteSourceSize</key>
+			<string>{420, 300}</string>
+			<key>spriteTrimmed</key>
+			<false/>
+			<key>textureRect</key>
+			<string>{{422, 1510}, {420, 300}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>TI_ch2_rum_bottle_00037.png</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{24, 41}, {372, 220}}</string>
+			<key>spriteOffset</key>
+			<string>{0, 0}</string>
+			<key>spriteSize</key>
+			<string>{420, 300}</string>
+			<key>spriteSourceSize</key>
+			<string>{420, 300}</string>
+			<key>spriteTrimmed</key>
+			<false/>
+			<key>textureRect</key>
+			<string>{{1266, 604}, {420, 300}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>TI_ch2_rum_bottle_00038.png</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{24, 41}, {372, 220}}</string>
+			<key>spriteOffset</key>
+			<string>{0, 0}</string>
+			<key>spriteSize</key>
+			<string>{420, 300}</string>
+			<key>spriteSourceSize</key>
+			<string>{420, 300}</string>
+			<key>spriteTrimmed</key>
+			<false/>
+			<key>textureRect</key>
+			<string>{{0, 1208}, {420, 300}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>TI_ch2_rum_bottle_00039.png</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{24, 41}, {372, 220}}</string>
+			<key>spriteOffset</key>
+			<string>{0, 0}</string>
+			<key>spriteSize</key>
+			<string>{420, 300}</string>
+			<key>spriteSourceSize</key>
+			<string>{420, 300}</string>
+			<key>spriteTrimmed</key>
+			<false/>
+			<key>textureRect</key>
+			<string>{{1688, 302}, {420, 300}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+	</dict>
+	<key>metadata</key>
+	<dict>
+		<key>version</key>
+		<string>1.5.5</string>
+		<key>format</key>
+		<integer>3</integer>
+		<key>size</key>
+		<string>{4096, 2048}</string>
+		<key>name</key>
+		<string>Untitled</string>
+		<key>premultipliedAlpha</key>
+		<false/>
+		<key>target</key>
+		<dict>
+			<key>name</key>
+			<string>default</string>
+			<key>textureFileName</key>
+			<string>TI_ch2_rum_bottle_0</string>
+			<key>textureFileExtension</key>
+			<string>.png</string>
+			<key>coordinatesFileName</key>
+			<string>TI_ch2_rum_bottle_0</string>
+			<key>coordinatesFileExtension</key>
+			<string>.plist</string>
+			<key>premultipliedAlpha</key>
+			<false/>
+		</dict>
+	</dict>
+</dict>
+</plist>
