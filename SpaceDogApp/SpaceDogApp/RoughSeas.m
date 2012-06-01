@@ -6,6 +6,7 @@
 #import "BookView.h"
 #import "Trigger.h"
 #import "TextureAtlasBasedSequence.h"
+#import "TriggeredTextureAtlasBasedSequence.h"
 #import "PositionAnimation.h"
 
 @implementation ARoughSeas
@@ -156,12 +157,24 @@
    [self.animations addObject:tSequence];
    [self.seaLayer addSublayer:tSequence.layer];
    [tSequence release];
+    
+    ////////////////////////////////////////////////////////////////////////////////
+    // rowboat sequence
+    
+    tSequence = (ATriggeredTextureAtlasBasedSequence*)[[ATriggeredTextureAtlasBasedSequence alloc] 
+                                              initWithElement:element.rowBoatLayer 
+                                              RenderOnView:nil];
+    
+    [self.animations addObject:tSequence];
+    [self.seaLayer addSublayer:tSequence.layer];
+    [tSequence release];
+
 }
 
 #pragma mark ACustomAnimation protocol
 -(void)Start:(BOOL)triggered
 {
-   [self.seaLayerAnimation Start:triggered];
+   //[self.seaLayerAnimation Start:triggered];
    
    for (id<ACustomAnimation>animation in self.animations)
    {

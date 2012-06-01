@@ -1,0 +1,698 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>frames</key>
+	<dict>
+		
+		<key>Chapter12_Smollett_0000.png</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{10, 7}, {202, 343}}</string>
+			<key>spriteOffset</key>
+			<string>{0, 0}</string>
+			<key>spriteSize</key>
+			<string>{216, 357}</string>
+			<key>spriteSourceSize</key>
+			<string>{216, 357}</string>
+			<key>spriteTrimmed</key>
+			<false/>
+			<key>textureRect</key>
+			<string>{{432, 714}, {216, 357}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>Chapter12_Smollett_0001.png</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{10, 7}, {202, 343}}</string>
+			<key>spriteOffset</key>
+			<string>{0, 0}</string>
+			<key>spriteSize</key>
+			<string>{216, 357}</string>
+			<key>spriteSourceSize</key>
+			<string>{216, 357}</string>
+			<key>spriteTrimmed</key>
+			<false/>
+			<key>textureRect</key>
+			<string>{{0, 1071}, {216, 357}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>Chapter12_Smollett_0002.png</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{10, 7}, {202, 343}}</string>
+			<key>spriteOffset</key>
+			<string>{0, 0}</string>
+			<key>spriteSize</key>
+			<string>{216, 357}</string>
+			<key>spriteSourceSize</key>
+			<string>{216, 357}</string>
+			<key>spriteTrimmed</key>
+			<false/>
+			<key>textureRect</key>
+			<string>{{864, 1071}, {216, 357}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>Chapter12_Smollett_0003.png</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{10, 8}, {202, 343}}</string>
+			<key>spriteOffset</key>
+			<string>{0, 0}</string>
+			<key>spriteSize</key>
+			<string>{216, 357}</string>
+			<key>spriteSourceSize</key>
+			<string>{216, 357}</string>
+			<key>spriteTrimmed</key>
+			<false/>
+			<key>textureRect</key>
+			<string>{{648, 0}, {216, 357}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>Chapter12_Smollett_0004.png</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{10, 8}, {202, 343}}</string>
+			<key>spriteOffset</key>
+			<string>{0, 0}</string>
+			<key>spriteSize</key>
+			<string>{216, 357}</string>
+			<key>spriteSourceSize</key>
+			<string>{216, 357}</string>
+			<key>spriteTrimmed</key>
+			<false/>
+			<key>textureRect</key>
+			<string>{{432, 1428}, {216, 357}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>Chapter12_Smollett_0005.png</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{10, 9}, {202, 341}}</string>
+			<key>spriteOffset</key>
+			<string>{0, 0}</string>
+			<key>spriteSize</key>
+			<string>{216, 357}</string>
+			<key>spriteSourceSize</key>
+			<string>{216, 357}</string>
+			<key>spriteTrimmed</key>
+			<false/>
+			<key>textureRect</key>
+			<string>{{216, 1071}, {216, 357}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>Chapter12_Smollett_0006.png</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{10, 9}, {202, 341}}</string>
+			<key>spriteOffset</key>
+			<string>{0, 0}</string>
+			<key>spriteSize</key>
+			<string>{216, 357}</string>
+			<key>spriteSourceSize</key>
+			<string>{216, 357}</string>
+			<key>spriteTrimmed</key>
+			<false/>
+			<key>textureRect</key>
+			<string>{{0, 357}, {216, 357}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>Chapter12_Smollett_0007.png</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{10, 9}, {202, 341}}</string>
+			<key>spriteOffset</key>
+			<string>{0, 0}</string>
+			<key>spriteSize</key>
+			<string>{216, 357}</string>
+			<key>spriteSourceSize</key>
+			<string>{216, 357}</string>
+			<key>spriteTrimmed</key>
+			<false/>
+			<key>textureRect</key>
+			<string>{{432, 357}, {216, 357}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>Chapter12_Smollett_0008.png</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{10, 10}, {202, 341}}</string>
+			<key>spriteOffset</key>
+			<string>{0, 0}</string>
+			<key>spriteSize</key>
+			<string>{216, 357}</string>
+			<key>spriteSourceSize</key>
+			<string>{216, 357}</string>
+			<key>spriteTrimmed</key>
+			<false/>
+			<key>textureRect</key>
+			<string>{{648, 1071}, {216, 357}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>Chapter12_Smollett_0009.png</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{10, 10}, {202, 341}}</string>
+			<key>spriteOffset</key>
+			<string>{0, 0}</string>
+			<key>spriteSize</key>
+			<string>{216, 357}</string>
+			<key>spriteSourceSize</key>
+			<string>{216, 357}</string>
+			<key>spriteTrimmed</key>
+			<false/>
+			<key>textureRect</key>
+			<string>{{216, 0}, {216, 357}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>Chapter12_Smollett_0010.png</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{10, 11}, {202, 339}}</string>
+			<key>spriteOffset</key>
+			<string>{0, 0}</string>
+			<key>spriteSize</key>
+			<string>{216, 357}</string>
+			<key>spriteSourceSize</key>
+			<string>{216, 357}</string>
+			<key>spriteTrimmed</key>
+			<false/>
+			<key>textureRect</key>
+			<string>{{1728, 0}, {216, 357}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>Chapter12_Smollett_0011.png</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{10, 10}, {202, 341}}</string>
+			<key>spriteOffset</key>
+			<string>{0, 0}</string>
+			<key>spriteSize</key>
+			<string>{216, 357}</string>
+			<key>spriteSourceSize</key>
+			<string>{216, 357}</string>
+			<key>spriteTrimmed</key>
+			<false/>
+			<key>textureRect</key>
+			<string>{{0, 0}, {216, 357}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>Chapter12_Smollett_0012.png</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{10, 9}, {202, 341}}</string>
+			<key>spriteOffset</key>
+			<string>{0, 0}</string>
+			<key>spriteSize</key>
+			<string>{216, 357}</string>
+			<key>spriteSourceSize</key>
+			<string>{216, 357}</string>
+			<key>spriteTrimmed</key>
+			<false/>
+			<key>textureRect</key>
+			<string>{{432, 1071}, {216, 357}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>Chapter12_Smollett_0013.png</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{10, 8}, {202, 343}}</string>
+			<key>spriteOffset</key>
+			<string>{0, 0}</string>
+			<key>spriteSize</key>
+			<string>{216, 357}</string>
+			<key>spriteSourceSize</key>
+			<string>{216, 357}</string>
+			<key>spriteTrimmed</key>
+			<false/>
+			<key>textureRect</key>
+			<string>{{648, 1428}, {216, 357}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>Chapter12_Smollett_0014.png</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{10, 9}, {202, 341}}</string>
+			<key>spriteOffset</key>
+			<string>{0, 0}</string>
+			<key>spriteSize</key>
+			<string>{216, 357}</string>
+			<key>spriteSourceSize</key>
+			<string>{216, 357}</string>
+			<key>spriteTrimmed</key>
+			<false/>
+			<key>textureRect</key>
+			<string>{{648, 714}, {216, 357}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>Chapter12_Smollett_0015.png</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{10, 10}, {202, 341}}</string>
+			<key>spriteOffset</key>
+			<string>{0, 0}</string>
+			<key>spriteSize</key>
+			<string>{216, 357}</string>
+			<key>spriteSourceSize</key>
+			<string>{216, 357}</string>
+			<key>spriteTrimmed</key>
+			<false/>
+			<key>textureRect</key>
+			<string>{{1080, 357}, {216, 357}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>Chapter12_Smollett_0016.png</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{10, 10}, {202, 341}}</string>
+			<key>spriteOffset</key>
+			<string>{0, 0}</string>
+			<key>spriteSize</key>
+			<string>{216, 357}</string>
+			<key>spriteSourceSize</key>
+			<string>{216, 357}</string>
+			<key>spriteTrimmed</key>
+			<false/>
+			<key>textureRect</key>
+			<string>{{1080, 0}, {216, 357}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>Chapter12_Smollett_0017.png</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{10, 9}, {202, 341}}</string>
+			<key>spriteOffset</key>
+			<string>{0, 0}</string>
+			<key>spriteSize</key>
+			<string>{216, 357}</string>
+			<key>spriteSourceSize</key>
+			<string>{216, 357}</string>
+			<key>spriteTrimmed</key>
+			<false/>
+			<key>textureRect</key>
+			<string>{{864, 0}, {216, 357}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>Chapter12_Smollett_0018.png</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{10, 9}, {202, 341}}</string>
+			<key>spriteOffset</key>
+			<string>{0, 0}</string>
+			<key>spriteSize</key>
+			<string>{216, 357}</string>
+			<key>spriteSourceSize</key>
+			<string>{216, 357}</string>
+			<key>spriteTrimmed</key>
+			<false/>
+			<key>textureRect</key>
+			<string>{{0, 714}, {216, 357}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>Chapter12_Smollett_0019.png</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{10, 9}, {202, 341}}</string>
+			<key>spriteOffset</key>
+			<string>{0, 0}</string>
+			<key>spriteSize</key>
+			<string>{216, 357}</string>
+			<key>spriteSourceSize</key>
+			<string>{216, 357}</string>
+			<key>spriteTrimmed</key>
+			<false/>
+			<key>textureRect</key>
+			<string>{{432, 0}, {216, 357}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>Chapter12_Smollett_0020.png</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{10, 9}, {202, 341}}</string>
+			<key>spriteOffset</key>
+			<string>{0, 0}</string>
+			<key>spriteSize</key>
+			<string>{216, 357}</string>
+			<key>spriteSourceSize</key>
+			<string>{216, 357}</string>
+			<key>spriteTrimmed</key>
+			<false/>
+			<key>textureRect</key>
+			<string>{{648, 357}, {216, 357}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>Chapter12_Smollett_0021.png</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{10, 9}, {202, 341}}</string>
+			<key>spriteOffset</key>
+			<string>{0, 0}</string>
+			<key>spriteSize</key>
+			<string>{216, 357}</string>
+			<key>spriteSourceSize</key>
+			<string>{216, 357}</string>
+			<key>spriteTrimmed</key>
+			<false/>
+			<key>textureRect</key>
+			<string>{{0, 1428}, {216, 357}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>Chapter12_Smollett_0022.png</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{10, 10}, {202, 341}}</string>
+			<key>spriteOffset</key>
+			<string>{0, 0}</string>
+			<key>spriteSize</key>
+			<string>{216, 357}</string>
+			<key>spriteSourceSize</key>
+			<string>{216, 357}</string>
+			<key>spriteTrimmed</key>
+			<false/>
+			<key>textureRect</key>
+			<string>{{864, 714}, {216, 357}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>Chapter12_Smollett_0023.png</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{10, 11}, {202, 339}}</string>
+			<key>spriteOffset</key>
+			<string>{0, 0}</string>
+			<key>spriteSize</key>
+			<string>{216, 357}</string>
+			<key>spriteSourceSize</key>
+			<string>{216, 357}</string>
+			<key>spriteTrimmed</key>
+			<false/>
+			<key>textureRect</key>
+			<string>{{864, 1428}, {216, 357}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>Chapter12_Smollett_0024.png</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{10, 10}, {202, 341}}</string>
+			<key>spriteOffset</key>
+			<string>{0, 0}</string>
+			<key>spriteSize</key>
+			<string>{216, 357}</string>
+			<key>spriteSourceSize</key>
+			<string>{216, 357}</string>
+			<key>spriteTrimmed</key>
+			<false/>
+			<key>textureRect</key>
+			<string>{{216, 1428}, {216, 357}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>Chapter12_Smollett_0025.png</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{10, 9}, {202, 341}}</string>
+			<key>spriteOffset</key>
+			<string>{0, 0}</string>
+			<key>spriteSize</key>
+			<string>{216, 357}</string>
+			<key>spriteSourceSize</key>
+			<string>{216, 357}</string>
+			<key>spriteTrimmed</key>
+			<false/>
+			<key>textureRect</key>
+			<string>{{216, 357}, {216, 357}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>Chapter12_Smollett_0026.png</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{10, 9}, {202, 341}}</string>
+			<key>spriteOffset</key>
+			<string>{0, 0}</string>
+			<key>spriteSize</key>
+			<string>{216, 357}</string>
+			<key>spriteSourceSize</key>
+			<string>{216, 357}</string>
+			<key>spriteTrimmed</key>
+			<false/>
+			<key>textureRect</key>
+			<string>{{1296, 0}, {216, 357}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>Chapter12_Smollett_0027.png</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{10, 8}, {202, 343}}</string>
+			<key>spriteOffset</key>
+			<string>{0, 0}</string>
+			<key>spriteSize</key>
+			<string>{216, 357}</string>
+			<key>spriteSourceSize</key>
+			<string>{216, 357}</string>
+			<key>spriteTrimmed</key>
+			<false/>
+			<key>textureRect</key>
+			<string>{{216, 714}, {216, 357}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>Chapter12_Smollett_0028.png</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{10, 8}, {202, 343}}</string>
+			<key>spriteOffset</key>
+			<string>{0, 0}</string>
+			<key>spriteSize</key>
+			<string>{216, 357}</string>
+			<key>spriteSourceSize</key>
+			<string>{216, 357}</string>
+			<key>spriteTrimmed</key>
+			<false/>
+			<key>textureRect</key>
+			<string>{{1512, 0}, {216, 357}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>Chapter12_Smollett_0029.png</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{10, 7}, {202, 343}}</string>
+			<key>spriteOffset</key>
+			<string>{0, 0}</string>
+			<key>spriteSize</key>
+			<string>{216, 357}</string>
+			<key>spriteSourceSize</key>
+			<string>{216, 357}</string>
+			<key>spriteTrimmed</key>
+			<false/>
+			<key>textureRect</key>
+			<string>{{864, 357}, {216, 357}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+	</dict>
+	<key>metadata</key>
+	<dict>
+		<key>version</key>
+		<string>1.5.5</string>
+		<key>format</key>
+		<integer>3</integer>
+		<key>size</key>
+		<string>{2048, 2048}</string>
+		<key>name</key>
+		<string>Untitled 3</string>
+		<key>premultipliedAlpha</key>
+		<false/>
+		<key>target</key>
+		<dict>
+			<key>name</key>
+			<string>default</string>
+			<key>textureFileName</key>
+			<string>Chapter12_Smollett_</string>
+			<key>textureFileExtension</key>
+			<string>.png</string>
+			<key>coordinatesFileName</key>
+			<string>Chapter12_Smollett_</string>
+			<key>coordinatesFileExtension</key>
+			<string>.plist</string>
+			<key>premultipliedAlpha</key>
+			<false/>
+		</dict>
+	</dict>
+</dict>
+</plist>

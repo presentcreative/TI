@@ -48,6 +48,53 @@
 			<array>
 				<dict>
 					<key>description</key>
+					<string>bullets firing 2</string>
+					<key>id</key>
+					<string>bullets firing 2</string>
+					<key>customClass</key>
+					<string>ATextureAtlasBasedSequence</string>
+					<key>resourceBase</key>
+					<string>Chapter21_BulletsFullSize_</string>
+					<key>frame</key>
+					<array>
+						<integer>350</integer>
+						<integer>-25</integer>
+						<integer>344</integer>
+						<integer>530</integer>
+					</array>
+					<key>sequences</key>
+					<array>
+						<dict>
+							<key>soundEffect</key>
+							<dict>
+								<key>delay</key>
+								<real>0.1</real>
+								<key>description</key>
+								<string>bullet whiz</string>
+								<key>id</key>
+								<string>bullet whiz</string>
+								<key>resource</key>
+								<string>BULLETFLYBY01.m4a</string>
+								<key>customClass</key>
+								<string>ASoundEffect</string>
+								<key>numLoops</key>
+								<integer>0</integer>
+							</dict>
+							<key>repeatDelay</key>
+							<integer>3</integer>
+							<key>repeatType</key>
+							<string>CONTINUOUS_WITH_DELAY</string>
+							<key>description</key>
+							<string>The jumping pirate.</string>
+							<key>imageIndices</key>
+							<string>{1,9}</string>
+							<key>duration</key>
+							<real>0.4</real>
+						</dict>
+					</array>
+				</dict>
+				<dict>
+					<key>description</key>
 					<string>bullets firing</string>
 					<key>id</key>
 					<string>bullets firing</string>
@@ -65,6 +112,21 @@
 					<key>sequences</key>
 					<array>
 						<dict>
+							<key>soundEffect</key>
+							<dict>
+								<key>delay</key>
+								<real>0.1</real>
+								<key>description</key>
+								<string>bullet whiz</string>
+								<key>id</key>
+								<string>bullet whiz</string>
+								<key>resource</key>
+								<string>BULLETFLYBY01.m4a</string>
+								<key>customClass</key>
+								<string>ASoundEffect</string>
+								<key>numLoops</key>
+								<integer>0</integer>
+							</dict>
 							<key>repeatDelay</key>
 							<integer>2</integer>
 							<key>repeatType</key>
@@ -79,6 +141,8 @@
 					</array>
 				</dict>
 				<dict>
+					<key>fadeInDuration</key>
+					<integer>5</integer>
 					<key>description</key>
 					<string>The attack!</string>
 					<key>id</key>

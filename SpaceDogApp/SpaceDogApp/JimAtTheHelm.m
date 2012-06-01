@@ -361,12 +361,12 @@
    if (0.0f > self.yMovement)
    {
       [self TurnToStarbord];
-       self.yMovement = 0.0;
+       self.yMovement = -10;
    }
    else 
    {
       [self TurnToPort];
-       self.yMovement = 0.0;
+       self.yMovement = 10;
    }
    
    [CATransaction commit];

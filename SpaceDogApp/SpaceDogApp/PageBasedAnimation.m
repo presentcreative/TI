@@ -14,6 +14,7 @@
 @synthesize animations=fAnimations;
 @synthesize animationsByName=fAnimationsByName;
 @synthesize animationId=fAnimationId;
+@synthesize waitForTrigger=fWaitForTrigger;
 
 -(void)dealloc
 {
@@ -63,6 +64,9 @@
       theTrigger = [[ATrigger alloc] initWithTriggerSpec:element.trigger ForAnimation:self OnView:view];
       [theTrigger release];
    }
+
+    fWaitForTrigger = element.waitForTrigger;
+
 }
 
 -(ATrigger*)tiltTrigger

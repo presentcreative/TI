@@ -152,7 +152,7 @@
 					<array>
 						<integer>250</integer>
 						<integer>296</integer>
-						<integer>258</integer>
+						<integer>265</integer>
 						<integer>264</integer>
 					</array>
 					<key>sequences</key>
@@ -161,29 +161,12 @@
 							<key>description</key>
 							<string>scooby doo legs</string>
 							<key>imageIndices</key>
-							<string>{0,6}</string>
+							<string>{1,5}</string>
 							<key>duration</key>
 							<real>0.4</real>
 							<key>repeatType</key>
 							<string>CONTINUOUS</string>
 						</dict>
-					</array>
-				</dict>
-				<dict>
-					<key>description</key>
-					<string>border</string>
-					<key>id</key>
-					<string>border</string>
-					<key>customClass</key>
-					<string>AStaticImage</string>
-					<key>resource</key>
-					<string>Chapter18_Border.png</string>
-					<key>frame</key>
-					<array>
-						<integer>80</integer>
-						<integer>74</integer>
-						<integer>433</integer>
-						<integer>577</integer>
 					</array>
 				</dict>
 			</array>

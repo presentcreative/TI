@@ -10,12 +10,26 @@
 			<key>elements</key>
 			<array>
 				<dict>
+					<key>trigger</key>
+					<dict>
+						<key>type</key>
+						<string>TOUCH</string>
+						<key>regions</key>
+						<array>
+							<array>
+								<integer>350</integer>
+								<integer>550</integer>
+								<integer>100</integer>
+								<integer>100</integer>
+							</array>
+						</array>
+					</dict>
 					<key>description</key>
 					<string>crabs</string>
 					<key>id</key>
 					<string>crabs</string>
 					<key>customClass</key>
-					<string>ATextureAtlasBasedSequence</string>
+					<string>ATriggeredTextureAtlasBasedSequence</string>
 					<key>resourceBase</key>
 					<string>crabexporter_0</string>
 					<key>frame</key>
@@ -31,11 +45,9 @@
 							<key>description</key>
 							<string>The header eyes.</string>
 							<key>imageIndices</key>
-							<string>{1,23}</string>
+							<string>{1,33}</string>
 							<key>duration</key>
 							<integer>2</integer>
-							<key>repeatType</key>
-							<string>CONTINUOUS</string>
 						</dict>
 					</array>
 				</dict>
@@ -237,6 +249,17 @@
 			</array>
 			<key>helpDescriptors</key>
 			<array>
+				<dict>
+					<key>type</key>
+					<string>TAP</string>
+					<key>frame</key>
+					<array>
+						<integer>350</integer>
+						<integer>550</integer>
+						<integer>106</integer>
+						<integer>106</integer>
+					</array>
+				</dict>
 				<dict>
 					<key>type</key>
 					<string>TAP</string>

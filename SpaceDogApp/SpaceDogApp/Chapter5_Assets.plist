@@ -414,8 +414,8 @@
 					<string>DOWN</string>
 					<key>frame</key>
 					<array>
-						<integer>300</integer>
-						<integer>385</integer>
+						<integer>75</integer>
+						<integer>585</integer>
 						<integer>106</integer>
 						<integer>106</integer>
 					</array>

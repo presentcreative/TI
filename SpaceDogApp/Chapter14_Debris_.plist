@@ -1,0 +1,1028 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>frames</key>
+	<dict>
+		
+		<key>Chapter14_Debris_0000.png</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{8, 57}, {28, 20}}</string>
+			<key>spriteOffset</key>
+			<string>{-148, 83}</string>
+			<key>spriteSize</key>
+			<string>{28, 20}</string>
+			<key>spriteSourceSize</key>
+			<string>{340, 300}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{272, 102}, {28, 20}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>Chapter14_Debris_0001.png</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{15, 55}, {30, 24}}</string>
+			<key>spriteOffset</key>
+			<string>{-140, 83}</string>
+			<key>spriteSize</key>
+			<string>{30, 24}</string>
+			<key>spriteSourceSize</key>
+			<string>{340, 300}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{318, 88}, {30, 24}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>Chapter14_Debris_0002.png</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{12, 52}, {48, 42}}</string>
+			<key>spriteOffset</key>
+			<string>{-134, 77}</string>
+			<key>spriteSize</key>
+			<string>{48, 42}</string>
+			<key>spriteSourceSize</key>
+			<string>{340, 300}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{318, 46}, {48, 42}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>Chapter14_Debris_0003.png</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{1, 50}, {66, 40}}</string>
+			<key>spriteOffset</key>
+			<string>{-136, 80}</string>
+			<key>spriteSize</key>
+			<string>{66, 40}</string>
+			<key>spriteSourceSize</key>
+			<string>{340, 300}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{68, 96}, {66, 40}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>Chapter14_Debris_0004.png</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{11, 47}, {62, 40}}</string>
+			<key>spriteOffset</key>
+			<string>{-128, 83}</string>
+			<key>spriteSize</key>
+			<string>{62, 40}</string>
+			<key>spriteSourceSize</key>
+			<string>{340, 300}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{62, 202}, {62, 40}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>Chapter14_Debris_0005.png</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{21, 42}, {60, 40}}</string>
+			<key>spriteOffset</key>
+			<string>{-119, 88}</string>
+			<key>spriteSize</key>
+			<string>{60, 40}</string>
+			<key>spriteSourceSize</key>
+			<string>{340, 300}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{124, 208}, {60, 40}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>Chapter14_Debris_0006.png</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{25, 36}, {62, 42}}</string>
+			<key>spriteOffset</key>
+			<string>{-114, 93}</string>
+			<key>spriteSize</key>
+			<string>{62, 42}</string>
+			<key>spriteSourceSize</key>
+			<string>{340, 300}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{128, 166}, {62, 42}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>Chapter14_Debris_0007.png</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{33, 30}, {62, 44}}</string>
+			<key>spriteOffset</key>
+			<string>{-106, 98}</string>
+			<key>spriteSize</key>
+			<string>{62, 44}</string>
+			<key>spriteSourceSize</key>
+			<string>{340, 300}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{0, 200}, {62, 44}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>Chapter14_Debris_0008.png</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{42, 25}, {60, 44}}</string>
+			<key>spriteOffset</key>
+			<string>{-98, 103}</string>
+			<key>spriteSize</key>
+			<string>{60, 44}</string>
+			<key>spriteSourceSize</key>
+			<string>{340, 300}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{190, 184}, {60, 44}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>Chapter14_Debris_0009.png</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{50, 20}, {58, 46}}</string>
+			<key>spriteOffset</key>
+			<string>{-91, 107}</string>
+			<key>spriteSize</key>
+			<string>{58, 46}</string>
+			<key>spriteSourceSize</key>
+			<string>{340, 300}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{60, 244}, {58, 46}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>Chapter14_Debris_0010.png</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{60, 16}, {56, 46}}</string>
+			<key>spriteOffset</key>
+			<string>{-82, 111}</string>
+			<key>spriteSize</key>
+			<string>{56, 46}</string>
+			<key>spriteSourceSize</key>
+			<string>{340, 300}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{56, 320}, {56, 46}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>Chapter14_Debris_0011.png</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{69, 12}, {56, 48}}</string>
+			<key>spriteOffset</key>
+			<string>{-73, 114}</string>
+			<key>spriteSize</key>
+			<string>{56, 48}</string>
+			<key>spriteSourceSize</key>
+			<string>{340, 300}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{0, 320}, {56, 48}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>Chapter14_Debris_0012.png</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{79, 9}, {56, 48}}</string>
+			<key>spriteOffset</key>
+			<string>{-63, 117}</string>
+			<key>spriteSize</key>
+			<string>{56, 48}</string>
+			<key>spriteSourceSize</key>
+			<string>{340, 300}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{118, 286}, {56, 48}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>Chapter14_Debris_0013.png</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{89, 7}, {56, 52}}</string>
+			<key>spriteOffset</key>
+			<string>{-53, 117}</string>
+			<key>spriteSize</key>
+			<string>{56, 52}</string>
+			<key>spriteSourceSize</key>
+			<string>{340, 300}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{252, 0}, {56, 52}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>Chapter14_Debris_0014.png</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{100, 6}, {52, 56}}</string>
+			<key>spriteOffset</key>
+			<string>{-44, 116}</string>
+			<key>spriteSize</key>
+			<string>{52, 56}</string>
+			<key>spriteSourceSize</key>
+			<string>{340, 300}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{72, 0}, {52, 56}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>Chapter14_Debris_0015.png</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{110, 6}, {50, 62}}</string>
+			<key>spriteOffset</key>
+			<string>{-35, 113}</string>
+			<key>spriteSize</key>
+			<string>{50, 62}</string>
+			<key>spriteSourceSize</key>
+			<string>{340, 300}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{200, 122}, {50, 62}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>Chapter14_Debris_0016.png</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{121, 9}, {46, 66}}</string>
+			<key>spriteOffset</key>
+			<string>{-26, 108}</string>
+			<key>spriteSize</key>
+			<string>{46, 66}</string>
+			<key>spriteSourceSize</key>
+			<string>{340, 300}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{140, 56}, {46, 66}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>Chapter14_Debris_0017.png</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{131, 13}, {42, 68}}</string>
+			<key>spriteOffset</key>
+			<string>{-18, 103}</string>
+			<key>spriteSize</key>
+			<string>{42, 68}</string>
+			<key>spriteSourceSize</key>
+			<string>{340, 300}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{230, 54}, {42, 68}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>Chapter14_Debris_0018.png</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{139, 20}, {44, 66}}</string>
+			<key>spriteOffset</key>
+			<string>{-9, 97}</string>
+			<key>spriteSize</key>
+			<string>{44, 66}</string>
+			<key>spriteSourceSize</key>
+			<string>{340, 300}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{186, 56}, {44, 66}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>Chapter14_Debris_0019.png</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{146, 28}, {44, 62}}</string>
+			<key>spriteOffset</key>
+			<string>{-2, 91}</string>
+			<key>spriteSize</key>
+			<string>{44, 62}</string>
+			<key>spriteSourceSize</key>
+			<string>{340, 300}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{184, 228}, {44, 62}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>Chapter14_Debris_0020.png</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{155, 36}, {42, 60}}</string>
+			<key>spriteOffset</key>
+			<string>{6, 84}</string>
+			<key>spriteSize</key>
+			<string>{42, 60}</string>
+			<key>spriteSourceSize</key>
+			<string>{340, 300}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{228, 228}, {42, 60}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>Chapter14_Debris_0021.png</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{163, 45}, {40, 60}}</string>
+			<key>spriteOffset</key>
+			<string>{13, 75}</string>
+			<key>spriteSize</key>
+			<string>{40, 60}</string>
+			<key>spriteSourceSize</key>
+			<string>{340, 300}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{250, 122}, {40, 60}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>Chapter14_Debris_0022.png</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{169, 55}, {42, 56}}</string>
+			<key>spriteOffset</key>
+			<string>{20, 67}</string>
+			<key>spriteSize</key>
+			<string>{42, 56}</string>
+			<key>spriteSourceSize</key>
+			<string>{340, 300}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{124, 0}, {42, 56}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>Chapter14_Debris_0023.png</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{176, 64}, {42, 56}}</string>
+			<key>spriteOffset</key>
+			<string>{27, 58}</string>
+			<key>spriteSize</key>
+			<string>{42, 56}</string>
+			<key>spriteSourceSize</key>
+			<string>{340, 300}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{166, 0}, {42, 56}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>Chapter14_Debris_0024.png</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{181, 74}, {44, 54}}</string>
+			<key>spriteOffset</key>
+			<string>{33, 49}</string>
+			<key>spriteSize</key>
+			<string>{44, 54}</string>
+			<key>spriteSourceSize</key>
+			<string>{340, 300}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{208, 0}, {44, 54}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>Chapter14_Debris_0025.png</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{187, 84}, {46, 50}}</string>
+			<key>spriteOffset</key>
+			<string>{40, 41}</string>
+			<key>spriteSize</key>
+			<string>{46, 50}</string>
+			<key>spriteSourceSize</key>
+			<string>{340, 300}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{272, 52}, {46, 50}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>Chapter14_Debris_0026.png</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{192, 94}, {48, 46}}</string>
+			<key>spriteOffset</key>
+			<string>{46, 33}</string>
+			<key>spriteSize</key>
+			<string>{48, 46}</string>
+			<key>spriteSourceSize</key>
+			<string>{340, 300}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{308, 0}, {48, 46}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>Chapter14_Debris_0027.png</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{196, 103}, {50, 44}}</string>
+			<key>spriteOffset</key>
+			<string>{51, 25}</string>
+			<key>spriteSize</key>
+			<string>{50, 44}</string>
+			<key>spriteSourceSize</key>
+			<string>{340, 300}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{250, 182}, {50, 44}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>Chapter14_Debris_0028.png</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{201, 112}, {52, 42}}</string>
+			<key>spriteOffset</key>
+			<string>{57, 17}</string>
+			<key>spriteSize</key>
+			<string>{52, 42}</string>
+			<key>spriteSourceSize</key>
+			<string>{340, 300}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{290, 122}, {52, 42}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>Chapter14_Debris_0029.png</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{206, 122}, {54, 40}}</string>
+			<key>spriteOffset</key>
+			<string>{63, 8}</string>
+			<key>spriteSize</key>
+			<string>{54, 40}</string>
+			<key>spriteSourceSize</key>
+			<string>{340, 300}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{228, 288}, {54, 40}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>Chapter14_Debris_0030.png</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{211, 131}, {56, 40}}</string>
+			<key>spriteOffset</key>
+			<string>{69, -1}</string>
+			<key>spriteSize</key>
+			<string>{56, 40}</string>
+			<key>spriteSourceSize</key>
+			<string>{340, 300}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{356, 0}, {56, 40}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>Chapter14_Debris_0031.png</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{215, 141}, {58, 40}}</string>
+			<key>spriteOffset</key>
+			<string>{74, -11}</string>
+			<key>spriteSize</key>
+			<string>{58, 40}</string>
+			<key>spriteSourceSize</key>
+			<string>{340, 300}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{0, 280}, {58, 40}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>Chapter14_Debris_0032.png</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{220, 150}, {58, 38}}</string>
+			<key>spriteOffset</key>
+			<string>{79, -19}</string>
+			<key>spriteSize</key>
+			<string>{58, 38}</string>
+			<key>spriteSourceSize</key>
+			<string>{340, 300}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{118, 248}, {58, 38}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>Chapter14_Debris_0033.png</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{224, 160}, {60, 36}}</string>
+			<key>spriteOffset</key>
+			<string>{84, -28}</string>
+			<key>spriteSize</key>
+			<string>{60, 36}</string>
+			<key>spriteSourceSize</key>
+			<string>{340, 300}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{0, 244}, {60, 36}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>Chapter14_Debris_0034.png</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{228, 170}, {64, 36}}</string>
+			<key>spriteOffset</key>
+			<string>{90, -38}</string>
+			<key>spriteSize</key>
+			<string>{64, 36}</string>
+			<key>spriteSourceSize</key>
+			<string>{340, 300}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{0, 164}, {64, 36}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>Chapter14_Debris_0035.png</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{233, 179}, {64, 36}}</string>
+			<key>spriteOffset</key>
+			<string>{95, -47}</string>
+			<key>spriteSize</key>
+			<string>{64, 36}</string>
+			<key>spriteSourceSize</key>
+			<string>{340, 300}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{64, 166}, {64, 36}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>Chapter14_Debris_0036.png</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{237, 188}, {66, 38}}</string>
+			<key>spriteOffset</key>
+			<string>{100, -57}</string>
+			<key>spriteSize</key>
+			<string>{66, 38}</string>
+			<key>spriteSourceSize</key>
+			<string>{340, 300}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{134, 122}, {66, 38}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>Chapter14_Debris_0037.png</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{242, 197}, {68, 40}}</string>
+			<key>spriteOffset</key>
+			<string>{106, -67}</string>
+			<key>spriteSize</key>
+			<string>{68, 40}</string>
+			<key>spriteSourceSize</key>
+			<string>{340, 300}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{0, 84}, {68, 40}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>Chapter14_Debris_0038.png</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{246, 206}, {70, 40}}</string>
+			<key>spriteOffset</key>
+			<string>{111, -76}</string>
+			<key>spriteSize</key>
+			<string>{70, 40}</string>
+			<key>spriteSourceSize</key>
+			<string>{340, 300}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{70, 56}, {70, 40}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>Chapter14_Debris_0039.png</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{251, 215}, {70, 42}}</string>
+			<key>spriteOffset</key>
+			<string>{116, -86}</string>
+			<key>spriteSize</key>
+			<string>{70, 42}</string>
+			<key>spriteSourceSize</key>
+			<string>{340, 300}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{0, 42}, {70, 42}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>Chapter14_Debris_0040.png</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{255, 224}, {72, 42}}</string>
+			<key>spriteOffset</key>
+			<string>{121, -95}</string>
+			<key>spriteSize</key>
+			<string>{72, 42}</string>
+			<key>spriteSourceSize</key>
+			<string>{340, 300}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{0, 0}, {72, 42}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>Chapter14_Debris_0041.png</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{260, 233}, {66, 40}}</string>
+			<key>spriteOffset</key>
+			<string>{123, -103}</string>
+			<key>spriteSize</key>
+			<string>{66, 40}</string>
+			<key>spriteSourceSize</key>
+			<string>{340, 300}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{0, 124}, {66, 40}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>Chapter14_Debris_0042.png</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{264, 242}, {66, 30}}</string>
+			<key>spriteOffset</key>
+			<string>{127, -107}</string>
+			<key>spriteSize</key>
+			<string>{66, 30}</string>
+			<key>spriteSourceSize</key>
+			<string>{340, 300}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{66, 136}, {66, 30}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>Chapter14_Debris_0043.png</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{270, 251}, {56, 24}}</string>
+			<key>spriteOffset</key>
+			<string>{128, -113}</string>
+			<key>spriteSize</key>
+			<string>{56, 24}</string>
+			<key>spriteSourceSize</key>
+			<string>{340, 300}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{58, 290}, {56, 24}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>Chapter14_Debris_0044.png</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{314, 260}, {6, 4}}</string>
+			<key>spriteOffset</key>
+			<string>{147, -112}</string>
+			<key>spriteSize</key>
+			<string>{6, 4}</string>
+			<key>spriteSourceSize</key>
+			<string>{340, 300}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{134, 96}, {6, 4}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+	</dict>
+	<key>metadata</key>
+	<dict>
+		<key>version</key>
+		<string>1.5.5</string>
+		<key>format</key>
+		<integer>3</integer>
+		<key>size</key>
+		<string>{512, 512}</string>
+		<key>name</key>
+		<string>Untitled 2</string>
+		<key>premultipliedAlpha</key>
+		<false/>
+		<key>target</key>
+		<dict>
+			<key>name</key>
+			<string>default</string>
+			<key>textureFileName</key>
+			<string>Chapter14_Debris_</string>
+			<key>textureFileExtension</key>
+			<string>.png</string>
+			<key>coordinatesFileName</key>
+			<string>Chapter14_Debris_</string>
+			<key>coordinatesFileExtension</key>
+			<string>.plist</string>
+			<key>premultipliedAlpha</key>
+			<false/>
+		</dict>
+	</dict>
+</dict>
+</plist>

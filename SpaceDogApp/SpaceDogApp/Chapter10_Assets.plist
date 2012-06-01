@@ -376,6 +376,20 @@
 			</array>
 		</dict>
 		<dict>
+			<key>helpDescriptors</key>
+			<array>
+				<dict>
+					<key>type</key>
+					<string>TAP</string>
+					<key>frame</key>
+					<array>
+						<integer>600</integer>
+						<integer>100</integer>
+						<integer>106</integer>
+						<integer>106</integer>
+					</array>
+				</dict>
+			</array>
 			<key>page</key>
 			<integer>3</integer>
 			<key>elements</key>

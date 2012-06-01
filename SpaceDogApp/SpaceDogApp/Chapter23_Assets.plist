@@ -108,6 +108,22 @@
 					<false/>
 				</dict>
 				<dict>
+					<key>trigger</key>
+					<dict>
+						<key>allowsConcurrentTrigger</key>
+						<true/>
+						<key>type</key>
+						<string>TOUCH</string>
+						<key>regions</key>
+						<array>
+							<array>
+								<integer>70</integer>
+								<integer>70</integer>
+								<integer>400</integer>
+								<integer>600</integer>
+							</array>
+						</array>
+					</dict>
 					<key>description</key>
 					<string>Animation of Jim in a small boat in rough seas.</string>
 					<key>id</key>
@@ -252,6 +268,37 @@
 								<real>1.4</real>
 								<key>repeatType</key>
 								<string>CONTINUOUS</string>
+							</dict>
+						</array>
+					</dict>
+					<key>rowBoatLayer</key>
+					<dict>
+						<key>description</key>
+						<string>rowboat</string>
+						<key>id</key>
+						<string>row boat</string>
+						<key>customClass</key>
+						<string>ATriggeredTextureAtlasBasedSequence</string>
+						<key>resourceBase</key>
+						<string>Chapter23_Jim_</string>
+						<key>frame</key>
+						<array>
+							<integer>140</integer>
+							<integer>162</integer>
+							<integer>143</integer>
+							<integer>110</integer>
+						</array>
+						<key>sequences</key>
+						<array>
+							<dict>
+								<key>description</key>
+								<string>rowboat</string>
+								<key>imageIndices</key>
+								<string>{1,44}</string>
+								<key>duration</key>
+								<real>1.4</real>
+								<key>repeatType</key>
+								<string></string>
 							</dict>
 						</array>
 					</dict>

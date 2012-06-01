@@ -465,6 +465,7 @@
 @property (readonly) NSDictionary* flickeringLightLayer;
 @property (readonly) NSDictionary* choppyWave1Layer;
 @property (readonly) NSDictionary* choppyWave2Layer;
+@property (readonly) NSDictionary* rowBoatLayer;
 
 // CreditsPage properties
 @property (readonly) NSString* bottomImageResource;
@@ -508,6 +509,8 @@
 @property (readonly) NSString* enablingNotification;
 @property (readonly) NSString* disablingNotification;
 @property (readonly) BOOL autoBecomeAccelerometerDelegate;
+@property (readonly) BOOL waitForTrigger;
+
 
 // ACargoAndPully properties
 @property (readonly) NSDictionary* cargoView;

@@ -78,13 +78,13 @@
 					<key>customClass</key>
 					<string>ATextureAtlasBasedSequence</string>
 					<key>resourceBase</key>
-					<string>Chapter20_BackgroundWhisps_</string>
+					<string>Chapter20_Whisps_</string>
 					<key>frame</key>
 					<array>
 						<integer>80</integer>
 						<integer>74</integer>
 						<integer>433</integer>
-						<integer>185</integer>
+						<integer>488</integer>
 					</array>
 					<key>sequences</key>
 					<array>
@@ -115,36 +115,6 @@
 						<integer>113</integer>
 						<integer>189</integer>
 						<integer>223</integer>
-					</array>
-				</dict>
-				<dict>
-					<key>description</key>
-					<string>foreground whisps</string>
-					<key>id</key>
-					<string>foreground whisps</string>
-					<key>customClass</key>
-					<string>ATextureAtlasBasedSequence</string>
-					<key>resourceBase</key>
-					<string>Chapter20_ForegroundWhisps_</string>
-					<key>frame</key>
-					<array>
-						<integer>80</integer>
-						<integer>60</integer>
-						<integer>433</integer>
-						<integer>577</integer>
-					</array>
-					<key>sequences</key>
-					<array>
-						<dict>
-							<key>description</key>
-							<string>The smoking pipe.</string>
-							<key>imageIndices</key>
-							<string>{1,44}</string>
-							<key>duration</key>
-							<integer>4</integer>
-							<key>repeatType</key>
-							<string>CONTINUOUS</string>
-						</dict>
 					</array>
 				</dict>
 				<dict>
@@ -349,19 +319,13 @@
 								<string>{1,25}</string>
 								<key>duration</key>
 								<real>2.5</real>
-								<key>repeatType</key>
-								<string>CONTINUOUS</string>
 							</dict>
 						</array>
 					</dict>
 					<key>trigger</key>
 					<dict>
 						<key>type</key>
-						<string>PAN</string>
-						<key>minTouches</key>
-						<integer>1</integer>
-						<key>maxTouches</key>
-						<integer>1</integer>
+						<string>TOUCH</string>
 						<key>regions</key>
 						<array>
 							<array>
@@ -375,7 +339,19 @@
 				</dict>
 			</array>
 			<key>helpDescriptors</key>
-			<array/>
+			<array>
+				<dict>
+					<key>type</key>
+					<string>TAP</string>
+					<key>frame</key>
+					<array>
+						<integer>300</integer>
+						<integer>300</integer>
+						<integer>106</integer>
+						<integer>106</integer>
+					</array>
+				</dict>
+			</array>
 		</dict>
 	</array>
 </dict>

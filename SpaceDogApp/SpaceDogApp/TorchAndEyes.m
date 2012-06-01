@@ -179,6 +179,8 @@
    }
       
    [view.layer addSublayer:self.darknessLayer];
+    
+    [self ExtinguishTorch];
 }
 
 -(void)ExtinguishTorch

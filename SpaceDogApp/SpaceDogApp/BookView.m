@@ -479,6 +479,8 @@
 -(void)RemoveHelp:(NSTimer*)timer
 {
    // first, fade out the help layers...
+    if (!self.helpSuperLayer)
+        return;
    [CATransaction begin];
    
    self.helpSuperLayer.opacity = 0.0f;

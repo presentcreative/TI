@@ -31,7 +31,7 @@
 							<key>description</key>
 							<string>x marks the spot</string>
 							<key>imageIndices</key>
-							<string>{1,15}</string>
+							<string>{1,19}</string>
 							<key>duration</key>
 							<real>1.5</real>
 							<key>repeatType</key>

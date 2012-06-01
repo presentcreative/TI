@@ -208,7 +208,7 @@
    float tiltAngle = [(NSNumber*)[tiltInfo objectForKey:@"tiltAngle"] floatValue];
    
    // convert the tiltAngle to an image sequence index
-   NSUInteger newImageSequence1Index = 1;
+   NSUInteger newImageSequence1Index = 30;
    
    if (tiltAngle <= kLeftTiltThreshold)
    {
@@ -222,10 +222,12 @@
    }
    else
    {
-      newImageSequence1Index = kMaxFrames - (tiltAngle - kLeftTiltThreshold)/((kRightTiltThreshold-kLeftTiltThreshold)/kMaxFrames);
+      newImageSequence1Index = kMaxFrames - (tiltAngle - kLeftTiltThreshold)/((kRightTiltThreshold-kLeftTiltThreshold)/kMaxFrames )+1;
       //NSLog(@"Image %u", newImageSequence1Index);
        if (newImageSequence1Index < 1)
            newImageSequence1Index = 1;
+       if (newImageSequence1Index > kMaxFrames-1)
+           newImageSequence1Index = kMaxFrames-1;
 
    }
    

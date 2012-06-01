@@ -16,13 +16,14 @@
    
    NSMutableArray* fAnimations;  // well, sub-animations actually...
    NSMutableDictionary* fAnimationsByName;
-   
+    BOOL fWaitForTrigger;
 }
 
 @property (copy) NSString* propertyId;
 @property (assign) UIView* containerView; // weak reference, here!
 @property (nonatomic, retain) NSMutableArray* animations;
 @property (nonatomic, retain) NSMutableDictionary* animationsByName;
+@property (readonly) BOOL waitForTrigger;
 
 @property (readonly) ATrigger* tiltTrigger;
 @property (readonly) ATrigger* shakeTrigger;

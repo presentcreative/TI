@@ -123,6 +123,9 @@
 #pragma mark ACustomAnimation protocol
 -(void)Start:(BOOL)triggered
 {
+    if (!triggered && self.waitForTrigger)
+        return;
+        
    [self Stop];
    
    // start a timer to handle a fade of the seagullLayer before the seagull

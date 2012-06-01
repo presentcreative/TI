@@ -2367,6 +2367,13 @@
    return (NSDictionary*)[self valueForKey:@"choppyWave2Layer"];
 }
 
+-(NSDictionary*)rowBoatLayer
+{
+    return (NSDictionary*)[self valueForKey:@"rowBoatLayer"];
+}
+
+
+
 // CreditsPage properties
 -(NSDictionary*)chimneySmokeLayer
 {
@@ -2620,6 +2627,13 @@
 {
    return nil != [self valueForKey:@"gated"];
 }
+
+-(BOOL)waitForTrigger
+{
+    return nil != [self valueForKey:@"waitForTrigger"];
+}
+
+
 
 -(BOOL)gated
 {
