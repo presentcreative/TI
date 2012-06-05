@@ -95,13 +95,13 @@
 						<key>customClass</key>
 						<string>ATriggeredTextureAtlasBasedSequence</string>
 						<key>resourceBase</key>
-						<string>TI_ch33_gold_swipe</string>
+						<string>Chapter33_Coins1_</string>
 						<key>frame</key>
 						<array>
-							<integer>310</integer>
+							<integer>350</integer>
 							<integer>524</integer>
-							<integer>147</integer>
-							<integer>130</integer>
+							<integer>180</integer>
+							<integer>127</integer>
 						</array>
 						<key>sequences</key>
 						<array>
@@ -110,12 +110,12 @@
 								<string>{1,1}</string>
 								<key>transitionsFrom</key>
 								<array>
-									<string>1,7</string>
+									<string>1,10</string>
 								</array>
 							</dict>
 							<dict>
 								<key>imageIndices</key>
-								<string>{1,7}</string>
+								<string>{1,10}</string>
 								<key>duration</key>
 								<real>0.7</real>
 								<key>soundEffect</key>
@@ -149,13 +149,13 @@
 						<key>customClass</key>
 						<string>ATriggeredTextureAtlasBasedSequence</string>
 						<key>resourceBase</key>
-						<string>TI_ch33_gold_swipe2</string>
+						<string>Chapter33_Coins2_</string>
 						<key>frame</key>
 						<array>
-							<integer>310</integer>
+							<integer>370</integer>
 							<integer>524</integer>
-							<integer>147</integer>
-							<integer>130</integer>
+							<integer>126</integer>
+							<integer>127</integer>
 						</array>
 						<key>sequences</key>
 						<array>
@@ -164,12 +164,12 @@
 								<string>{1,1}</string>
 								<key>transitionsFrom</key>
 								<array>
-									<string>1,7</string>
+									<string>1,10</string>
 								</array>
 							</dict>
 							<dict>
 								<key>imageIndices</key>
-								<string>{1,7}</string>
+								<string>{1,10}</string>
 								<key>duration</key>
 								<real>0.7</real>
 								<key>soundEffect</key>
