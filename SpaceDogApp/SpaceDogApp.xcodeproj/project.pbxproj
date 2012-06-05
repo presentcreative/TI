@@ -154,10 +154,6 @@
 		313C371113C6174E00A21BCF /* rose3.png in Resources */ = {isa = PBXBuildFile; fileRef = 313C370813C6174E00A21BCF /* rose3.png */; };
 		313C371213C6174E00A21BCF /* rose4.png in Resources */ = {isa = PBXBuildFile; fileRef = 313C370913C6174E00A21BCF /* rose4.png */; };
 		313C371313C6174E00A21BCF /* rose5.png in Resources */ = {isa = PBXBuildFile; fileRef = 313C370A13C6174E00A21BCF /* rose5.png */; };
-		313D0C4E14463EAE00CD3A55 /* TI_ch33_gold_swipe.plist in Resources */ = {isa = PBXBuildFile; fileRef = 313D0C4A14463EAE00CD3A55 /* TI_ch33_gold_swipe.plist */; };
-		313D0C4F14463EAE00CD3A55 /* TI_ch33_gold_swipe.png in Resources */ = {isa = PBXBuildFile; fileRef = 313D0C4B14463EAE00CD3A55 /* TI_ch33_gold_swipe.png */; };
-		313D0C5014463EAE00CD3A55 /* TI_ch33_gold_swipe2.plist in Resources */ = {isa = PBXBuildFile; fileRef = 313D0C4C14463EAE00CD3A55 /* TI_ch33_gold_swipe2.plist */; };
-		313D0C5114463EAE00CD3A55 /* TI_ch33_gold_swipe2.png in Resources */ = {isa = PBXBuildFile; fileRef = 313D0C4D14463EAE00CD3A55 /* TI_ch33_gold_swipe2.png */; };
 		313D0C5514463EEB00CD3A55 /* GoldSwipe.m in Sources */ = {isa = PBXBuildFile; fileRef = 313D0C5414463EEB00CD3A55 /* GoldSwipe.m */; };
 		313D0D1614466BF900CD3A55 /* TI_Links.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 313D0D1514466BF900CD3A55 /* TI_Links.jpg */; };
 		313D0D1914466C5F00CD3A55 /* TI_34_2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 313D0D1814466C5F00CD3A55 /* TI_34_2.jpg */; };
@@ -865,6 +861,10 @@
 		A97E52041565C297007CB99F /* Chapter21_BulletsFullSize_.png in Resources */ = {isa = PBXBuildFile; fileRef = A97E52021565C297007CB99F /* Chapter21_BulletsFullSize_.png */; };
 		A97E537B1565C9CA007CB99F /* Chapter34_TopLftTree_.plist in Resources */ = {isa = PBXBuildFile; fileRef = A97E52091565C9C9007CB99F /* Chapter34_TopLftTree_.plist */; };
 		A97E537C1565C9CA007CB99F /* Chapter34_TopLftTree_.png in Resources */ = {isa = PBXBuildFile; fileRef = A97E520A1565C9C9007CB99F /* Chapter34_TopLftTree_.png */; };
+		A99AEFDB157E9579004C3562 /* Chapter33_Coins1_.plist in Resources */ = {isa = PBXBuildFile; fileRef = A99AEFD9157E9579004C3562 /* Chapter33_Coins1_.plist */; };
+		A99AEFDC157E9579004C3562 /* Chapter33_Coins1_.png in Resources */ = {isa = PBXBuildFile; fileRef = A99AEFDA157E9579004C3562 /* Chapter33_Coins1_.png */; };
+		A99AEFE0157E9595004C3562 /* Chapter33_Coins2_.plist in Resources */ = {isa = PBXBuildFile; fileRef = A99AEFDE157E9595004C3562 /* Chapter33_Coins2_.plist */; };
+		A99AEFE1157E9595004C3562 /* Chapter33_Coins2_.png in Resources */ = {isa = PBXBuildFile; fileRef = A99AEFDF157E9595004C3562 /* Chapter33_Coins2_.png */; };
 		A9AACBB71559DC5500261A10 /* TI_ch2_rum_bottle_0.plist in Resources */ = {isa = PBXBuildFile; fileRef = A9AACBB51559DC5500261A10 /* TI_ch2_rum_bottle_0.plist */; };
 		A9AACBB81559DC5500261A10 /* TI_ch2_rum_bottle_0.png in Resources */ = {isa = PBXBuildFile; fileRef = A9AACBB61559DC5500261A10 /* TI_ch2_rum_bottle_0.png */; };
 		A9C48A021559AFE500910B18 /* TI_book2.pdf in Resources */ = {isa = PBXBuildFile; fileRef = A9C48A011559AFE500910B18 /* TI_book2.pdf */; };
@@ -1095,10 +1095,6 @@
 		313C370813C6174E00A21BCF /* rose3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rose3.png; sourceTree = "<group>"; };
 		313C370913C6174E00A21BCF /* rose4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rose4.png; sourceTree = "<group>"; };
 		313C370A13C6174E00A21BCF /* rose5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rose5.png; sourceTree = "<group>"; };
-		313D0C4A14463EAE00CD3A55 /* TI_ch33_gold_swipe.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = TI_ch33_gold_swipe.plist; sourceTree = "<group>"; };
-		313D0C4B14463EAE00CD3A55 /* TI_ch33_gold_swipe.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TI_ch33_gold_swipe.png; sourceTree = "<group>"; };
-		313D0C4C14463EAE00CD3A55 /* TI_ch33_gold_swipe2.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = TI_ch33_gold_swipe2.plist; sourceTree = "<group>"; };
-		313D0C4D14463EAE00CD3A55 /* TI_ch33_gold_swipe2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TI_ch33_gold_swipe2.png; sourceTree = "<group>"; };
 		313D0C5314463EEB00CD3A55 /* GoldSwipe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GoldSwipe.h; sourceTree = "<group>"; };
 		313D0C5414463EEB00CD3A55 /* GoldSwipe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GoldSwipe.m; sourceTree = "<group>"; };
 		313D0D1514466BF900CD3A55 /* TI_Links.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = TI_Links.jpg; sourceTree = "<group>"; };
@@ -1944,6 +1940,10 @@
 		A97E52021565C297007CB99F /* Chapter21_BulletsFullSize_.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Chapter21_BulletsFullSize_.png; sourceTree = "<group>"; };
 		A97E52091565C9C9007CB99F /* Chapter34_TopLftTree_.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Chapter34_TopLftTree_.plist; sourceTree = "<group>"; };
 		A97E520A1565C9C9007CB99F /* Chapter34_TopLftTree_.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Chapter34_TopLftTree_.png; sourceTree = "<group>"; };
+		A99AEFD9157E9579004C3562 /* Chapter33_Coins1_.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Chapter33_Coins1_.plist; sourceTree = "<group>"; };
+		A99AEFDA157E9579004C3562 /* Chapter33_Coins1_.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Chapter33_Coins1_.png; sourceTree = "<group>"; };
+		A99AEFDE157E9595004C3562 /* Chapter33_Coins2_.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Chapter33_Coins2_.plist; sourceTree = "<group>"; };
+		A99AEFDF157E9595004C3562 /* Chapter33_Coins2_.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Chapter33_Coins2_.png; sourceTree = "<group>"; };
 		A9AACBB51559DC5500261A10 /* TI_ch2_rum_bottle_0.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = TI_ch2_rum_bottle_0.plist; sourceTree = "<group>"; };
 		A9AACBB61559DC5500261A10 /* TI_ch2_rum_bottle_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TI_ch2_rum_bottle_0.png; sourceTree = "<group>"; };
 		A9AD181D156D563400A95764 /* Default-Portrait~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait~ipad.png"; sourceTree = "<group>"; };
@@ -2483,10 +2483,10 @@
 		3140A50E13FD51A30033C4D5 /* Gold Swipe */ = {
 			isa = PBXGroup;
 			children = (
-				313D0C4A14463EAE00CD3A55 /* TI_ch33_gold_swipe.plist */,
-				313D0C4B14463EAE00CD3A55 /* TI_ch33_gold_swipe.png */,
-				313D0C4C14463EAE00CD3A55 /* TI_ch33_gold_swipe2.plist */,
-				313D0C4D14463EAE00CD3A55 /* TI_ch33_gold_swipe2.png */,
+				A99AEFDE157E9595004C3562 /* Chapter33_Coins2_.plist */,
+				A99AEFDF157E9595004C3562 /* Chapter33_Coins2_.png */,
+				A99AEFD9157E9579004C3562 /* Chapter33_Coins1_.plist */,
+				A99AEFDA157E9579004C3562 /* Chapter33_Coins1_.png */,
 			);
 			name = "Gold Swipe";
 			sourceTree = "<group>";
@@ -5872,10 +5872,6 @@
 				317BAEBB1446199E00B3D0D2 /* Chap10a_DLG_Parrot_PiecesOfEight1.m4a in Resources */,
 				317BAEBF14461A7800B3D0D2 /* TI_ch29_spot_capt_flint.plist in Resources */,
 				317BAEC014461A7800B3D0D2 /* TI_ch29_spot_capt_flint.png in Resources */,
-				313D0C4E14463EAE00CD3A55 /* TI_ch33_gold_swipe.plist in Resources */,
-				313D0C4F14463EAE00CD3A55 /* TI_ch33_gold_swipe.png in Resources */,
-				313D0C5014463EAE00CD3A55 /* TI_ch33_gold_swipe2.plist in Resources */,
-				313D0C5114463EAE00CD3A55 /* TI_ch33_gold_swipe2.png in Resources */,
 				313D0D1614466BF900CD3A55 /* TI_Links.jpg in Resources */,
 				313D0D1914466C5F00CD3A55 /* TI_34_2.jpg in Resources */,
 				313D0D2714466DB500CD3A55 /* TI_ch34b_lock_shine.plist in Resources */,
@@ -6256,6 +6252,10 @@
 				A9759DD415782EE3009B2D58 /* crabexporter_0.png in Resources */,
 				A9759DD815783ADE009B2D58 /* dust.pex in Resources */,
 				A92DDA8D157D77D1000FBF54 /* BULLETFLYBY01.m4a in Resources */,
+				A99AEFDB157E9579004C3562 /* Chapter33_Coins1_.plist in Resources */,
+				A99AEFDC157E9579004C3562 /* Chapter33_Coins1_.png in Resources */,
+				A99AEFE0157E9595004C3562 /* Chapter33_Coins2_.plist in Resources */,
+				A99AEFE1157E9595004C3562 /* Chapter33_Coins2_.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
