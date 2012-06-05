@@ -93,7 +93,7 @@
 
 -(void)SetUpSwipe1Sequence
 {
-   self.swipe2Sequence.layer.hidden = YES;
+   self.swipe2Sequence.layer.hidden = NO;
    self.swipe1Sequence.layer.hidden = NO;
    self.sequenceToPlay = @selector(PlaySwipe1Sequence);
    
@@ -102,7 +102,7 @@
 
 -(void)SetUpSwipe2Sequence
 {
-   self.swipe1Sequence.layer.hidden = YES;
+   self.swipe1Sequence.layer.hidden = NO;
    self.swipe2Sequence.layer.hidden = NO;
    self.sequenceToPlay = @selector(PlaySwipe2Sequence);   
    
@@ -133,7 +133,9 @@
    [super Stop];
    [self.swipe1Sequence Stop];
    [self.swipe2Sequence Stop];
+    [self SetUpSwipe2Sequence];
    [self SetUpSwipe1Sequence];
+
 }
 
 -(void)HandleGesture:(UIGestureRecognizer*)recognizer

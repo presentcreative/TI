@@ -88,6 +88,13 @@
 					<string>AGoldSwipe</string>
 					<key>swipe1Layer</key>
 					<dict>
+						<key>frame</key>
+						<array>
+							<integer>370</integer>
+							<integer>524</integer>
+							<integer>126</integer>
+							<integer>127</integer>
+						</array>
 						<key>description</key>
 						<string>The animation played in response to the first swipe of the reader&apos;s finger.</string>
 						<key>id</key>
@@ -95,14 +102,7 @@
 						<key>customClass</key>
 						<string>ATriggeredTextureAtlasBasedSequence</string>
 						<key>resourceBase</key>
-						<string>Chapter33_Coins1_</string>
-						<key>frame</key>
-						<array>
-							<integer>350</integer>
-							<integer>514</integer>
-							<integer>180</integer>
-							<integer>127</integer>
-						</array>
+						<string>Chapter33_Coins2_</string>
 						<key>sequences</key>
 						<array>
 							<dict>
@@ -142,6 +142,13 @@
 					</dict>
 					<key>swipe2Layer</key>
 					<dict>
+						<key>frame</key>
+						<array>
+							<integer>320</integer>
+							<integer>514</integer>
+							<integer>180</integer>
+							<integer>127</integer>
+						</array>
 						<key>description</key>
 						<string>The animation played in response to the second swipe of the reader&apos;s finger.</string>
 						<key>id</key>
@@ -149,14 +156,7 @@
 						<key>customClass</key>
 						<string>ATriggeredTextureAtlasBasedSequence</string>
 						<key>resourceBase</key>
-						<string>Chapter33_Coins2_</string>
-						<key>frame</key>
-						<array>
-							<integer>370</integer>
-							<integer>524</integer>
-							<integer>126</integer>
-							<integer>127</integer>
-						</array>
+						<string>Chapter33_Coins1_</string>
 						<key>sequences</key>
 						<array>
 							<dict>
