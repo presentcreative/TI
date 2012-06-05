@@ -828,6 +828,7 @@
 		A912846D1562E8960085B699 /* Chapter14_Jim_.png in Resources */ = {isa = PBXBuildFile; fileRef = A91284691562E8960085B699 /* Chapter14_Jim_.png */; };
 		A914B4401563236F00B5917F /* coconut_02.png in Resources */ = {isa = PBXBuildFile; fileRef = A914B43F1563236F00B5917F /* coconut_02.png */; };
 		A9222AD71553199200D11468 /* Chap10b_thunder.m4a in Resources */ = {isa = PBXBuildFile; fileRef = A9222AD61553199200D11468 /* Chap10b_thunder.m4a */; };
+		A92DDA8D157D77D1000FBF54 /* BULLETFLYBY01.m4a in Resources */ = {isa = PBXBuildFile; fileRef = A92DDA8C157D77D1000FBF54 /* BULLETFLYBY01.m4a */; };
 		A93EF583156D8B40001511CA /* Chapter18_Border.png in Resources */ = {isa = PBXBuildFile; fileRef = A93EF582156D8B40001511CA /* Chapter18_Border.png */; };
 		A943F332156C0CF500F8BC98 /* Chapter26_BottomLftSail_.plist in Resources */ = {isa = PBXBuildFile; fileRef = A943F329156C0CF500F8BC98 /* Chapter26_BottomLftSail_.plist */; };
 		A943F333156C0CF500F8BC98 /* Chapter26_BottomLftSail_.png in Resources */ = {isa = PBXBuildFile; fileRef = A943F32A156C0CF500F8BC98 /* Chapter26_BottomLftSail_.png */; };
@@ -847,7 +848,6 @@
 		A95BDB8D156EBA1B00BBA5D4 /* Chapter13_Vine1_.png in Resources */ = {isa = PBXBuildFile; fileRef = A95BDB89156EBA1A00BBA5D4 /* Chapter13_Vine1_.png */; };
 		A95BDB8E156EBA1B00BBA5D4 /* Chapter13_Vine2_.plist in Resources */ = {isa = PBXBuildFile; fileRef = A95BDB8A156EBA1A00BBA5D4 /* Chapter13_Vine2_.plist */; };
 		A95BDB8F156EBA1B00BBA5D4 /* Chapter13_Vine2_.png in Resources */ = {isa = PBXBuildFile; fileRef = A95BDB8B156EBA1B00BBA5D4 /* Chapter13_Vine2_.png */; };
-		A95BDB91156EDD7900BBA5D4 /* BULLETFLYBY01.m4a in Resources */ = {isa = PBXBuildFile; fileRef = A95BDB90156EDD7900BBA5D4 /* BULLETFLYBY01.m4a */; };
 		A962A1341576958F00EA6442 /* Chapter34_Foreground.png in Resources */ = {isa = PBXBuildFile; fileRef = A962A1331576958F00EA6442 /* Chapter34_Foreground.png */; };
 		A962A1371576A51A00EA6442 /* Chapter20_Whisps_.plist in Resources */ = {isa = PBXBuildFile; fileRef = A962A1351576A51A00EA6442 /* Chapter20_Whisps_.plist */; };
 		A962A1381576A51A00EA6442 /* Chapter20_Whisps_.png in Resources */ = {isa = PBXBuildFile; fileRef = A962A1361576A51A00EA6442 /* Chapter20_Whisps_.png */; };
@@ -1907,6 +1907,7 @@
 		A91284691562E8960085B699 /* Chapter14_Jim_.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Chapter14_Jim_.png; sourceTree = "<group>"; };
 		A914B43F1563236F00B5917F /* coconut_02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = coconut_02.png; sourceTree = "<group>"; };
 		A9222AD61553199200D11468 /* Chap10b_thunder.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Chap10b_thunder.m4a; sourceTree = "<group>"; };
+		A92DDA8C157D77D1000FBF54 /* BULLETFLYBY01.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = BULLETFLYBY01.m4a; sourceTree = "<group>"; };
 		A93EF582156D8B40001511CA /* Chapter18_Border.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Chapter18_Border.png; sourceTree = "<group>"; };
 		A943F329156C0CF500F8BC98 /* Chapter26_BottomLftSail_.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Chapter26_BottomLftSail_.plist; sourceTree = "<group>"; };
 		A943F32A156C0CF500F8BC98 /* Chapter26_BottomLftSail_.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Chapter26_BottomLftSail_.png; sourceTree = "<group>"; };
@@ -1926,7 +1927,6 @@
 		A95BDB89156EBA1A00BBA5D4 /* Chapter13_Vine1_.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Chapter13_Vine1_.png; sourceTree = "<group>"; };
 		A95BDB8A156EBA1A00BBA5D4 /* Chapter13_Vine2_.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Chapter13_Vine2_.plist; sourceTree = "<group>"; };
 		A95BDB8B156EBA1B00BBA5D4 /* Chapter13_Vine2_.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Chapter13_Vine2_.png; sourceTree = "<group>"; };
-		A95BDB90156EDD7900BBA5D4 /* BULLETFLYBY01.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = BULLETFLYBY01.m4a; path = "../../../../../Volumes/PC-Public_Folder/Space Dog Books/Treasure Island/Working/Audio/Bullet Whiz/BULLETFLYBY01.m4a"; sourceTree = "<group>"; };
 		A962A1331576958F00EA6442 /* Chapter34_Foreground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Chapter34_Foreground.png; sourceTree = "<group>"; };
 		A962A1351576A51A00EA6442 /* Chapter20_Whisps_.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Chapter20_Whisps_.plist; sourceTree = "<group>"; };
 		A962A1361576A51A00EA6442 /* Chapter20_Whisps_.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Chapter20_Whisps_.png; sourceTree = "<group>"; };
@@ -3544,7 +3544,7 @@
 		31B05559141A712000411A8A /* Sounds */ = {
 			isa = PBXGroup;
 			children = (
-				A95BDB90156EDD7900BBA5D4 /* BULLETFLYBY01.m4a */,
+				A92DDA8C157D77D1000FBF54 /* BULLETFLYBY01.m4a */,
 				316A495E1486EB5800613B10 /* Chap21_LandsOnDirt3.m4a */,
 				31B05560141A716800411A8A /* Chap21_Ambient_Ongoing.m4a */,
 			);
@@ -6247,7 +6247,6 @@
 				A95BDB8D156EBA1B00BBA5D4 /* Chapter13_Vine1_.png in Resources */,
 				A95BDB8E156EBA1B00BBA5D4 /* Chapter13_Vine2_.plist in Resources */,
 				A95BDB8F156EBA1B00BBA5D4 /* Chapter13_Vine2_.png in Resources */,
-				A95BDB91156EDD7900BBA5D4 /* BULLETFLYBY01.m4a in Resources */,
 				A962A1341576958F00EA6442 /* Chapter34_Foreground.png in Resources */,
 				A962A1371576A51A00EA6442 /* Chapter20_Whisps_.plist in Resources */,
 				A962A1381576A51A00EA6442 /* Chapter20_Whisps_.png in Resources */,
@@ -6256,6 +6255,7 @@
 				A9759DD315782EE3009B2D58 /* crabexporter_0.plist in Resources */,
 				A9759DD415782EE3009B2D58 /* crabexporter_0.png in Resources */,
 				A9759DD815783ADE009B2D58 /* dust.pex in Resources */,
+				A92DDA8D157D77D1000FBF54 /* BULLETFLYBY01.m4a in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
