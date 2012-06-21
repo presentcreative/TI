@@ -98,8 +98,8 @@
 								<array>
 									<integer>500</integer>
 									<integer>200</integer>
-									<integer>195</integer>
-									<integer>66</integer>
+									<integer>255</integer>
+									<integer>142</integer>
 								</array>
 								<key>displayDuration</key>
 								<integer>3</integer>
@@ -208,11 +208,28 @@
 							</dict>
 							<dict>
 								<key>description</key>
+								<string>Present</string>
+								<key>resource</key>
+								<string>Credit11.png</string>
+								<key>timeOffset</key>
+								<integer>43</integer>
+								<key>frame</key>
+								<array>
+									<integer>200</integer>
+									<integer>380</integer>
+									<integer>369</integer>
+									<integer>64</integer>
+								</array>
+								<key>displayDuration</key>
+								<integer>3</integer>
+							</dict>
+							<dict>
+								<key>description</key>
 								<string>The Producer</string>
 								<key>resource</key>
 								<string>credit8.png</string>
 								<key>timeOffset</key>
-								<integer>43</integer>
+								<integer>48</integer>
 								<key>frame</key>
 								<array>
 									<integer>500</integer>
